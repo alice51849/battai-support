@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — BattAI: Battery Health</title>
+  <meta name="description" content="BattAI makes no network requests and collects no personal data. Everything stays on your device. Full privacy policy for BattAI: Battery Health.">
+  <link rel="canonical" href="https://alice51849.github.io/battai-support/privacy.html">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#FBF5EC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#171016" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<div class="bg"></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="BattAI app icon"><span>BattAI</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#features">What it does</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective 11 August 2026 &middot; BattAI: Battery Health</p>
+    <p class="tagline">BattAI collects nothing, sends nothing, and has nowhere to send it to. This page explains precisely what that means.</p>
+  </section>
+
+  <section class="wrap doc">
+    <div class="card">
+
+      <div class="callout">
+        <p>BattAI makes <strong>zero network requests</strong>. It contains no third-party SDKs, no advertising, no analytics, no crash reporting, and no tracking of any kind. Every reading, calculation and report stays on your device. There is no account and no server.</p>
+      </div>
+
+      <h2>1. Who this policy covers</h2>
+      <p>This policy applies to the iOS and iPadOS application <strong>BattAI: Battery Health</strong> (&ldquo;BattAI&rdquo;, &ldquo;the app&rdquo;), published on the App Store by the developer of this site. It applies to every feature of the app and to this support website.</p>
+      <p>The short version: BattAI is designed so that there is no personal data to protect in the first place. The sections below describe the design, not a promise about how carefully data is handled elsewhere.</p>
+
+      <h2>2. Data we collect</h2>
+      <p><strong>None.</strong> BattAI does not collect, receive, transmit, sell, share, or otherwise process any personal data. Specifically, BattAI does not:</p>
+      <ul>
+        <li>ask you to create an account, sign in, or provide a name, email address or phone number;</li>
+        <li>collect an advertising identifier, device identifier, or any identifier used for tracking across apps or websites;</li>
+        <li>request or use your location, contacts, photos, microphone, camera, calendar, or health data;</li>
+        <li>show advertising or embed any advertising network;</li>
+        <li>embed any analytics, attribution, A/B testing or crash-reporting SDK;</li>
+        <li>build a profile of you, or track you across apps, websites or devices;</li>
+        <li>maintain any server, database or backend that receives information from the app.</li>
+      </ul>
+      <p>Because nothing is transmitted, nothing is retained by us, and no third party receives anything about you through BattAI.</p>
+
+      <h2>3. No network access</h2>
+      <p>BattAI contains no networking code. It opens no connections, calls no web APIs, loads no remote content, and embeds no web views pointing at remote pages. You can verify this the direct way: put your device in Airplane Mode and every feature of the app except purchasing continues to work exactly as before.</p>
+      <p>The one exception is the App Store itself. When you buy an unlock or tap <em>Restore Purchases</em>, Apple's StoreKit talks to Apple's servers on your behalf. That exchange is between your device and Apple; BattAI neither performs it nor observes it. See section 7.</p>
+
+      <h2>4. What is stored on your device</h2>
+      <p>BattAI keeps its records in the app's own private storage on your device, inside an application group container that is used only by BattAI and its own app extensions. This data includes:</p>
+      <ul>
+        <li><strong>Battery samples</strong> — the battery level, charging state, low power mode flag and system thermal state at the moment each reading was taken, with a timestamp;</li>
+        <li><strong>Charging sessions</strong> — start and end levels, duration and derived charging speed, assembled from those samples;</li>
+        <li><strong>Calibration values</strong> — the maximum capacity and cycle count you entered manually, or that were read from a diagnostic file you shared, plus the date of each entry;</li>
+        <li><strong>Device model</strong> — read from the system to look up the published design capacity of your model from a table built into the app; no lookup leaves the device;</li>
+        <li><strong>Preferences</strong> — such as your chosen language and display options;</li>
+        <li><strong>Purchase entitlement</strong> — a local flag recording which one-time unlocks you own, derived from Apple's StoreKit receipt.</li>
+      </ul>
+      <p>This information never leaves your device through BattAI. It is not encrypted separately by us beyond the file protection iOS applies to app storage on a passcode-protected device.</p>
+      <p>BattAI may register background tasks with iOS so it can record a local reading when the system permits. These tasks perform calculations and write to local storage only; they transfer nothing.</p>
+
+      <h2>5. Diagnostic files you choose to share</h2>
+      <p>iOS does not expose battery cycle count or true full-charge capacity to third-party apps. The only legitimate route is for you to share one of your own iOS analytics files with BattAI, from Settings &rsaquo; Privacy &amp; Security &rsaquo; Analytics &amp; Improvements &rsaquo; Analytics Data. This is always a deliberate action by you; BattAI cannot reach those files on its own.</p>
+      <p>When you share such a file, BattAI parses it in memory and reads <strong>only battery-related fields</strong>:</p>
+      <ul>
+        <li>cycle count;</li>
+        <li>current (nominal) charge capacity;</li>
+        <li>design capacity;</li>
+        <li>where present, a reported maximum-capacity percentage and the timestamp of the battery reading.</li>
+      </ul>
+      <p><strong>Everything else in that file is discarded on the spot.</strong> Diagnostic files can contain unrelated system and usage details; those parts exist only as temporary variables while the file is being read, and are then dropped. They are never written to disk, never saved into BattAI's database, never written to any log, and never transmitted — there is no transmission path at all. The diagnostic file itself is not copied into BattAI's storage; only the extracted battery numbers listed above are kept, and only after you confirm them on screen.</p>
+      <p>If a file cannot be parsed, BattAI tells you and offers manual entry. It never invents a value, and it never retains a file it could not use.</p>
+
+      <h2>6. Reports you export</h2>
+      <p>PDF battery health reports and data exports are generated entirely on your device from the records described in section 4. They are handed to the standard iOS share sheet, and where they go from there is entirely your choice. BattAI keeps no copy beyond your device and receives no notification of what you did with the file.</p>
+
+      <h2>7. Purchases</h2>
+      <p>BattAI offers one-time purchases only. There are no subscriptions and no recurring charges.</p>
+      <p>All purchases are processed by <strong>Apple through StoreKit</strong>. Payment is handled entirely by Apple: the developer never sees and never receives your card number, billing address, Apple Account password, or any other payment information. What BattAI receives from StoreKit is limited to whether a given product has been purchased, which it stores locally as an entitlement flag so your unlock keeps working offline.</p>
+      <p>Prices shown in the app are the prices supplied by the App Store for your region. Refunds are administered by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>; we cannot issue or view them. Apple's handling of your purchase is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+      <h2>8. Shortcuts and automations</h2>
+      <p>BattAI provides App Intents so the Shortcuts app can ask it to record a battery reading — for example when your charger is connected or when the level crosses a threshold. These run locally on your device, write a single local sample, and send nothing anywhere. Creating, editing and deleting those automations is entirely under your control in the Shortcuts app.</p>
+
+      <h2>9. Cloud sync and backups</h2>
+      <p>BattAI has <strong>no iCloud sync</strong> and no sync of any other kind. Your records live on the device that produced them, and moving to a new device starts a fresh history unless it is restored from your own backup.</p>
+      <p>If you use iCloud Backup or an encrypted computer backup, iOS may include BattAI's local storage in that backup, exactly as it does for other apps. Those backups are created and controlled by you and by Apple under Apple's terms; the developer has no access to them and no ability to read them.</p>
+
+      <h2>10. Children</h2>
+      <p>BattAI does not collect personal data from anyone, including children. It contains no advertising, no third-party content, no social features, no user-generated content and no external links other than the App Store, Apple's own pages, and this support site. No age verification is required because there is nothing to protect against.</p>
+
+      <h2>11. Your rights and your control</h2>
+      <p>Privacy laws such as the GDPR, the UK GDPR, and the CCPA/CPRA give you rights to access, correct, delete, or port personal data held about you, and to object to its sale or sharing. Because BattAI transmits no data and the developer holds no personal data about you, there is nothing for us to disclose, correct, export, delete, sell or share — and we have never sold or shared personal information.</p>
+      <p>You retain complete control over what is on your device:</p>
+      <ul>
+        <li><strong>Edit</strong> — change or replace your calibration values at any time in the app.</li>
+        <li><strong>Export</strong> — generate a PDF report or data export whenever you wish.</li>
+        <li><strong>Erase</strong> — clear stored data from within the app, or delete BattAI from your device, which removes its entire container and every record with it. Deletion is immediate and permanent; we cannot recover it, because we never had it.</li>
+      </ul>
+      <p>If you contact us by email, we will of course have the contents of your message and your email address. We use them solely to answer you, keep them no longer than needed for that purpose, and never add them to a mailing list.</p>
+
+      <h2>12. Data security</h2>
+      <p>The strongest security property of BattAI is architectural: data that is never transmitted cannot be intercepted, and data held on no server cannot be breached. On-device records are protected by iOS app sandboxing and by the file protection iOS applies to app storage. Keeping your device updated and protected by a passcode or biometric lock is the most effective step you can take.</p>
+
+      <h2>13. Third parties</h2>
+      <p>BattAI integrates no third-party SDKs, frameworks or services. It uses only Apple's own system frameworks that ship with iOS. No data processor, advertiser, analytics provider or partner receives anything from this app.</p>
+
+      <h2>14. Accuracy and intended use</h2>
+      <p>Not a privacy matter, but stated here because it is part of the same commitment to honesty: BattAI labels every figure by its source — measured, estimated, or provided by you — and its forecasts are expressed as ranges with confidence intervals. It is an analysis tool for your own understanding, not a certified diagnostic instrument, and it is not a substitute for a service assessment by Apple or an authorised provider.</p>
+
+      <h2>15. Changes to this policy</h2>
+      <p>If this policy changes, the revised version will be published on this page with a new effective date, and any change that materially affects how BattAI handles information will also be noted in the app's release notes. Because the app's design goal is that no data ever leaves your device, no future change will silently begin collecting data.</p>
+
+      <h2>16. Contact</h2>
+      <p>Questions about this policy, or about anything else in BattAI, are welcome at <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a>. We aim to reply within two business days.</p>
+      <p>Please do not email diagnostic files or exports to us. BattAI reads them on your device and we neither need nor want copies.</p>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>BattAI: Battery Health</span>
+    <nav>
+      <a href="index.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:hourstag.app@gmail.com">Email</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

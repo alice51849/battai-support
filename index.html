@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BattAI: Battery Health — Support</title>
+  <meta name="description" content="Support and frequently asked questions for BattAI: Battery Health, an offline iPhone battery analysis app. No network requests, no tracking, one-time purchase.">
+  <link rel="canonical" href="https://alice51849.github.io/battai-support/">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#FBF5EC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#171016" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<div class="bg"></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="BattAI app icon"><span>BattAI</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#features">What it does</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <img class="app-icon" src="assets/icon.png" alt="BattAI app icon">
+    <span class="eyebrow">Support</span>
+    <h1>BattAI: Battery Health</h1>
+    <p class="tagline">Understand your battery — not just its percentage. Everything below explains how BattAI works, what iOS does and does not allow an app to see, and how to get help.</p>
+    <div class="badges">
+      <span class="pill"><span class="mark"></span>No network requests</span>
+      <span class="pill"><span class="mark"></span>No ads, no tracking</span>
+      <span class="pill"><span class="mark"></span>One-time purchase</span>
+      <span class="pill"><span class="mark"></span>Works fully offline</span>
+    </div>
+  </section>
+
+  <section id="features" class="wrap">
+    <div class="section-head">
+      <h2>What BattAI does</h2>
+      <p>BattAI records your real charging and discharging behaviour over time, builds a baseline for your specific device, and explains what is happening in plain language — with every number labelled by where it came from.</p>
+    </div>
+    <div class="grid">
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V7l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span>Honest data grading</h3>
+        <p>Every value carries its source: measured, estimated, or provided by you. Tap through to a methodology page with the actual formula and its limits.</p>
+      </div>
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13H11l-1 9 8.5-11H12l1-9Z"/></svg></span>Shortcuts sampling</h3>
+        <p>Four personal automations wake BattAI for a moment when your charger connects or disconnects, and when the level crosses 20% or 80% — the only legitimate way to record precise readings while the app is closed.</p>
+      </div>
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5"/><path d="M9 15h6"/></svg></span>Diagnostics import</h3>
+        <p>Share an iOS analytics file with BattAI and it reads your true cycle count and full-charge capacity. Only those battery fields are read; everything else in the file is discarded immediately.</p>
+      </div>
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 5-7"/><path d="M3 21h18"/><path d="M17 7h4v4"/></svg></span>Trend and forecast</h3>
+        <p>A degradation trend fitted to your own readings, with a 95% confidence band and a replacement-timing estimate expressed as a range. If the data cannot support a line, BattAI draws nothing.</p>
+      </div>
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M8 12h8M8 16h5"/></svg></span>Shareable PDF report</h3>
+        <p>Export a battery health report for a repair shop, a resale listing, or your own records — generated on your device.</p>
+      </div>
+      <div class="card feature">
+        <h3><span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="16" height="10" rx="2.5"/><path d="M22 11v2"/><path d="M6 12h6"/></svg></span>Charging session detail</h3>
+        <p>Each charge is stored as a session with its real range, duration and speed class, so you can see which charger and which habits actually treat your battery well.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="wrap">
+    <div class="section-head">
+      <h2>Frequently asked questions</h2>
+      <p>Most questions about battery apps come down to one thing: what iOS is willing to tell an app. Here is the honest answer for each.</p>
+    </div>
+
+    <div class="faq">
+      <details open>
+        <summary>Why do I have to type in my battery health myself?</summary>
+        <div class="answer">
+          <p>Because iOS does not give any third-party app your maximum capacity or your cycle count. There is no public API for either value, and the private system interfaces that expose them are blocked in the App Store sandbox. Any app that claims to read them automatically is either estimating and presenting the estimate as a measurement, or using something it should not.</p>
+          <p>BattAI asks you for them once instead, and it takes about two seconds:</p>
+          <ul>
+            <li><strong>Maximum capacity</strong> — Settings &rsaquo; Battery &rsaquo; Battery Health &amp; Charging.</li>
+            <li><strong>Cycle count</strong> — Settings &rsaquo; General &rsaquo; About (shown on iPhone 15 and later).</li>
+          </ul>
+          <p>Enter them in BattAI under More &rsaquo; Calibrate. From that point on, BattAI tracks everything else on its own and uses your entry as the calibrated baseline. If your iPhone does not display a cycle count, use the diagnostics import described below, or leave it blank — the score still works from maximum capacity.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Why doesn't BattAI show battery temperature, voltage or current?</summary>
+        <div class="answer">
+          <p>Because iOS has no public API for any of them. There is no supported way for an App Store app to read battery temperature, terminal voltage, or charge current on iPhone or iPad. An app showing you a number like &ldquo;34.2&nbsp;&deg;C&rdquo; or &ldquo;3.87&nbsp;V&rdquo; is displaying an invention, a value copied from a lookup table, or a nominal constant.</p>
+          <p>BattAI does not print numbers it cannot obtain. Instead it uses the one legitimate heat signal iOS does provide — the system thermal state, which has four levels — and accumulates how long your device spends in each. That is shown as a heat exposure score, and it is labelled clearly as a device thermal state rather than a battery temperature, because those are not the same thing.</p>
+          <p>The same rule applies to charging power. BattAI classes a charge as slow, standard, fast or very fast based on the rate it actually observed, rather than claiming an exact wattage it has no way to measure.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Why is the replacement forecast a range instead of one number?</summary>
+        <div class="answer">
+          <p>Because a single number would claim a precision this data does not have. The forecast is a least-squares line fitted to <em>your</em> calibration readings, and BattAI reports the 95% confidence interval around that line. The band widens the further it extends beyond your data — which is exactly the honest picture.</p>
+          <p>Two consequences follow:</p>
+          <ul>
+            <li>A forecast needs at least <strong>three calibration points spread over 30 days or more</strong>. Below that, BattAI shows nothing rather than drawing a line it cannot support.</li>
+            <li>The result reads like &ldquo;about 14&ndash;22 months to 80%&rdquo;. The width of the band <em>is</em> the uncertainty; narrowing it requires more readings over more time, not a more confident-sounding app.</li>
+          </ul>
+          <p>Apple treats a battery as consumed once maximum capacity falls below 80%, which is why that threshold is the target of the estimate.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do I set up the Shortcuts automations?</summary>
+        <div class="answer">
+          <p>iOS does not let any app watch your battery continuously in the background. Personal automations in the Shortcuts app can, by waking BattAI for a fraction of a second to record one precise reading. Four automations cover the moments that matter:</p>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Trigger</th><th>Why it matters</th></tr></thead>
+              <tbody>
+                <tr><td>Charger connects</td><td>Marks the exact start of every charge</td></tr>
+                <tr><td>Charger disconnects</td><td>Gives each charging session a true end point</td></tr>
+                <tr><td>Battery level drops below 20%</td><td>Anchors your discharge curve at a known point</td></tr>
+                <tr><td>Battery level rises above 80%</td><td>Lets BattAI measure real charging speed</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>To create each one:</p>
+          <ol class="steps">
+            <li>Open the <strong>Shortcuts</strong> app and go to the <strong>Automation</strong> tab.</li>
+            <li>Tap <strong>New Automation</strong> (the plus button), then choose <strong>Charger</strong> or <strong>Battery Level</strong>.</li>
+            <li>Pick the condition — <em>Is Connected</em>, <em>Is Disconnected</em>, <em>Falls Below 20%</em>, or <em>Rises Above 80%</em>.</li>
+            <li>Select <strong>Run Immediately</strong>, and turn <strong>Notify When Run</strong> off so it stays silent.</li>
+            <li>Add the action <strong>Record battery sample</strong> from BattAI, then save.</li>
+            <li>Repeat for the remaining triggers.</li>
+          </ol>
+          <p>BattAI has a guided setup screen under More &rsaquo; Automations that walks through the same steps and shows how much of your day is actually covered by readings. Gaps in coverage are never filled in with guesses — they are reported as gaps.</p>
+          <p>These automations run entirely on your device. Nothing is sent anywhere.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do I import an iOS diagnostics file?</summary>
+        <div class="answer">
+          <p>Your own diagnostic logs contain the real cycle count and full-charge capacity that iOS will not hand to an app directly. You can share one with BattAI:</p>
+          <ol class="steps">
+            <li>Open <strong>Settings</strong> on the iPhone you want to analyse.</li>
+            <li>Go to <strong>Privacy &amp; Security</strong> &rsaquo; <strong>Analytics &amp; Improvements</strong>.</li>
+            <li>Tap <strong>Analytics Data</strong> and find a file beginning with <span class="mono">log-aggregated</span> — the most recent date is best.</li>
+            <li>Tap the file, tap the share button, and choose <strong>BattAI</strong>. You can also save it to Files and pick it from BattAI's import wizard.</li>
+          </ol>
+          <p>BattAI reads exactly three battery fields from that file — cycle count, current charge capacity, and design capacity. Everything else in the file is discarded on the spot: never stored, never written to a log, never sent anywhere. There is nowhere for it to be sent, because BattAI makes no network requests at all.</p>
+          <p>If the file cannot be parsed — the format changes between iOS versions — BattAI tells you and offers manual entry instead. It never fabricates a value.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is BattAI a subscription?</summary>
+        <div class="answer">
+          <p>No. BattAI never uses subscriptions.</p>
+          <ul>
+            <li><strong>Lifetime Pro</strong> — a single one-time purchase that unlocks full history and long-term degradation trends, the replacement-timing forecast with confidence ranges, and the shareable PDF battery health report. Yours forever.</li>
+            <li><strong>Report Pack</strong> — a smaller one-time purchase for people who only want the exportable PDF report.</li>
+          </ul>
+          <p>There is no recurring charge, no free trial that converts into one, and no advertising. The price you see on the unlock screen is the price shown by the App Store for your region — BattAI never displays a hard-coded price, so what you are quoted is what Apple charges.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do I restore a purchase?</summary>
+        <div class="answer">
+          <p>Open the unlock screen in BattAI and tap <strong>Restore Purchases</strong>. The button is always visible, whether or not you have bought anything.</p>
+          <p>Purchases are tied to your Apple Account, not to a device, so they work on every device signed in to that same account. If nothing is found:</p>
+          <ul>
+            <li>Check that the device is signed in with the <strong>same Apple Account</strong> used for the original purchase — a family member's account or a second personal account will not carry it.</li>
+            <li>Make sure the device is online, since restoring asks the App Store, not BattAI.</li>
+            <li>If you bought through <strong>Family Sharing</strong>, confirm the purchase is shared and that you are in the same family group.</li>
+          </ul>
+          <p>Still stuck? Write to us at the address below with the Apple Account email used for the purchase and we will help. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> — we have no access to your payment details or purchase history.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Where is my data stored, and how do I delete it?</summary>
+        <div class="answer">
+          <p>Everything BattAI records — battery samples, charging sessions, calibration values, and your settings — is stored locally on your device and nowhere else. There is no account, no server, and no cloud sync inside BattAI.</p>
+          <p>To erase it: delete the app. iOS removes its entire container, and every reading goes with it. You can also clear stored data from within the app's settings without uninstalling. See the <a href="privacy.html">privacy policy</a> for the full detail.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Does BattAI need an internet connection?</summary>
+        <div class="answer">
+          <p>No. BattAI contains no networking code whatsoever — it performs zero network requests, and every calculation runs on your device. The only moment the internet is involved is when the App Store processes a purchase or a restore, which is handled by Apple's own StoreKit, not by BattAI.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Why does the score say &ldquo;calibrate to unlock&rdquo;, and why is coverage below 100%?</summary>
+        <div class="answer">
+          <p>The health score is anchored to your real maximum capacity, so it stays locked until you enter that value once (or import it). Estimating it silently would be exactly the guesswork BattAI exists to avoid.</p>
+          <p>Coverage is the share of your day for which BattAI holds actual readings. It is below 100% because iOS suspends apps in the background — the Shortcuts automations above are what raise it. Where coverage is missing, BattAI reports a gap rather than interpolating. This is also why the estimated cycle count is phrased as &ldquo;at least N&rdquo;: a sampling gap can only push that estimate down, never up.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Which devices and iOS versions are supported?</summary>
+        <div class="answer">
+          <p>BattAI requires <strong>iOS 17.0 or later</strong> and runs on both iPhone and iPad, with layouts built for each rather than a stretched phone screen. The interface is available in 50 languages and follows your system light or dark appearance.</p>
+          <p>Cycle count is shown in Settings only on iPhone 15 and later; on earlier models, use the diagnostics import or leave the field blank.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="card contact-card">
+      <span class="eyebrow">Contact</span>
+      <h2>We read every message</h2>
+      <p>Questions, bug reports, feature requests, or trouble with a purchase — write to us directly.</p>
+      <a class="mail" href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a>
+      <p>We aim to reply within two business days. To help us diagnose faster, please include your device model, iOS version, and the BattAI version shown under More &rsaquo; About. Screenshots are welcome — please avoid sending diagnostic files by email; BattAI reads them locally on your device and we do not need copies.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>BattAI: Battery Health</span>
+    <nav>
+      <a href="index.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:hourstag.app@gmail.com">Email</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
