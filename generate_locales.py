@@ -7,6 +7,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 
@@ -18,6 +19,10 @@ OUTPUT = SITE / "locales"
 BASE_URL = "https://alice51849.github.io/battai-support"
 EMAIL = "hourstag.app@gmail.com"
 STRINGS_RE = re.compile(r'"((?:[^"\\]|\\.)*)"\s*=\s*"((?:[^"\\]|\\.)*)"\s*;', re.S)
+FAMILY_RE = re.compile(
+    r"<!-- ls-family:start -->.*?<!-- ls-family:end -->",
+    re.S,
+)
 
 KEYS = {
     "support_title": "settings.support.title",
@@ -355,10 +360,50 @@ def sitemap(locales: list[dict]) -> str:
     )
 
 
+def existing_family_block(relative_path: Path) -> str | None:
+    current = SITE / relative_path
+    if current.is_file():
+        match = FAMILY_RE.search(current.read_text(encoding="utf-8"))
+        if match:
+            return match.group(0)
+
+    committed = subprocess.run(
+        ["git", "-C", str(SITE), "show", f"HEAD:{relative_path.as_posix()}"],
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    if committed.returncode == 0:
+        match = FAMILY_RE.search(committed.stdout)
+        if match:
+            return match.group(0)
+    return None
+
+
+def preserving_family_block(page: str, block: str | None) -> str:
+    if not block or FAMILY_RE.search(page):
+        return page
+    anchor = page.lower().rfind("<footer")
+    if anchor < 0:
+        anchor = page.lower().rfind("</body>")
+    if anchor < 0:
+        raise RuntimeError("Generated page has no footer or body closing tag")
+    return f"{page[:anchor]}{block}\n{page[anchor:]}"
+
+
 def main() -> None:
     locales = json.loads(CONFIG.read_text(encoding="utf-8"))["locales"]
     if len(locales) != 50:
         raise RuntimeError(f"Expected 50 locales, found {len(locales)}")
+
+    family_blocks = {
+        relative: existing_family_block(relative)
+        for locale in locales
+        for relative in (
+            Path("locales") / locale["code"] / "index.html",
+            Path("locales") / locale["code"] / "privacy.html",
+        )
+    }
 
     shutil.rmtree(OUTPUT, ignore_errors=True)
     for locale in locales:
@@ -366,12 +411,15 @@ def main() -> None:
         strings = load_strings(code)
         destination = OUTPUT / code
         destination.mkdir(parents=True)
-        (destination / "index.html").write_text(
-            support_page(locale, strings, locales), encoding="utf-8"
-        )
-        (destination / "privacy.html").write_text(
-            privacy_page(locale, strings, locales), encoding="utf-8"
-        )
+        for name, page in (
+            ("index.html", support_page(locale, strings, locales)),
+            ("privacy.html", privacy_page(locale, strings, locales)),
+        ):
+            relative = Path("locales") / code / name
+            (destination / name).write_text(
+                preserving_family_block(page, family_blocks[relative]),
+                encoding="utf-8",
+            )
 
     (SITE / "languages.html").write_text(languages_page(locales), encoding="utf-8")
     (SITE / "sitemap.xml").write_text(sitemap(locales), encoding="utf-8")
