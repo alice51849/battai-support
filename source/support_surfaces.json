@@ -1,0 +1,3437 @@
+{
+  "schema": "support-surface-source/v1",
+  "site": "battai-support",
+  "base_url": "https://alice51849.github.io/battai-support/",
+  "email": "hourstag.app@gmail.com",
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "routes": {
+    "ar-SA": {
+      "index": "locales/ar/index.html",
+      "support": "locales/ar/support.html",
+      "privacy": "locales/ar/privacy.html"
+    },
+    "bn-BD": {
+      "index": "locales/bn/index.html",
+      "support": "locales/bn/support.html",
+      "privacy": "locales/bn/privacy.html"
+    },
+    "ca": {
+      "index": "locales/ca/index.html",
+      "support": "locales/ca/support.html",
+      "privacy": "locales/ca/privacy.html"
+    },
+    "cs": {
+      "index": "locales/cs/index.html",
+      "support": "locales/cs/support.html",
+      "privacy": "locales/cs/privacy.html"
+    },
+    "da": {
+      "index": "locales/da/index.html",
+      "support": "locales/da/support.html",
+      "privacy": "locales/da/privacy.html"
+    },
+    "de-DE": {
+      "index": "locales/de/index.html",
+      "support": "locales/de/support.html",
+      "privacy": "locales/de/privacy.html"
+    },
+    "el": {
+      "index": "locales/el/index.html",
+      "support": "locales/el/support.html",
+      "privacy": "locales/el/privacy.html"
+    },
+    "en-AU": {
+      "index": "locales/en-AU/index.html",
+      "support": "locales/en-AU/support.html",
+      "privacy": "locales/en-AU/privacy.html"
+    },
+    "en-CA": {
+      "index": "locales/en-CA/index.html",
+      "support": "locales/en-CA/support.html",
+      "privacy": "locales/en-CA/privacy.html"
+    },
+    "en-GB": {
+      "index": "locales/en-GB/index.html",
+      "support": "locales/en-GB/support.html",
+      "privacy": "locales/en-GB/privacy.html"
+    },
+    "en-US": {
+      "index": "index.html",
+      "support": "support.html",
+      "privacy": "privacy.html"
+    },
+    "es-ES": {
+      "index": "locales/es/index.html",
+      "support": "locales/es/support.html",
+      "privacy": "locales/es/privacy.html"
+    },
+    "es-MX": {
+      "index": "locales/es-MX/index.html",
+      "support": "locales/es-MX/support.html",
+      "privacy": "locales/es-MX/privacy.html"
+    },
+    "fi": {
+      "index": "locales/fi/index.html",
+      "support": "locales/fi/support.html",
+      "privacy": "locales/fi/privacy.html"
+    },
+    "fr-CA": {
+      "index": "locales/fr-CA/index.html",
+      "support": "locales/fr-CA/support.html",
+      "privacy": "locales/fr-CA/privacy.html"
+    },
+    "fr-FR": {
+      "index": "locales/fr/index.html",
+      "support": "locales/fr/support.html",
+      "privacy": "locales/fr/privacy.html"
+    },
+    "gu-IN": {
+      "index": "locales/gu/index.html",
+      "support": "locales/gu/support.html",
+      "privacy": "locales/gu/privacy.html"
+    },
+    "he": {
+      "index": "locales/he/index.html",
+      "support": "locales/he/support.html",
+      "privacy": "locales/he/privacy.html"
+    },
+    "hi": {
+      "index": "locales/hi/index.html",
+      "support": "locales/hi/support.html",
+      "privacy": "locales/hi/privacy.html"
+    },
+    "hr": {
+      "index": "locales/hr/index.html",
+      "support": "locales/hr/support.html",
+      "privacy": "locales/hr/privacy.html"
+    },
+    "hu": {
+      "index": "locales/hu/index.html",
+      "support": "locales/hu/support.html",
+      "privacy": "locales/hu/privacy.html"
+    },
+    "id": {
+      "index": "locales/id/index.html",
+      "support": "locales/id/support.html",
+      "privacy": "locales/id/privacy.html"
+    },
+    "it": {
+      "index": "locales/it/index.html",
+      "support": "locales/it/support.html",
+      "privacy": "locales/it/privacy.html"
+    },
+    "ja": {
+      "index": "locales/ja/index.html",
+      "support": "locales/ja/support.html",
+      "privacy": "locales/ja/privacy.html"
+    },
+    "kn-IN": {
+      "index": "locales/kn/index.html",
+      "support": "locales/kn/support.html",
+      "privacy": "locales/kn/privacy.html"
+    },
+    "ko": {
+      "index": "locales/ko/index.html",
+      "support": "locales/ko/support.html",
+      "privacy": "locales/ko/privacy.html"
+    },
+    "ml-IN": {
+      "index": "locales/ml/index.html",
+      "support": "locales/ml/support.html",
+      "privacy": "locales/ml/privacy.html"
+    },
+    "mr-IN": {
+      "index": "locales/mr/index.html",
+      "support": "locales/mr/support.html",
+      "privacy": "locales/mr/privacy.html"
+    },
+    "ms": {
+      "index": "locales/ms/index.html",
+      "support": "locales/ms/support.html",
+      "privacy": "locales/ms/privacy.html"
+    },
+    "nl-NL": {
+      "index": "locales/nl/index.html",
+      "support": "locales/nl/support.html",
+      "privacy": "locales/nl/privacy.html"
+    },
+    "no": {
+      "index": "locales/no/index.html",
+      "support": "locales/no/support.html",
+      "privacy": "locales/no/privacy.html"
+    },
+    "or-IN": {
+      "index": "locales/or/index.html",
+      "support": "locales/or/support.html",
+      "privacy": "locales/or/privacy.html"
+    },
+    "pa-IN": {
+      "index": "locales/pa/index.html",
+      "support": "locales/pa/support.html",
+      "privacy": "locales/pa/privacy.html"
+    },
+    "pl": {
+      "index": "locales/pl/index.html",
+      "support": "locales/pl/support.html",
+      "privacy": "locales/pl/privacy.html"
+    },
+    "pt-BR": {
+      "index": "locales/pt-BR/index.html",
+      "support": "locales/pt-BR/support.html",
+      "privacy": "locales/pt-BR/privacy.html"
+    },
+    "pt-PT": {
+      "index": "locales/pt-PT/index.html",
+      "support": "locales/pt-PT/support.html",
+      "privacy": "locales/pt-PT/privacy.html"
+    },
+    "ro": {
+      "index": "locales/ro/index.html",
+      "support": "locales/ro/support.html",
+      "privacy": "locales/ro/privacy.html"
+    },
+    "ru": {
+      "index": "locales/ru/index.html",
+      "support": "locales/ru/support.html",
+      "privacy": "locales/ru/privacy.html"
+    },
+    "sk": {
+      "index": "locales/sk/index.html",
+      "support": "locales/sk/support.html",
+      "privacy": "locales/sk/privacy.html"
+    },
+    "sl-SI": {
+      "index": "locales/sl-SI/index.html",
+      "support": "locales/sl-SI/support.html",
+      "privacy": "locales/sl-SI/privacy.html"
+    },
+    "sv": {
+      "index": "locales/sv/index.html",
+      "support": "locales/sv/support.html",
+      "privacy": "locales/sv/privacy.html"
+    },
+    "ta-IN": {
+      "index": "locales/ta/index.html",
+      "support": "locales/ta/support.html",
+      "privacy": "locales/ta/privacy.html"
+    },
+    "te-IN": {
+      "index": "locales/te/index.html",
+      "support": "locales/te/support.html",
+      "privacy": "locales/te/privacy.html"
+    },
+    "th": {
+      "index": "locales/th/index.html",
+      "support": "locales/th/support.html",
+      "privacy": "locales/th/privacy.html"
+    },
+    "tr": {
+      "index": "locales/tr/index.html",
+      "support": "locales/tr/support.html",
+      "privacy": "locales/tr/privacy.html"
+    },
+    "uk": {
+      "index": "locales/uk/index.html",
+      "support": "locales/uk/support.html",
+      "privacy": "locales/uk/privacy.html"
+    },
+    "ur-PK": {
+      "index": "locales/ur/index.html",
+      "support": "locales/ur/support.html",
+      "privacy": "locales/ur/privacy.html"
+    },
+    "vi": {
+      "index": "locales/vi/index.html",
+      "support": "locales/vi/support.html",
+      "privacy": "locales/vi/privacy.html"
+    },
+    "zh-Hans": {
+      "index": "locales/zh-Hans/index.html",
+      "support": "locales/zh-Hans/support.html",
+      "privacy": "locales/zh-Hans/privacy.html"
+    },
+    "zh-Hant": {
+      "index": "locales/zh-Hant/index.html",
+      "support": "locales/zh-Hant/support.html",
+      "privacy": "locales/zh-Hant/privacy.html"
+    }
+  },
+  "language_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文",
+    "hr": "Hrvatski",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "nl-NL": "Nederlands",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ms": "Bahasa Melayu",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "no": "Norsk bokmål",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "es-MX": "Español (México)",
+    "es-ES": "Español",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt"
+  },
+  "icon_url": "https://alice51849.github.io/battai-support/assets/icon.png",
+  "theme": {
+    "a1": "#238EB8",
+    "a2": "#57B98A",
+    "ink": "#24212C",
+    "muted": "#686273",
+    "background": "#FBFAFE",
+    "panel": "rgba(255,255,255,.82)"
+  },
+  "authority": {
+    "surface_contract_sha256": "4481c241b4ce7fc0429a2eb4351c01b581ce1bda5cc3b1ccf6d0ea54f38dea04",
+    "crosspromo_config_sha256": "e35d834b73262780c223f2704065378b9634277562827397fee8f913baac7b5d",
+    "catalog_content_digest": "8feba77d050061d0f270dba2e2d02989a41341d766f7540bea0249de2e8aafbc",
+    "catalog_date_modified": "2026-08-29",
+    "requirements_sha256": "a1ca2bbe50fd75e4c4fb0075910a48b7e7fd44f89e75131242e068f2514e290f",
+    "root_index_sha256": "726fa76d7eae09ade2a5841f6fe2e8a932b1975616593ceea41793efbcc56040",
+    "root_support_sha256": "",
+    "root_privacy_sha256": "dcb9cd95c408bae518b6430f3c63583bbafbab40b20f0a6bae82fdc562531fee",
+    "app_key": "battai",
+    "generate_locales.py_sha256": "184a583d5d78a1ceb6427ca9fc5d2bbe1ce2d6745f978fecac1453c9b4dd74a3"
+  },
+  "authority_digest": "2479f0f8a21e0130514e603b86f20e29c8cbf9d65a76e5187e5b1f8a8c76c06a",
+  "surface_contract_digest": "4481c241b4ce7fc0429a2eb4351c01b581ce1bda5cc3b1ccf6d0ea54f38dea04",
+  "targets": [
+    {
+      "locale": "ar-SA",
+      "surface": "support",
+      "app_name": "BattAI: نتيجة صحة البطارية",
+      "nav": [
+        "الرئيسية",
+        "الدعم",
+        "الخصوصية"
+      ],
+      "nav_label": "اللغة",
+      "language_label": "اللغة",
+      "support_label": "الانتقال إلى الدعم",
+      "contact_heading": "التواصل معنا",
+      "contact_body": "راسلنا على hourstag.app@gmail.com . ولكي نساعدك من أول رد، اذكر طراز جهازك (الإعدادات ← عام ← حول) وإصدار iOS وإصدار التطبيق وما كنت تفعله قبل حدوث المشكلة مباشرة. وإرفاق لقطة شاشة أو تسجيل للشاشة يجعل الأمر أسرع.",
+      "contact_button": "التواصل معنا",
+      "footer_note": "لا يستخدم هذا الموقع أي أدوات تتبع أو إعلانات أو تحليلات من أطراف أخرى.",
+      "title": "دعم BattAI: نتيجة صحة البطارية — الأسئلة الشائعة وحل المشكلات",
+      "description": "هنا تجد الأسئلة التي تصلنا أكثر من غيرها عن BattAI: نتيجة صحة البطارية، وما يمكنك التحقق منه بنفسك، وأسرع طريقة للتحدث إلى شخص حقيقي.",
+      "eyebrow": "مركز الدعم",
+      "heading": "التواصل معنا",
+      "lead": "هنا تجد الأسئلة التي تصلنا أكثر من غيرها عن BattAI: نتيجة صحة البطارية، وما يمكنك التحقق منه بنفسك، وأسرع طريقة للتحدث إلى شخص حقيقي.",
+      "sections": [
+        {
+          "heading": "إذا لم يعمل شيء ما",
+          "body": "أغلق التطبيق تمامًا ثم افتحه من جديد: اسحب من أسفل الشاشة إلى الأعلى وتوقف في المنتصف، ثم ادفع بطاقة BattAI: نتيجة صحة البطارية إلى الأعلى وافتح التطبيق مرة أخرى. أعد تشغيل الـ iPhone أو الـ iPad. هكذا تختفي تقريبًا كل المشكلات المؤقتة في العرض أو الاستجابة. افتح App Store ← أيقونة الحساب في الأعلى، وتحقق مما إذا كان هناك تحديث لـ BattAI: نتيجة صحة البطارية: الأخطاء التي جرى إصلاحها تختفي مع الإصدار الجديد. تأكد من تحديث iOS من الإعدادات ← عام ← تحديث البرامج. إذا ظهر النص مقتطعًا أو اختفت بعض العناصر، فأوقف مؤقتًا تكبير النص وتكبير الشاشة من الإعدادات ← تسهيلات الاستخدام ثم أعد المحاولة."
+        }
+      ],
+      "faqs": [
+        [
+          "هل أحتاج إلى حساب؟",
+          "لا. كما هو مذكور في صفحة BattAI: نتيجة صحة البطارية على App Store، لا توجد حسابات ولا تسجيل دخول، ويمكنك البدء فور التثبيت."
+        ],
+        [
+          "هل توجد إعلانات أو تتبّع من أطراف أخرى؟",
+          "لا. لا يحتوي BattAI: نتيجة صحة البطارية على إعلانات من أطراف أخرى ولا على حزم تحليلات أو تتبّع بين التطبيقات."
+        ],
+        [
+          "هل هذا اشتراك؟",
+          "لا. لا توجد اشتراكات في BattAI: نتيجة صحة البطارية. الجزء المدفوع عملية شراء واحدة لا تتجدد."
+        ],
+        [
+          "ما الذي يمكنني استخدامه مجانًا؟",
+          "الميزات الأساسية مجانية. ويمكن فتح المحتوى كاملًا بعملية شراء واحدة داخل تطبيق BattAI: نتيجة صحة البطارية، فتستطيع تجربة التطبيق على مهل قبل أن تقرر."
+        ],
+        [
+          "إذا غيّرت الـ iPhone، هل تبقى عملية الشراء؟",
+          "نعم. سجّل الدخول بحساب Apple نفسه واضغط «استعادة المشتريات» داخل التطبيق، فتعود عملية الشراء نشطة من دون دفع مرة أخرى."
+        ],
+        [
+          "كيف أحدّث إلى أحدث إصدار؟",
+          "افتح App Store واضغط أيقونة الحساب في الأعلى، ثم انزل إلى BattAI: نتيجة صحة البطارية واضغط «تحديث» إذا ظهر الزر. وإذا كانت التحديثات التلقائية مفعّلة فلا حاجة إلى أي خطوة."
+        ],
+        [
+          "أريد الإبلاغ عن خلل، ما الذي تحتاجونه؟",
+          "راسلنا على hourstag.app@gmail.com مع ذكر طراز الجهاز وإصدار iOS وإصدار التطبيق وخطوات تكرار المشكلة، مع لقطة شاشة أو تسجيل للشاشة. كلما كانت التفاصيل أدق كان الإصلاح أسرع."
+        ]
+      ],
+      "faq_heading": "الأسئلة الشائعة",
+      "parent_note": "",
+      "path": "locales/ar/support.html"
+    },
+    {
+      "locale": "bn-BD",
+      "surface": "support",
+      "app_name": "BattAI: ব্যাটারির স্বাস্থ্য",
+      "nav": [
+        "হোম",
+        "সহায়তা",
+        "গোপনীয়তা"
+      ],
+      "nav_label": "ভাষা",
+      "language_label": "ভাষা",
+      "support_label": "সহায়তায় যান",
+      "contact_heading": "যোগাযোগ",
+      "contact_body": "আমাদের hourstag.app@gmail.com ঠিকানায় লিখুন। প্রথম উত্তরেই যাতে সাহায্য করতে পারি, সে জন্য ডিভাইসের মডেল (সেটিংস → সাধারণ → সম্পর্কে), iOS সংস্করণ, অ্যাপ সংস্করণ এবং সমস্যার ঠিক আগে আপনি কী করছিলেন তা জানান। স্ক্রিনশট বা স্ক্রিন রেকর্ডিং থাকলে আরও দ্রুত সমাধান হয়।",
+      "contact_button": "যোগাযোগ",
+      "footer_note": "এই সাইটে তৃতীয় পক্ষের কোনো ট্র্যাকার, বিজ্ঞাপন বা অ্যানালিটিক্স ব্যবহার করা হয় না।",
+      "title": "BattAI: ব্যাটারির স্বাস্থ্য সহায়তা — সাধারণ প্রশ্ন ও সমস্যার সমাধান",
+      "description": "BattAI: ব্যাটারির স্বাস্থ্য সম্পর্কে আমরা যেসব প্রশ্ন সবচেয়ে বেশি পাই, যেগুলো আপনি নিজেই দেখে নিতে পারেন, আর সরাসরি একজন মানুষের কাছে পৌঁছানোর দ্রুততম উপায় — সব এখানে।",
+      "eyebrow": "সহায়তা কেন্দ্র",
+      "heading": "যোগাযোগ",
+      "lead": "BattAI: ব্যাটারির স্বাস্থ্য সম্পর্কে আমরা যেসব প্রশ্ন সবচেয়ে বেশি পাই, যেগুলো আপনি নিজেই দেখে নিতে পারেন, আর সরাসরি একজন মানুষের কাছে পৌঁছানোর দ্রুততম উপায় — সব এখানে।",
+      "sections": [
+        {
+          "heading": "কিছু কাজ না করলে",
+          "body": "অ্যাপটি পুরোপুরি বন্ধ করে আবার খুলুন: পর্দার নিচের প্রান্ত থেকে উপরে সোয়াইপ করুন, মাঝপথে থামুন, BattAI: ব্যাটারির স্বাস্থ্য-এর কার্ডটি উপরে সরিয়ে দিন, তারপর অ্যাপটি আবার খুলুন। আপনার iPhone বা iPad পুনরায় চালু করুন। প্রদর্শন বা সাড়া দেওয়ার সাময়িক সমস্যা প্রায় সবই এতে ঠিক হয়ে যায়। App Store → উপরে ডানদিকের অ্যাকাউন্ট আইকনে গিয়ে দেখুন BattAI: ব্যাটারির স্বাস্থ্য-এর কোনো আপডেট আছে কি না: যেসব ত্রুটি ইতিমধ্যেই সারানো হয়েছে সেগুলো নতুন সংস্করণে থাকে না। সেটিংস → সাধারণ → সফ্টওয়্যার আপডেট থেকে দেখে নিন iOS সর্বশেষ সংস্করণে আছে। লেখা কেটে গেলে বা কিছু অংশ না দেখা গেলে সেটিংস → অ্যাক্সেসিবিলিটি-তে বড় লেখা ও ডিসপ্লে জুম কিছুক্ষণের জন্য বন্ধ করে আবার চেষ্টা করুন।"
+        }
+      ],
+      "faqs": [
+        [
+          "অ্যাকাউন্ট লাগবে কি?",
+          "না। BattAI: ব্যাটারির স্বাস্থ্য-এর App Store পাতায় যেমন লেখা আছে, এখানে অ্যাকাউন্ট বা সাইন-ইন কিছুই নেই — ইনস্টল করার সঙ্গে সঙ্গেই শুরু করা যায়।"
+        ],
+        [
+          "এতে কি বিজ্ঞাপন বা তৃতীয় পক্ষের ট্র্যাকিং আছে?",
+          "না। BattAI: ব্যাটারির স্বাস্থ্য-এ তৃতীয় পক্ষের বিজ্ঞাপন নেই, অ্যাপের মধ্যে ট্র্যাক করার অ্যানালিটিক্স বা ট্র্যাকিং SDK-ও নেই।"
+        ],
+        [
+          "এটা কি সাবস্ক্রিপশন?",
+          "না। BattAI: ব্যাটারির স্বাস্থ্য-এ কোনো সাবস্ক্রিপশন নেই। যে অংশটুকু সশুল্ক, সেটি একবারের কেনাকাটা এবং নিজে থেকে নবায়ন হয় না।"
+        ],
+        [
+          "বিনামূল্যে কী কী ব্যবহার করা যায়?",
+          "মূল সুবিধাগুলো বিনামূল্যে। পুরো বিষয়বস্তু খোলে BattAI: ব্যাটারির স্বাস্থ্য-এর একবারের ইন-অ্যাপ কেনাকাটায়, তাই সিদ্ধান্ত নেওয়ার আগে আপনি নিশ্চিন্তে অ্যাপটি দেখে নিতে পারেন।"
+        ],
+        [
+          "iPhone বদলালে কেনাকাটা কি থেকে যায়?",
+          "হ্যাঁ। একই Apple অ্যাকাউন্টে সাইন ইন করে অ্যাপের ভেতরে «কেনাকাটা পুনরুদ্ধার করুন» চাপুন — নতুন করে টাকা না দিয়েই আপনার কেনা জিনিস আবার সক্রিয় হবে।"
+        ],
+        [
+          "সর্বশেষ সংস্করণে কীভাবে আপডেট করব?",
+          "App Store খুলুন, উপরে ডানদিকের অ্যাকাউন্ট আইকনে চাপুন, BattAI: ব্যাটারির স্বাস্থ্য পর্যন্ত স্ক্রল করুন এবং বোতাম দেখা গেলে «আপডেট» চাপুন। স্বয়ংক্রিয় আপডেট চালু থাকলে কিছুই করতে হবে না।"
+        ],
+        [
+          "একটি ত্রুটি জানাতে চাই — আপনাদের কী দরকার?",
+          "hourstag.app@gmail.com ঠিকানায় ডিভাইস মডেল, iOS সংস্করণ, অ্যাপ সংস্করণ, ত্রুটিটি আবার ঘটানোর ধাপগুলো এবং একটি স্ক্রিনশট বা স্ক্রিন রেকর্ডিং পাঠান। বর্ণনা যত সুনির্দিষ্ট, সমাধান তত দ্রুত।"
+        ]
+      ],
+      "faq_heading": "সাধারণ প্রশ্ন",
+      "parent_note": "",
+      "path": "locales/bn/support.html"
+    },
+    {
+      "locale": "ca",
+      "surface": "support",
+      "app_name": "BattAI: Salut de la bateria",
+      "nav": [
+        "Inici",
+        "Assistència",
+        "Privadesa"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Anar a l'assistència",
+      "contact_heading": "Contacte",
+      "contact_body": "Escriu-nos a hourstag.app@gmail.com . Perquè et puguem ajudar ja a la primera resposta, indica el model del dispositiu (Configuració → General → Informació), la versió d'iOS, la versió de l'app i què estaves fent just abans del problema. Una captura o una gravació de pantalla encara ho accelera més.",
+      "contact_button": "Contacte",
+      "footer_note": "Aquest lloc no fa servir rastrejadors, publicitat ni analítiques de tercers.",
+      "title": "Assistència de BattAI: Salut de la bateria — preguntes freqüents i resolució de problemes",
+      "description": "Aquí trobaràs les preguntes que rebem més sovint sobre BattAI: Salut de la bateria, les comprovacions que pots fer tu mateix i la manera més ràpida de parlar amb una persona.",
+      "eyebrow": "Centre d'assistència",
+      "heading": "Contacte",
+      "lead": "Aquí trobaràs les preguntes que rebem més sovint sobre BattAI: Salut de la bateria, les comprovacions que pots fer tu mateix i la manera més ràpida de parlar amb una persona.",
+      "sections": [
+        {
+          "heading": "Si alguna cosa no funciona",
+          "body": "Tanca l'app del tot i torna-la a obrir: llisca cap amunt des de la vora inferior, atura't a mig camí, llança amunt la targeta de BattAI: Salut de la bateria i torna a obrir-la. Reinicia l'iPhone o l'iPad. Gairebé tots els problemes temporals de visualització o de resposta es resolen així. Obre l'App Store → icona del compte a dalt a la dreta i mira si hi ha una actualització de BattAI: Salut de la bateria: els errors ja corregits desapareixen amb la versió nova. Comprova que l'iOS estigui al dia a Configuració → General → Actualització de programari. Si veus text tallat o elements que no apareixen, desactiva temporalment el text més gran i el zoom de pantalla a Configuració → Accessibilitat i torna-ho a provar."
+        }
+      ],
+      "faqs": [
+        [
+          "Cal registrar-se?",
+          "No. Tal com indica la fitxa de BattAI: Salut de la bateria a l'App Store, no hi ha comptes ni inici de sessió: pots començar just després d'instal·lar-la."
+        ],
+        [
+          "Hi ha publicitat o seguiment de tercers?",
+          "No. BattAI: Salut de la bateria no conté publicitat de tercers ni SDK d'analítica o de seguiment entre apps."
+        ],
+        [
+          "És una subscripció?",
+          "No. BattAI: Salut de la bateria no té subscripcions. La part de pagament és una compra única que no es renova."
+        ],
+        [
+          "Què puc fer servir gratuïtament?",
+          "Les funcions bàsiques són gratuïtes. Per obrir-ho tot hi ha una compra dins l'app única de BattAI: Salut de la bateria, així que pots provar-la amb calma abans de decidir."
+        ],
+        [
+          "Si canvio d'iPhone, mantinc la compra?",
+          "Sí. Inicia la sessió amb el mateix compte d'Apple i toca «Restaura les compres» dins l'app: la compra torna a activar-se sense pagar de nou."
+        ],
+        [
+          "Com actualitzo a l'última versió?",
+          "Obre l'App Store, toca la icona del compte a dalt a la dreta, desplaça't fins a BattAI: Salut de la bateria i toca «Actualitza» si apareix. Amb les actualitzacions automàtiques actives no cal fer res."
+        ],
+        [
+          "Vull informar d'un error: què us cal?",
+          "Escriu a hourstag.app@gmail.com indicant el model del dispositiu, la versió d'iOS, la versió de l'app, els passos per reproduir-ho i una captura o gravació de pantalla. Com més concret sigui, més de pressa ho corregim."
+        ]
+      ],
+      "faq_heading": "Preguntes freqüents",
+      "parent_note": "",
+      "path": "locales/ca/support.html"
+    },
+    {
+      "locale": "cs",
+      "surface": "support",
+      "app_name": "BattAI: Skóre kondice baterie",
+      "nav": [
+        "Úvod",
+        "Podpora",
+        "Soukromí"
+      ],
+      "nav_label": "Jazyk",
+      "language_label": "Jazyk",
+      "support_label": "Přejít na podporu",
+      "contact_heading": "Kontakt",
+      "contact_body": "Napište nám na hourstag.app@gmail.com . Abychom vám mohli pomoct hned v první odpovědi, uveďte prosím model zařízení (Nastavení → Obecné → Informace), verzi iOS, verzi aplikace a co jste dělali těsně před tím, než potíž nastala. Snímek nebo záznam obrazovky to ještě urychlí.",
+      "contact_button": "Kontakt",
+      "footer_note": "Tento web nepoužívá sledovací nástroje, reklamu ani analytiku třetích stran.",
+      "title": "Podpora BattAI: Skóre kondice baterie — časté dotazy a řešení potíží",
+      "description": "Tady jsou dotazy, které k aplikaci BattAI: Skóre kondice baterie dostáváme nejčastěji, co si můžete ověřit sami a nejrychlejší cesta k živému člověku.",
+      "eyebrow": "Centrum podpory",
+      "heading": "Kontakt",
+      "lead": "Tady jsou dotazy, které k aplikaci BattAI: Skóre kondice baterie dostáváme nejčastěji, co si můžete ověřit sami a nejrychlejší cesta k živému člověku.",
+      "sections": [
+        {
+          "heading": "Když něco nefunguje",
+          "body": "Aplikaci úplně ukončete a spusťte znovu: přejeďte prstem nahoru od spodního okraje, v půli se zastavte, kartu BattAI: Skóre kondice baterie odsuňte nahoru a aplikaci otevřete znovu. Restartujte iPhone nebo iPad. Tím zmizí téměř všechny dočasné potíže se zobrazením nebo reakcí. Otevřete App Store → ikona účtu vpravo nahoře a zkontrolujte, jestli je k aplikaci BattAI: Skóre kondice baterie aktualizace: už opravené chyby s novou verzí zmizí. Ověřte, že máte aktuální iOS, v Nastavení → Obecné → Aktualizace softwaru. Pokud se text ořezává nebo některé prvky nejsou vidět, na chvíli vypněte větší text a zvětšení obrazovky v Nastavení → Zpřístupnění a zkuste to znovu."
+        }
+      ],
+      "faqs": [
+        [
+          "Potřebuji účet?",
+          "Ne. Jak uvádí stránka aplikace BattAI: Skóre kondice baterie v App Storu, žádné účty ani přihlašování tu nejsou — můžete začít hned po instalaci."
+        ],
+        [
+          "Jsou v aplikaci reklamy nebo sledování třetích stran?",
+          "Ne. BattAI: Skóre kondice baterie neobsahuje reklamy třetích stran ani analytické či sledovací SDK, které by vás sledovaly napříč aplikacemi."
+        ],
+        [
+          "Je to předplatné?",
+          "Ne. BattAI: Skóre kondice baterie žádné předplatné nemá. Placená část je jednorázový nákup, který se neobnovuje."
+        ],
+        [
+          "Co můžu používat zdarma?",
+          "Základní funkce jsou zdarma. Vše odemkne jednorázový nákup v aplikaci BattAI: Skóre kondice baterie, takže si aplikaci můžete v klidu vyzkoušet, než se rozhodnete."
+        ],
+        [
+          "Zůstane mi nákup, když vyměním iPhone?",
+          "Ano. Přihlaste se stejným účtem Apple a v aplikaci klepněte na «Obnovit nákupy» — nákup se znovu aktivuje bez další platby."
+        ],
+        [
+          "Jak aktualizuji na nejnovější verzi?",
+          "Otevřete App Store, klepněte na ikonu účtu vpravo nahoře, sjeďte k položce BattAI: Skóre kondice baterie a klepněte na «Aktualizovat», pokud se tlačítko objeví. Se zapnutými automatickými aktualizacemi nemusíte dělat nic."
+        ],
+        [
+          "Chci nahlásit chybu — co potřebujete?",
+          "Napište na hourstag.app@gmail.com model zařízení, verzi iOS, verzi aplikace, postup, kterým se chyba vyvolá, a snímek nebo záznam obrazovky. Čím konkrétnější popis, tím rychleji chybu opravíme."
+        ]
+      ],
+      "faq_heading": "Časté dotazy",
+      "parent_note": "",
+      "path": "locales/cs/support.html"
+    },
+    {
+      "locale": "da",
+      "surface": "support",
+      "app_name": "BattAI: Batteritilstandsscore",
+      "nav": [
+        "Forside",
+        "Support",
+        "Privatliv"
+      ],
+      "nav_label": "Sprog",
+      "language_label": "Sprog",
+      "support_label": "Gå til support",
+      "contact_heading": "Kontakt",
+      "contact_body": "Skriv til os på hourstag.app@gmail.com . For at vi kan hjælpe allerede i første svar, må du gerne oplyse din enhedsmodel (Indstillinger → Generelt → Om), din iOS-version, appversionen og hvad du gjorde lige inden problemet. Et skærmbillede eller en skærmoptagelse gør det endnu hurtigere.",
+      "contact_button": "Kontakt",
+      "footer_note": "Denne side bruger ikke tredjeparts trackere, reklamer eller analyseværktøjer.",
+      "title": "BattAI: Batteritilstandsscore support — ofte stillede spørgsmål og fejlfinding",
+      "description": "Her er de spørgsmål, vi oftest får om BattAI: Batteritilstandsscore, det du selv kan tjekke, og den hurtigste vej til at få fat i et menneske.",
+      "eyebrow": "Supportcenter",
+      "heading": "Kontakt",
+      "lead": "Her er de spørgsmål, vi oftest får om BattAI: Batteritilstandsscore, det du selv kan tjekke, og den hurtigste vej til at få fat i et menneske.",
+      "sections": [
+        {
+          "heading": "Hvis noget ikke virker",
+          "body": "Luk appen helt, og åbn den igen: stryg op fra bunden af skærmen, stop halvvejs, skub BattAI: Batteritilstandsscore-kortet op, og åbn appen igen. Genstart din iPhone eller iPad. Næsten alle midlertidige problemer med visning eller reaktion forsvinder på den måde. Åbn App Store → kontosymbolet øverst til højre, og se, om der ligger en opdatering til BattAI: Batteritilstandsscore: allerede rettede fejl forsvinder med den nye version. Tjek, at iOS er opdateret under Indstillinger → Generelt → Softwareopdatering. Hvis tekst bliver skåret af, eller elementer ikke vises, så slå større tekst og skærmzoom fra et øjeblik under Indstillinger → Tilgængelighed, og prøv igen."
+        }
+      ],
+      "faqs": [
+        [
+          "Skal jeg oprette en konto?",
+          "Nej. Som der står på BattAI: Batteritilstandsscores side i App Store, er der hverken konti eller login: du kan gå i gang lige efter installationen."
+        ],
+        [
+          "Er der reklamer eller tredjepartssporing?",
+          "Nej. BattAI: Batteritilstandsscore indeholder hverken tredjepartsreklamer eller analyse- og sporings-SDK'er, der følger dig på tværs af apps."
+        ],
+        [
+          "Er det et abonnement?",
+          "Nej. BattAI: Batteritilstandsscore har ingen abonnementer. Det betalte er et enkeltstående køb, der ikke fornyes."
+        ],
+        [
+          "Hvad kan jeg bruge gratis?",
+          "De grundlæggende funktioner er gratis. Alt indhold låses op med et engangskøb i BattAI: Batteritilstandsscore, så du kan prøve appen i ro og mag, før du beslutter dig."
+        ],
+        [
+          "Beholder jeg mit køb, hvis jeg skifter iPhone?",
+          "Ja. Log ind med den samme Apple-konto, og tryk på «Gendan køb» i appen: dit køb bliver aktivt igen uden at du betaler på ny."
+        ],
+        [
+          "Hvordan opdaterer jeg til nyeste version?",
+          "Åbn App Store, tryk på kontosymbolet øverst til højre, rul ned til BattAI: Batteritilstandsscore, og tryk på «Opdater», hvis knappen er der. Med automatiske opdateringer slået til behøver du ikke gøre noget."
+        ],
+        [
+          "Jeg vil melde en fejl — hvad har I brug for?",
+          "Skriv til hourstag.app@gmail.com med enhedsmodel, iOS-version, appversion, trinene der fremkalder fejlen, og et skærmbillede eller en skærmoptagelse. Jo mere konkret, jo hurtigere kan vi rette det."
+        ]
+      ],
+      "faq_heading": "Ofte stillede spørgsmål",
+      "parent_note": "",
+      "path": "locales/da/support.html"
+    },
+    {
+      "locale": "de-DE",
+      "surface": "support",
+      "app_name": "BattAI: Batteriezustandswert",
+      "nav": [
+        "Start",
+        "Support",
+        "Datenschutz"
+      ],
+      "nav_label": "Sprache",
+      "language_label": "Sprache",
+      "support_label": "Zum Support",
+      "contact_heading": "Kontakt",
+      "contact_body": "Schreiben Sie an hourstag.app@gmail.com . Damit die erste Antwort schon weiterhilft, nennen Sie bitte Ihr Gerätemodell (Einstellungen → Allgemein → Info), Ihre iOS-Version, die App-Version und was Sie unmittelbar vor dem Problem getippt haben. Screenshots oder eine Bildschirmaufnahme helfen zusätzlich.",
+      "contact_button": "Kontakt",
+      "footer_note": "Diese Website verwendet kein Tracking, keine Werbung und keine Analyse-Dienste von Dritten.",
+      "title": "BattAI: Batteriezustandswert Support — Häufige Fragen und Fehlerbehebung",
+      "description": "Die häufigsten Fragen zu BattAI: Batteriezustandswert, Schritte zur Selbsthilfe und der direkte Weg zu einem Menschen.",
+      "eyebrow": "Support-Center",
+      "heading": "Kontakt",
+      "lead": "Die häufigsten Fragen zu BattAI: Batteriezustandswert, Schritte zur Selbsthilfe und der direkte Weg zu einem Menschen.",
+      "sections": [
+        {
+          "heading": "Fehlerbehebung",
+          "body": "Beenden Sie die App vollständig und öffnen Sie sie erneut: vom unteren Bildschirmrand nach oben streichen, kurz halten, die Karte von BattAI: Batteriezustandswert nach oben wegschieben und die App neu starten. Starten Sie iPhone oder iPad neu. Damit verschwinden die meisten vorübergehenden Darstellungs- und Leistungsprobleme. Prüfen Sie im App Store über Ihr Profilbild oben rechts, ob für BattAI: Batteriezustandswert ein Update bereitsteht. Behobene Fehler sind meist in der neuen Version erledigt. Prüfen Sie unter Einstellungen → Allgemein → Softwareupdate, ob iOS aktuell ist. Wenn Elemente fehlen oder das Layout verrutscht, schalten Sie unter Einstellungen → Bedienungshilfen größere Schrift oder Anzeigezoom testweise aus."
+        }
+      ],
+      "faqs": [
+        [
+          "Brauche ich ein Benutzerkonto?",
+          "Nein. Laut der App-Store-Produktseite kommt BattAI: Batteriezustandswert ohne Konto, Registrierung und Anmeldung aus. Sie können direkt nach der Installation loslegen."
+        ],
+        [
+          "Gibt es Werbung oder Tracking durch Dritte?",
+          "Nein. BattAI: Batteriezustandswert enthält weder Werbung von Dritten noch Analyse- oder App-übergreifende Tracking-SDKs."
+        ],
+        [
+          "Ist das ein Abo?",
+          "Nein. BattAI: Batteriezustandswert hat kein Abo. Bezahlinhalte sind ein einmaliger Kauf, es gibt keine wiederkehrende Abbuchung."
+        ],
+        [
+          "Wie viel kann ich kostenlos nutzen?",
+          "Die Grundfunktionen sind kostenlos. Für den vollen Umfang bietet BattAI: Batteriezustandswert einen einmaligen In-App-Kauf. Sie können den kostenlosen Teil vorher in Ruhe ausprobieren."
+        ],
+        [
+          "Bleibt mein Kauf beim Gerätewechsel erhalten?",
+          "Ja. Melden Sie sich mit derselben Apple-Account an und tippen Sie in der App auf „Käufe wiederherstellen“. Ein zweiter Kauf ist nicht nötig."
+        ],
+        [
+          "Wie aktualisiere ich auf die neueste Version?",
+          "Öffnen Sie den App Store, tippen Sie oben rechts auf Ihr Profilbild, scrollen Sie zu BattAI: Batteriezustandswert und tippen Sie auf „Aktualisieren“, falls angeboten. Mit automatischen Updates entfällt dieser Schritt."
+        ],
+        [
+          "Ich möchte einen Fehler melden — was soll ich mitschicken?",
+          "Schreiben Sie an hourstag.app@gmail.com mit Gerätemodell, iOS-Version, App-Version, den Schritten zum Nachstellen sowie Screenshots oder einer Bildschirmaufnahme. Je konkreter, desto schneller die Korrektur."
+        ]
+      ],
+      "faq_heading": "Häufige Fragen",
+      "parent_note": "",
+      "path": "locales/de/support.html"
+    },
+    {
+      "locale": "el",
+      "surface": "support",
+      "app_name": "BattAI: Υγεία μπαταρίας",
+      "nav": [
+        "Αρχική",
+        "Υποστήριξη",
+        "Απόρρητο"
+      ],
+      "nav_label": "Γλώσσα",
+      "language_label": "Γλώσσα",
+      "support_label": "Μετάβαση στην υποστήριξη",
+      "contact_heading": "Επικοινωνία",
+      "contact_body": "Γράψτε μας στο hourstag.app@gmail.com . Για να μπορέσουμε να βοηθήσουμε ήδη από την πρώτη απάντηση, αναφέρετε το μοντέλο της συσκευής (Ρυθμίσεις → Γενικά → Πληροφορίες), την έκδοση iOS, την έκδοση της εφαρμογής και τι κάνατε λίγο πριν εμφανιστεί το πρόβλημα. Ένα στιγμιότυπο ή μια εγγραφή οθόνης το επιταχύνει ακόμη περισσότερο.",
+      "contact_button": "Επικοινωνία",
+      "footer_note": "Αυτός ο ιστότοπος δεν χρησιμοποιεί ιχνηλάτες, διαφημίσεις ή αναλυτικά εργαλεία τρίτων.",
+      "title": "Υποστήριξη BattAI: Υγεία μπαταρίας — συχνές ερωτήσεις και αντιμετώπιση προβλημάτων",
+      "description": "Εδώ είναι οι ερωτήσεις που λαμβάνουμε πιο συχνά για το BattAI: Υγεία μπαταρίας, όσα μπορείτε να ελέγξετε μόνοι σας και ο γρηγορότερος τρόπος να μιλήσετε με άνθρωπο.",
+      "eyebrow": "Κέντρο υποστήριξης",
+      "heading": "Επικοινωνία",
+      "lead": "Εδώ είναι οι ερωτήσεις που λαμβάνουμε πιο συχνά για το BattAI: Υγεία μπαταρίας, όσα μπορείτε να ελέγξετε μόνοι σας και ο γρηγορότερος τρόπος να μιλήσετε με άνθρωπο.",
+      "sections": [
+        {
+          "heading": "Αν κάτι δεν δουλεύει",
+          "body": "Κλείστε εντελώς την εφαρμογή και ανοίξτε την ξανά: σύρετε προς τα πάνω από την κάτω άκρη, σταματήστε στη μέση, σπρώξτε την κάρτα BattAI: Υγεία μπαταρίας προς τα πάνω και ανοίξτε ξανά την εφαρμογή. Επανεκκινήστε το iPhone ή το iPad. Έτσι λύνονται σχεδόν όλα τα προσωρινά προβλήματα εμφάνισης ή απόκρισης. Ανοίξτε το App Store → εικονίδιο λογαριασμού πάνω δεξιά και δείτε αν υπάρχει ενημέρωση για το BattAI: Υγεία μπαταρίας: τα σφάλματα που έχουν ήδη διορθωθεί εξαφανίζονται με τη νέα έκδοση. Βεβαιωθείτε ότι το iOS είναι ενημερωμένο από τις Ρυθμίσεις → Γενικά → Ενημέρωση λογισμικού. Αν το κείμενο κόβεται ή δεν φαίνονται κάποια στοιχεία, απενεργοποιήστε προσωρινά το μεγαλύτερο κείμενο και το ζουμ οθόνης στις Ρυθμίσεις → Προσβασιμότητα και δοκιμάστε ξανά."
+        }
+      ],
+      "faqs": [
+        [
+          "Χρειάζομαι λογαριασμό;",
+          "Όχι. Όπως αναφέρει η σελίδα του BattAI: Υγεία μπαταρίας στο App Store, δεν υπάρχουν λογαριασμοί ούτε σύνδεση — μπορείτε να ξεκινήσετε αμέσως μετά την εγκατάσταση."
+        ],
+        [
+          "Υπάρχουν διαφημίσεις ή παρακολούθηση από τρίτους;",
+          "Όχι. Το BattAI: Υγεία μπαταρίας δεν περιέχει διαφημίσεις τρίτων ούτε SDK ανάλυσης ή παρακολούθησης μεταξύ εφαρμογών."
+        ],
+        [
+          "Είναι συνδρομή;",
+          "Όχι. Το BattAI: Υγεία μπαταρίας δεν έχει συνδρομές. Το επί πληρωμή μέρος είναι μία εφάπαξ αγορά που δεν ανανεώνεται."
+        ],
+        [
+          "Τι μπορώ να χρησιμοποιήσω δωρεάν;",
+          "Οι βασικές λειτουργίες είναι δωρεάν. Όλο το περιεχόμενο ξεκλειδώνει με μία εφάπαξ αγορά εντός της εφαρμογής BattAI: Υγεία μπαταρίας, ώστε να τη δοκιμάσετε με την ησυχία σας πριν αποφασίσετε."
+        ],
+        [
+          "Αν αλλάξω iPhone, κρατάω την αγορά μου;",
+          "Ναι. Συνδεθείτε με τον ίδιο λογαριασμό Apple και πατήστε «Επαναφορά αγορών» μέσα στην εφαρμογή — η αγορά ενεργοποιείται ξανά χωρίς νέα πληρωμή."
+        ],
+        [
+          "Πώς ενημερώνω στην τελευταία έκδοση;",
+          "Ανοίξτε το App Store, πατήστε το εικονίδιο λογαριασμού πάνω δεξιά, βρείτε το BattAI: Υγεία μπαταρίας και πατήστε «Ενημέρωση» αν εμφανιστεί το κουμπί. Με ενεργές τις αυτόματες ενημερώσεις δεν χρειάζεται να κάνετε τίποτα."
+        ],
+        [
+          "Θέλω να αναφέρω ένα σφάλμα — τι χρειάζεστε;",
+          "Στείλτε στο hourstag.app@gmail.com το μοντέλο της συσκευής, την έκδοση iOS, την έκδοση της εφαρμογής, τα βήματα που αναπαράγουν το πρόβλημα και ένα στιγμιότυπο ή εγγραφή οθόνης. Όσο πιο συγκεκριμένα, τόσο πιο γρήγορα το διορθώνουμε."
+        ]
+      ],
+      "faq_heading": "Συχνές ερωτήσεις",
+      "parent_note": "",
+      "path": "locales/el/support.html"
+    },
+    {
+      "locale": "en-AU",
+      "surface": "support",
+      "app_name": "BattAI",
+      "nav": [
+        "Overview",
+        "Support",
+        "Privacy"
+      ],
+      "nav_label": "Language",
+      "language_label": "Language",
+      "support_label": "View support",
+      "contact_heading": "Contact us",
+      "contact_body": "Tell us what you tried, what happened, your device model, iOS version and app version. Do not send private content.",
+      "contact_button": "Contact us",
+      "footer_note": "This static site uses no analytics, advertising or tracking.",
+      "title": "BattAI support — Help and troubleshooting",
+      "description": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "eyebrow": "Support centre",
+      "heading": "Contact us",
+      "lead": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "sections": [
+        {
+          "heading": "Troubleshooting",
+          "body": "Close BattAI completely, then open it again. Restart the iPhone or iPad to clear a temporary system problem. Open the App Store and install any available update for BattAI. If the issue continues, include exact reproduction steps in your email."
+        }
+      ],
+      "faqs": [
+        [
+          "Do I need an account?",
+          "No. BattAI does not require a developer account or sign-in."
+        ],
+        [
+          "Does the app contain ads or third-party tracking?",
+          "No. BattAI contains no third-party ads, analytics or cross-app tracking SDK."
+        ],
+        [
+          "Is this a subscription?",
+          "No. The verified paid option for BattAI is a one-time purchase, not a recurring subscription."
+        ],
+        [
+          "What does the optional unlock do?",
+          "The free experience remains usable. A one-time in-app purchase unlocks the additional features described in the app before purchase."
+        ],
+        [
+          "How do I restore a purchase?",
+          "Use Restore Purchases in BattAI while signed in to the Apple Account used for the original purchase. Apple keeps the purchase record."
+        ],
+        [
+          "How do I update the app?",
+          "Open the App Store, tap your account picture and install any available update for BattAI."
+        ],
+        [
+          "What should I include in a bug report?",
+          "Email hourstag.app@gmail.com with the device model, iOS version, app version, steps to reproduce and a screenshot that contains no private information."
+        ]
+      ],
+      "faq_heading": "Frequently asked questions",
+      "parent_note": "",
+      "path": "locales/en-AU/support.html"
+    },
+    {
+      "locale": "en-CA",
+      "surface": "support",
+      "app_name": "BattAI",
+      "nav": [
+        "Overview",
+        "Support",
+        "Privacy"
+      ],
+      "nav_label": "Language",
+      "language_label": "Language",
+      "support_label": "View support",
+      "contact_heading": "Contact us",
+      "contact_body": "Tell us what you tried, what happened, your device model, iOS version and app version. Do not send private content.",
+      "contact_button": "Contact us",
+      "footer_note": "This static site uses no analytics, advertising or tracking.",
+      "title": "BattAI support — Help and troubleshooting",
+      "description": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "eyebrow": "Support centre",
+      "heading": "Contact us",
+      "lead": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "sections": [
+        {
+          "heading": "Troubleshooting",
+          "body": "Close BattAI completely, then open it again. Restart the iPhone or iPad to clear a temporary system problem. Open the App Store and install any available update for BattAI. If the issue continues, include exact reproduction steps in your email."
+        }
+      ],
+      "faqs": [
+        [
+          "Do I need an account?",
+          "No. BattAI does not require a developer account or sign-in."
+        ],
+        [
+          "Does the app contain ads or third-party tracking?",
+          "No. BattAI contains no third-party ads, analytics or cross-app tracking SDK."
+        ],
+        [
+          "Is this a subscription?",
+          "No. The verified paid option for BattAI is a one-time purchase, not a recurring subscription."
+        ],
+        [
+          "What does the optional unlock do?",
+          "The free experience remains usable. A one-time in-app purchase unlocks the additional features described in the app before purchase."
+        ],
+        [
+          "How do I restore a purchase?",
+          "Use Restore Purchases in BattAI while signed in to the Apple Account used for the original purchase. Apple keeps the purchase record."
+        ],
+        [
+          "How do I update the app?",
+          "Open the App Store, tap your account picture and install any available update for BattAI."
+        ],
+        [
+          "What should I include in a bug report?",
+          "Email hourstag.app@gmail.com with the device model, iOS version, app version, steps to reproduce and a screenshot that contains no private information."
+        ]
+      ],
+      "faq_heading": "Frequently asked questions",
+      "parent_note": "",
+      "path": "locales/en-CA/support.html"
+    },
+    {
+      "locale": "en-GB",
+      "surface": "support",
+      "app_name": "BattAI",
+      "nav": [
+        "Overview",
+        "Support",
+        "Privacy"
+      ],
+      "nav_label": "Language",
+      "language_label": "Language",
+      "support_label": "View support",
+      "contact_heading": "Contact us",
+      "contact_body": "Tell us what you tried, what happened, your device model, iOS version and app version. Do not send private content.",
+      "contact_button": "Contact us",
+      "footer_note": "This static site uses no analytics, advertising or tracking.",
+      "title": "BattAI support — Help and troubleshooting",
+      "description": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "eyebrow": "Support centre",
+      "heading": "Contact us",
+      "lead": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "sections": [
+        {
+          "heading": "Troubleshooting",
+          "body": "Close BattAI completely, then open it again. Restart the iPhone or iPad to clear a temporary system problem. Open the App Store and install any available update for BattAI. If the issue continues, include exact reproduction steps in your email."
+        }
+      ],
+      "faqs": [
+        [
+          "Do I need an account?",
+          "No. BattAI does not require a developer account or sign-in."
+        ],
+        [
+          "Does the app contain ads or third-party tracking?",
+          "No. BattAI contains no third-party ads, analytics or cross-app tracking SDK."
+        ],
+        [
+          "Is this a subscription?",
+          "No. The verified paid option for BattAI is a one-time purchase, not a recurring subscription."
+        ],
+        [
+          "What does the optional unlock do?",
+          "The free experience remains usable. A one-time in-app purchase unlocks the additional features described in the app before purchase."
+        ],
+        [
+          "How do I restore a purchase?",
+          "Use Restore Purchases in BattAI while signed in to the Apple Account used for the original purchase. Apple keeps the purchase record."
+        ],
+        [
+          "How do I update the app?",
+          "Open the App Store, tap your account picture and install any available update for BattAI."
+        ],
+        [
+          "What should I include in a bug report?",
+          "Email hourstag.app@gmail.com with the device model, iOS version, app version, steps to reproduce and a screenshot that contains no private information."
+        ]
+      ],
+      "faq_heading": "Frequently asked questions",
+      "parent_note": "",
+      "path": "locales/en-GB/support.html"
+    },
+    {
+      "locale": "es-MX",
+      "surface": "support",
+      "app_name": "BattAI: Estado de la batería",
+      "nav": [
+        "Inicio",
+        "Soporte",
+        "Privacidad"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir a soporte",
+      "contact_heading": "Contacto",
+      "contact_body": "Escríbenos a hourstag.app@gmail.com . Para ayudarte desde la primera respuesta, indícanos el modelo de tu dispositivo (Configuración → General → Información), la versión de iOS, la versión de la app y qué estabas haciendo justo antes del problema. Una captura o una grabación de pantalla lo hace aún más rápido.",
+      "contact_button": "Contacto",
+      "footer_note": "Este sitio no usa rastreadores, publicidad ni analítica de terceros.",
+      "title": "Soporte de BattAI: Estado de la batería — preguntas frecuentes y solución de problemas",
+      "description": "Aquí están las preguntas que más nos hacen sobre BattAI: Estado de la batería, lo que puedes revisar por tu cuenta y la forma más rápida de hablar con una persona.",
+      "eyebrow": "Centro de soporte",
+      "heading": "Contacto",
+      "lead": "Aquí están las preguntas que más nos hacen sobre BattAI: Estado de la batería, lo que puedes revisar por tu cuenta y la forma más rápida de hablar con una persona.",
+      "sections": [
+        {
+          "heading": "Si algo no funciona",
+          "body": "Cierra la app por completo y vuelve a abrirla: desliza hacia arriba desde el borde inferior, detente a la mitad, desliza hacia arriba la tarjeta de BattAI: Estado de la batería y ábrela de nuevo. Reinicia el iPhone o el iPad. Así se resuelve casi cualquier falla temporal de pantalla o de respuesta. Abre el App Store → ícono de la cuenta arriba a la derecha y revisa si hay una actualización de BattAI: Estado de la batería: los errores ya corregidos desaparecen con la versión nueva. Comprueba que iOS esté actualizado en Configuración → General → Actualización de software. Si ves texto cortado o elementos que no aparecen, desactiva un momento el texto más grande y el zoom de pantalla en Configuración → Accesibilidad e inténtalo otra vez."
+        }
+      ],
+      "faqs": [
+        [
+          "¿Necesito una cuenta?",
+          "No. Como dice la ficha de BattAI: Estado de la batería en el App Store, no hay cuentas ni inicio de sesión: puedes empezar justo después de instalarla."
+        ],
+        [
+          "¿Tiene publicidad o rastreo de terceros?",
+          "No. BattAI: Estado de la batería no trae publicidad de terceros ni kits de analítica o de rastreo que te sigan de una app a otra."
+        ],
+        [
+          "¿Es una suscripción?",
+          "No. BattAI: Estado de la batería no tiene suscripciones. La parte de pago es una compra única que no se renueva."
+        ],
+        [
+          "¿Qué puedo usar gratis?",
+          "Las funciones básicas son gratuitas. Para abrir todo hay una compra dentro de la app por única vez en BattAI: Estado de la batería, así que puedes probarla con calma antes de decidir."
+        ],
+        [
+          "Si cambio de iPhone, ¿conservo mi compra?",
+          "Sí. Inicia sesión con la misma cuenta de Apple y toca «Restaurar compras» dentro de la app: tu compra vuelve a activarse sin pagar de nuevo."
+        ],
+        [
+          "¿Cómo actualizo a la última versión?",
+          "Abre el App Store, toca el ícono de la cuenta arriba a la derecha, baja hasta BattAI: Estado de la batería y toca «Actualizar» si aparece. Con las actualizaciones automáticas activadas no tienes que hacer nada."
+        ],
+        [
+          "Quiero reportar un error, ¿qué necesitan?",
+          "Escribe a hourstag.app@gmail.com con el modelo de tu dispositivo, la versión de iOS, la versión de la app, los pasos para reproducirlo y una captura o grabación de pantalla. Entre más concreto, más rápido lo corregimos."
+        ]
+      ],
+      "faq_heading": "Preguntas frecuentes",
+      "parent_note": "",
+      "path": "locales/es-MX/support.html"
+    },
+    {
+      "locale": "es-ES",
+      "surface": "support",
+      "app_name": "BattAI: Salud de la batería",
+      "nav": [
+        "Inicio",
+        "Soporte",
+        "Privacidad"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir al soporte",
+      "contact_heading": "Contacto",
+      "contact_body": "Escribe a hourstag.app@gmail.com . Para que la primera respuesta ya te sirva, indica el modelo de tu dispositivo (Ajustes → General → Información), la versión de iOS, la versión de la app y qué tocaste justo antes del problema. Las capturas de pantalla o una grabación de pantalla ayudan mucho.",
+      "contact_button": "Contacto",
+      "footer_note": "Este sitio no utiliza rastreo, publicidad ni analítica de terceros.",
+      "title": "Soporte de BattAI: Salud de la batería — Preguntas frecuentes y solución de problemas",
+      "description": "Las preguntas más habituales sobre BattAI: Salud de la batería, las comprobaciones que puedes hacer tú y la forma de hablar con una persona.",
+      "eyebrow": "Centro de soporte",
+      "heading": "Contacto",
+      "lead": "Las preguntas más habituales sobre BattAI: Salud de la batería, las comprobaciones que puedes hacer tú y la forma de hablar con una persona.",
+      "sections": [
+        {
+          "heading": "Solución de problemas",
+          "body": "Cierra la app por completo y vuelve a abrirla: desliza hacia arriba desde el borde inferior, mantén un momento, desliza hacia arriba la tarjeta de BattAI: Salud de la batería y ábrela de nuevo. Reinicia el iPhone o el iPad. Así se resuelven casi todos los fallos temporales de dibujo o rendimiento. En el App Store, toca tu foto de perfil arriba a la derecha y comprueba si hay una actualización de BattAI: Salud de la batería: los fallos ya corregidos se solucionan con la nueva versión. Comprueba en Ajustes → General → Actualización de software que iOS está al día. Si desaparecen elementos o el diseño se descoloca, desactiva temporalmente el texto más grande o el zoom de pantalla en Ajustes → Accesibilidad."
+        }
+      ],
+      "faqs": [
+        [
+          "¿Necesito crear una cuenta?",
+          "No. La ficha del App Store indica que BattAI: Salud de la batería no requiere cuenta ni inicio de sesión: puedes empezar nada más instalarla."
+        ],
+        [
+          "¿Hay publicidad o rastreo de terceros?",
+          "No. BattAI: Salud de la batería no incluye publicidad de terceros ni SDK de analítica o de rastreo entre apps."
+        ],
+        [
+          "¿Es una suscripción?",
+          "No. BattAI: Salud de la batería no tiene suscripción. El contenido de pago es una compra única, sin cargos recurrentes."
+        ],
+        [
+          "¿Hasta dónde puedo usarla gratis?",
+          "Las funciones básicas son gratuitas. Para desbloquear todo, BattAI: Salud de la batería ofrece una compra integrada única. Puedes probar la parte gratuita con calma antes de comprar."
+        ],
+        [
+          "¿Se mantiene mi compra al cambiar de dispositivo?",
+          "Sí. Inicia sesión con la misma cuenta de Apple y toca «Restaurar compras» en la app: tu compra se reactiva sin pagar otra vez."
+        ],
+        [
+          "¿Cómo actualizo a la última versión?",
+          "Abre el App Store, toca tu foto de perfil arriba a la derecha, baja hasta BattAI: Salud de la batería y toca «Actualizar» si aparece. Con las actualizaciones automáticas te ahorras este paso."
+        ],
+        [
+          "Quiero informar de un error: ¿qué debo enviar?",
+          "Escribe a hourstag.app@gmail.com indicando el modelo del dispositivo, la versión de iOS, la versión de la app, los pasos para reproducirlo y adjunta una captura o grabación de pantalla. Cuanto más concreto, antes se corrige."
+        ]
+      ],
+      "faq_heading": "Preguntas frecuentes",
+      "parent_note": "",
+      "path": "locales/es/support.html"
+    },
+    {
+      "locale": "fi",
+      "surface": "support",
+      "app_name": "BattAI: Akun kuntotulos",
+      "nav": [
+        "Etusivu",
+        "Tuki",
+        "Tietosuoja"
+      ],
+      "nav_label": "Kieli",
+      "language_label": "Kieli",
+      "support_label": "Siirry tukeen",
+      "contact_heading": "Yhteystiedot",
+      "contact_body": "Lähetä sähköpostia osoitteeseen hourstag.app@gmail.com . Jotta voimme auttaa jo ensimmäisessä vastauksessa, kerro laitemallisi (Asetukset → Yleiset → Tietoja), iOS-versio, sovelluksen versio ja mitä teit juuri ennen ongelmaa. Kuvakaappaus tai näytön tallennus nopeuttaa vielä lisää.",
+      "contact_button": "Yhteystiedot",
+      "footer_note": "Tämä sivusto ei käytä kolmansien osapuolten seurantaa, mainoksia eikä analytiikkaa.",
+      "title": "BattAI: Akun kuntotulos-tuki — usein kysytyt kysymykset ja vianmääritys",
+      "description": "Tässä ovat kysymykset, joita saamme useimmin sovelluksesta BattAI: Akun kuntotulos, asiat jotka voit tarkistaa itse ja nopein tapa tavoittaa ihminen.",
+      "eyebrow": "Tukikeskus",
+      "heading": "Yhteystiedot",
+      "lead": "Tässä ovat kysymykset, joita saamme useimmin sovelluksesta BattAI: Akun kuntotulos, asiat jotka voit tarkistaa itse ja nopein tapa tavoittaa ihminen.",
+      "sections": [
+        {
+          "heading": "Jos jokin ei toimi",
+          "body": "Sulje sovellus kokonaan ja avaa se uudelleen: pyyhkäise ylös näytön alareunasta, pysähdy puolimatkaan, heitä BattAI: Akun kuntotulos-kortti ylös ja avaa sovellus uudestaan. Käynnistä iPhone tai iPad uudelleen. Lähes kaikki tilapäiset näyttö- tai reagointiongelmat korjaantuvat näin. Avaa App Store → tilikuvake oikeasta yläkulmasta ja katso, onko sovellukseen BattAI: Akun kuntotulos päivitystä: jo korjatut virheet katoavat uuden version myötä. Tarkista, että iOS on ajan tasalla kohdassa Asetukset → Yleiset → Ohjelmistopäivitys. Jos teksti katkeaa tai osa elementeistä ei näy, poista hetkeksi käytöstä suurempi teksti ja näytön zoomaus kohdassa Asetukset → Käyttöapu ja yritä uudelleen."
+        }
+      ],
+      "faqs": [
+        [
+          "Tarvitseeko luoda tili?",
+          "Ei. Kuten sovelluksen BattAI: Akun kuntotulos App Store -sivulla kerrotaan, tilejä tai kirjautumista ei ole: voit aloittaa heti asennuksen jälkeen."
+        ],
+        [
+          "Onko sovelluksessa mainoksia tai kolmansien osapuolten seurantaa?",
+          "Ei. Sovelluksessa BattAI: Akun kuntotulos ei ole kolmansien osapuolten mainoksia eikä analytiikka- tai seuranta-SDK:ita, jotka seuraisivat sinua sovellusten välillä."
+        ],
+        [
+          "Onko tämä tilaus?",
+          "Ei. Sovelluksessa BattAI: Akun kuntotulos ei ole tilauksia. Maksullinen osa on kertaosto, joka ei uusiudu."
+        ],
+        [
+          "Mitä voin käyttää ilmaiseksi?",
+          "Perustoiminnot ovat ilmaisia. Kaiken sisällön saa auki sovelluksen BattAI: Akun kuntotulos kertaluonteisella sovelluksen sisäisellä ostolla, joten ehdit kokeilla sovellusta rauhassa ennen päätöstä."
+        ],
+        [
+          "Säilyykö ostoni, jos vaihdan iPhonea?",
+          "Kyllä. Kirjaudu samalle Apple-tilille ja valitse sovelluksessa «Palauta ostot»: ostosi aktivoituu uudelleen ilman uutta maksua."
+        ],
+        [
+          "Miten päivitän uusimpaan versioon?",
+          "Avaa App Store, napauta tilikuvaketta oikeassa yläkulmassa, vieritä kohtaan BattAI: Akun kuntotulos ja napauta «Päivitä», jos painike näkyy. Kun automaattiset päivitykset ovat päällä, sinun ei tarvitse tehdä mitään."
+        ],
+        [
+          "Haluan ilmoittaa virheestä — mitä tarvitsette?",
+          "Lähetä osoitteeseen hourstag.app@gmail.com laitemalli, iOS-versio, sovelluksen versio, vaiheet joilla virhe toistuu sekä kuvakaappaus tai näytön tallenne. Mitä tarkempi kuvaus, sitä nopeammin korjaamme sen."
+        ]
+      ],
+      "faq_heading": "Usein kysytyt kysymykset",
+      "parent_note": "",
+      "path": "locales/fi/support.html"
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "support",
+      "app_name": "BattAI: Santé de la batterie",
+      "nav": [
+        "Accueil",
+        "Assistance",
+        "Confidentialité"
+      ],
+      "nav_label": "Langue",
+      "language_label": "Langue",
+      "support_label": "Aller à l'assistance",
+      "contact_heading": "Nous joindre",
+      "contact_body": "Écrivez-nous à hourstag.app@gmail.com . Pour qu'on puisse vous aider dès la première réponse, indiquez le modèle de votre appareil (Réglages → Général → Informations), la version d'iOS, la version de l'app et ce que vous faisiez juste avant le problème. Une capture ou un enregistrement d'écran accélère encore les choses.",
+      "contact_button": "Nous joindre",
+      "footer_note": "Ce site n'utilise aucun traceur, aucune publicité ni aucun outil d'analyse tiers.",
+      "title": "Assistance BattAI: Santé de la batterie — foire aux questions et dépannage",
+      "description": "Voici les questions qu'on nous pose le plus souvent au sujet de BattAI: Santé de la batterie, les vérifications que vous pouvez faire vous-même et le moyen le plus rapide de parler à une personne.",
+      "eyebrow": "Centre d'assistance",
+      "heading": "Nous joindre",
+      "lead": "Voici les questions qu'on nous pose le plus souvent au sujet de BattAI: Santé de la batterie, les vérifications que vous pouvez faire vous-même et le moyen le plus rapide de parler à une personne.",
+      "sections": [
+        {
+          "heading": "Si quelque chose ne fonctionne pas",
+          "body": "Fermez complètement l'app puis rouvrez-la : balayez vers le haut depuis le bas de l'écran, arrêtez-vous à mi-chemin, faites glisser la fiche de BattAI: Santé de la batterie vers le haut, puis rouvrez l'app. Redémarrez votre iPhone ou votre iPad. Presque tous les problèmes temporaires d'affichage ou de réactivité se règlent ainsi. Ouvrez l'App Store → icône du compte en haut à droite et vérifiez s'il y a une mise à jour de BattAI: Santé de la batterie : les bogues déjà corrigés disparaissent avec la nouvelle version. Vérifiez qu'iOS est à jour dans Réglages → Général → Mise à jour logicielle. Si du texte est coupé ou si des éléments n'apparaissent pas, désactivez un moment le texte plus grand et le zoom de l'écran dans Réglages → Accessibilité, puis réessayez."
+        }
+      ],
+      "faqs": [
+        [
+          "Faut-il créer un compte ?",
+          "Non. Comme l'indique la fiche de BattAI: Santé de la batterie dans l'App Store, il n'y a ni compte ni connexion : vous pouvez commencer dès l'installation."
+        ],
+        [
+          "Y a-t-il de la publicité ou du suivi par des tiers ?",
+          "Non. BattAI: Santé de la batterie ne contient aucune publicité tierce ni trousse d'analyse ou de suivi entre applications."
+        ],
+        [
+          "Est-ce un abonnement ?",
+          "Non. BattAI: Santé de la batterie n'a aucun abonnement. La partie payante est un achat unique qui ne se renouvelle pas."
+        ],
+        [
+          "Qu'est-ce que je peux utiliser gratuitement ?",
+          "Les fonctions de base sont gratuites. Pour tout débloquer, BattAI: Santé de la batterie propose un achat intégré unique : vous pouvez donc essayer l'app tranquillement avant de décider."
+        ],
+        [
+          "Si je change d'iPhone, est-ce que je garde mon achat ?",
+          "Oui. Connectez-vous avec le même compte Apple et touchez « Restaurer les achats » dans l'app : votre achat redevient actif sans payer une deuxième fois."
+        ],
+        [
+          "Comment installer la dernière version ?",
+          "Ouvrez l'App Store, touchez l'icône du compte en haut à droite, descendez jusqu'à BattAI: Santé de la batterie et touchez « Mettre à jour » si le bouton apparaît. Avec les mises à jour automatiques activées, vous n'avez rien à faire."
+        ],
+        [
+          "Je veux signaler un bogue — qu'est-ce qu'il vous faut ?",
+          "Écrivez à hourstag.app@gmail.com en indiquant le modèle de l'appareil, la version d'iOS, la version de l'app, les étapes pour reproduire le problème et une capture ou un enregistrement d'écran. Plus c'est précis, plus la correction est rapide."
+        ]
+      ],
+      "faq_heading": "Foire aux questions",
+      "parent_note": "",
+      "path": "locales/fr-CA/support.html"
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "support",
+      "app_name": "BattAI: Santé de la batterie",
+      "nav": [
+        "Accueil",
+        "Assistance",
+        "Confidentialité"
+      ],
+      "nav_label": "Langue",
+      "language_label": "Langue",
+      "support_label": "Consulter l'assistance",
+      "contact_heading": "Nous contacter",
+      "contact_body": "Écrivez à hourstag.app@gmail.com . Pour que la première réponse soit utile, indiquez le modèle de votre appareil (Réglages → Général → Informations), la version d'iOS, la version de l'app et ce que vous avez touché juste avant le problème. Des captures d'écran ou un enregistrement de l'écran aident beaucoup.",
+      "contact_button": "Nous contacter",
+      "footer_note": "Ce site n'utilise ni suivi, ni publicité, ni outil d'analyse tiers.",
+      "title": "Assistance BattAI: Santé de la batterie — Questions fréquentes et dépannage",
+      "description": "Les questions les plus fréquentes sur BattAI: Santé de la batterie, les vérifications à faire soi-même et le moyen de joindre une vraie personne.",
+      "eyebrow": "Centre d'assistance",
+      "heading": "Nous contacter",
+      "lead": "Les questions les plus fréquentes sur BattAI: Santé de la batterie, les vérifications à faire soi-même et le moyen de joindre une vraie personne.",
+      "sections": [
+        {
+          "heading": "Résolution des problèmes",
+          "body": "Fermez complètement l'app puis rouvrez-la : balayez depuis le bas de l'écran, marquez une pause, faites glisser la vignette de BattAI: Santé de la batterie vers le haut, puis relancez l'app. Redémarrez votre iPhone ou iPad. Cela règle la plupart des anomalies d'affichage ou de performance passagères. Dans l'App Store, touchez votre photo de profil en haut à droite et vérifiez si une mise à jour de BattAI: Santé de la batterie est proposée : les problèmes corrigés le sont dans la nouvelle version. Vérifiez dans Réglages → Général → Mise à jour logicielle qu'iOS est à jour. Si des éléments disparaissent ou que la mise en page se décale, désactivez temporairement le texte plus grand ou le zoom d'affichage dans Réglages → Accessibilité."
+        }
+      ],
+      "faqs": [
+        [
+          "Faut-il créer un compte ?",
+          "Non. La fiche App Store indique que BattAI: Santé de la batterie fonctionne sans compte ni connexion : vous pouvez commencer dès l'installation."
+        ],
+        [
+          "Y a-t-il de la publicité ou du suivi tiers ?",
+          "Non. BattAI: Santé de la batterie ne contient ni publicité tierce, ni SDK d'analyse ou de suivi entre apps."
+        ],
+        [
+          "S'agit-il d'un abonnement ?",
+          "Non. BattAI: Santé de la batterie ne propose pas d'abonnement. Le contenu payant s'obtient par un achat unique, sans prélèvement récurrent."
+        ],
+        [
+          "Que puis-je faire gratuitement ?",
+          "Les fonctions de base sont gratuites. Pour tout débloquer, BattAI: Santé de la batterie propose un achat intégré unique. Vous pouvez tester la partie gratuite autant que vous le souhaitez avant d'acheter."
+        ],
+        [
+          "Mon achat est-il conservé si je change d'appareil ?",
+          "Oui. Connectez-vous avec le même compte Apple puis touchez « Restaurer les achats » dans l'app : votre achat est réactivé, sans payer une seconde fois."
+        ],
+        [
+          "Comment passer à la dernière version ?",
+          "Ouvrez l'App Store, touchez votre photo de profil en haut à droite, faites défiler jusqu'à BattAI: Santé de la batterie et touchez « Mettre à jour » si le bouton apparaît. Les mises à jour automatiques évitent cette étape."
+        ],
+        [
+          "Je veux signaler un bug : que faut-il envoyer ?",
+          "Écrivez à hourstag.app@gmail.com en précisant le modèle de l'appareil, la version d'iOS, la version de l'app, les étapes pour reproduire le problème, et joignez une capture ou un enregistrement d'écran. Plus c'est précis, plus la correction est rapide."
+        ]
+      ],
+      "faq_heading": "Questions fréquentes",
+      "parent_note": "",
+      "path": "locales/fr/support.html"
+    },
+    {
+      "locale": "gu-IN",
+      "surface": "support",
+      "app_name": "BattAI: બેટરી હેલ્થ સ્કોર",
+      "nav": [
+        "હોમ",
+        "સહાય",
+        "ગોપનીયતા"
+      ],
+      "nav_label": "ભાષા",
+      "language_label": "ભાષા",
+      "support_label": "સહાય પર જાઓ",
+      "contact_heading": "સંપર્ક",
+      "contact_body": "અમને hourstag.app@gmail.com પર લખો. પહેલા જ જવાબમાં મદદ કરી શકીએ એ માટે તમારા ઉપકરણનું મૉડલ (સેટિંગ્સ → સામાન્ય → વિશે), iOS આવૃત્તિ, ઍપ આવૃત્તિ અને સમસ્યા થતાં પહેલાં તમે શું કરી રહ્યા હતા તે જણાવો. સ્ક્રીનશૉટ કે સ્ક્રીન રેકોર્ડિંગ હોય તો ઉકેલ વધુ ઝડપી આવે છે.",
+      "contact_button": "સંપર્ક",
+      "footer_note": "આ સાઇટ ત્રીજા પક્ષના ટ્રૅકર, જાહેરાત કે એનાલિટિક્સ વાપરતી નથી.",
+      "title": "BattAI: બેટરી હેલ્થ સ્કોર સહાય — સામાન્ય પ્રશ્નો અને સમસ્યાનું નિવારણ",
+      "description": "BattAI: બેટરી હેલ્થ સ્કોર વિશે અમને સૌથી વધુ પુછાતા પ્રશ્નો, જે તમે જાતે ચકાસી શકો છો, અને સાચા માણસ સુધી પહોંચવાનો સૌથી ઝડપી રસ્તો — બધું અહીં છે.",
+      "eyebrow": "સહાય કેન્દ્ર",
+      "heading": "સંપર્ક",
+      "lead": "BattAI: બેટરી હેલ્થ સ્કોર વિશે અમને સૌથી વધુ પુછાતા પ્રશ્નો, જે તમે જાતે ચકાસી શકો છો, અને સાચા માણસ સુધી પહોંચવાનો સૌથી ઝડપી રસ્તો — બધું અહીં છે.",
+      "sections": [
+        {
+          "heading": "કંઈક કામ ન કરે તો",
+          "body": "ઍપ સંપૂર્ણ બંધ કરીને ફરી ખોલો: સ્ક્રીનની નીચેની કિનારીથી ઉપર સ્વાઇપ કરો, વચ્ચે અટકો, BattAI: બેટરી હેલ્થ સ્કોર નું કાર્ડ ઉપર સરકાવો અને ઍપ ફરી ખોલો. તમારો iPhone કે iPad ફરી ચાલુ કરો. પ્રદર્શન કે પ્રતિભાવની લગભગ બધી કામચલાઉ તકલીફો આનાથી દૂર થાય છે. App Store → ઉપર જમણી બાજુના ખાતાના ચિહ્નમાં જઈને જુઓ કે BattAI: બેટરી હેલ્થ સ્કોર નું અપડેટ છે કે નહીં: જે ખામીઓ સુધારાઈ ગઈ છે તે નવી આવૃત્તિમાં રહેતી નથી. સેટિંગ્સ → સામાન્ય → સૉફ્ટવેર અપડેટમાં ખાતરી કરો કે iOS નવીનતમ છે. લખાણ કપાતું હોય કે અમુક ભાગ દેખાતો ન હોય તો સેટિંગ્સ → સુલભતામાં મોટું લખાણ અને ડિસ્પ્લે ઝૂમ થોડી વાર બંધ કરીને ફરી પ્રયાસ કરો."
+        }
+      ],
+      "faqs": [
+        [
+          "શું ખાતું બનાવવું પડે છે?",
+          "ના. BattAI: બેટરી હેલ્થ સ્કોર ના App Store પાના પર લખ્યા મુજબ અહીં ખાતું કે સાઇન-ઇન કશું નથી — ઇન્સ્ટૉલ કરતાં જ શરૂ કરી શકાય છે."
+        ],
+        [
+          "શું એમાં જાહેરાત કે ત્રીજા પક્ષનું ટ્રૅકિંગ છે?",
+          "ના. BattAI: બેટરી હેલ્થ સ્કોર માં ત્રીજા પક્ષની જાહેરાતો નથી, અને ઍપ વચ્ચે ટ્રૅક કરતા એનાલિટિક્સ કે ટ્રૅકિંગ SDK પણ નથી."
+        ],
+        [
+          "શું આ સબ્સ્ક્રિપ્શન છે?",
+          "ના. BattAI: બેટરી હેલ્થ સ્કોર માં કોઈ સબ્સ્ક્રિપ્શન નથી. જે ભાગ ચૂકવણીવાળો છે તે એક વખતની ખરીદી છે, જે આપોઆપ રિન્યુ થતી નથી."
+        ],
+        [
+          "મફતમાં શું વાપરી શકાય?",
+          "પાયાની સુવિધાઓ મફત છે. આખું સામગ્રી BattAI: બેટરી હેલ્થ સ્કોર ની એક વખતની ઇન-ઍપ ખરીદીથી ખૂલે છે, એટલે નિર્ણય લેતાં પહેલાં તમે ઍપ નિરાંતે અજમાવી શકો છો."
+        ],
+        [
+          "iPhone બદલું તો ખરીદી રહે છે?",
+          "હા. એ જ Apple ખાતાથી સાઇન ઇન કરો અને ઍપમાં «ખરીદી પુનઃસ્થાપિત કરો» પર ટૅપ કરો — ફરી ચૂકવ્યા વગર તમારી ખરીદી ફરી સક્રિય થાય છે."
+        ],
+        [
+          "નવીનતમ આવૃત્તિમાં કેવી રીતે અપડેટ કરું?",
+          "App Store ખોલો, ઉપર જમણી બાજુના ખાતાના ચિહ્ન પર ટૅપ કરો, BattAI: બેટરી હેલ્થ સ્કોર સુધી સ્ક્રોલ કરો અને બટન દેખાય તો «અપડેટ» પર ટૅપ કરો. આપોઆપ અપડેટ ચાલુ હોય તો કશું કરવાની જરૂર નથી."
+        ],
+        [
+          "મારે એક ખામી જણાવવી છે — તમને શું જોઈએ?",
+          "hourstag.app@gmail.com પર ઉપકરણનું મૉડલ, iOS આવૃત્તિ, ઍપ આવૃત્તિ, ખામી ફરી લાવવાનાં પગલાં અને સ્ક્રીનશૉટ કે સ્ક્રીન રેકોર્ડિંગ મોકલો. વર્ણન જેટલું ચોક્કસ, સુધારો એટલો ઝડપી."
+        ]
+      ],
+      "faq_heading": "સામાન્ય પ્રશ્નો",
+      "parent_note": "",
+      "path": "locales/gu/support.html"
+    },
+    {
+      "locale": "he",
+      "surface": "support",
+      "app_name": "BattAI: ציון בריאות הסוללה",
+      "nav": [
+        "דף הבית",
+        "תמיכה",
+        "פרטיות"
+      ],
+      "nav_label": "שפה",
+      "language_label": "שפה",
+      "support_label": "מעבר לתמיכה",
+      "contact_heading": "יצירת קשר",
+      "contact_body": "אפשר לכתוב לנו אל hourstag.app@gmail.com . כדי שנוכל לעזור כבר בתשובה הראשונה, ציינו את דגם המכשיר (הגדרות ← כללי ← אודות), את גרסת iOS, את גרסת האפליקציה ומה עשיתם רגע לפני התקלה. צילום מסך או הקלטת מסך מזרזים עוד יותר.",
+      "contact_button": "יצירת קשר",
+      "footer_note": "האתר הזה אינו משתמש בכלי מעקב, פרסומות או אנליטיקה של צד שלישי.",
+      "title": "תמיכה ב-BattAI: ציון בריאות הסוללה — שאלות נפוצות ופתרון תקלות",
+      "description": "כאן מרוכזות השאלות שאנחנו מקבלים הכי הרבה על BattAI: ציון בריאות הסוללה, מה אפשר לבדוק לבד, והדרך המהירה ביותר לדבר עם בן אדם.",
+      "eyebrow": "מרכז התמיכה",
+      "heading": "יצירת קשר",
+      "lead": "כאן מרוכזות השאלות שאנחנו מקבלים הכי הרבה על BattAI: ציון בריאות הסוללה, מה אפשר לבדוק לבד, והדרך המהירה ביותר לדבר עם בן אדם.",
+      "sections": [
+        {
+          "heading": "אם משהו לא עובד",
+          "body": "סגרו את האפליקציה לגמרי ופתחו מחדש: החליקו למעלה מקצה המסך התחתון, עצרו באמצע, דחפו את הכרטיס של BattAI: ציון בריאות הסוללה למעלה ופתחו שוב. הפעילו מחדש את ה-iPhone או ה-iPad. כך נפתרות כמעט כל התקלות הזמניות בתצוגה או בתגובה. פתחו את App Store ← סמל החשבון למעלה ובדקו אם יש עדכון ל-BattAI: ציון בריאות הסוללה: תקלות שכבר תוקנו נעלמות עם הגרסה החדשה. ודאו ש-iOS מעודכן דרך הגדרות ← כללי ← עדכון תוכנה. אם הטקסט נחתך או שרכיבים לא מופיעים, כבו לרגע טקסט גדול והגדלת מסך בהגדרות ← נגישות ונסו שוב."
+        }
+      ],
+      "faqs": [
+        [
+          "צריך חשבון?",
+          "לא. כפי שכתוב בדף של BattAI: ציון בריאות הסוללה ב-App Store, אין חשבונות ואין התחברות — אפשר להתחיל מיד אחרי ההתקנה."
+        ],
+        [
+          "יש פרסומות או מעקב של צד שלישי?",
+          "לא. ב-BattAI: ציון בריאות הסוללה אין פרסומות של צד שלישי ואין ערכות אנליטיקה או מעקב בין אפליקציות."
+        ],
+        [
+          "זה מנוי?",
+          "לא. ל-BattAI: ציון בריאות הסוללה אין מנויים. החלק בתשלום הוא רכישה חד-פעמית שאינה מתחדשת."
+        ],
+        [
+          "מה אפשר להשתמש בחינם?",
+          "התכונות הבסיסיות בחינם. את כל התוכן פותחים ברכישה חד-פעמית בתוך BattAI: ציון בריאות הסוללה, כך שאפשר להתנסות ברוגע לפני שמחליטים."
+        ],
+        [
+          "אם אחליף iPhone, הרכישה נשמרת?",
+          "כן. התחברו עם אותו חשבון Apple והקישו על «שחזור רכישות» בתוך האפליקציה — הרכישה תחזור להיות פעילה בלי תשלום נוסף."
+        ],
+        [
+          "איך מעדכנים לגרסה האחרונה?",
+          "פתחו את App Store, הקישו על סמל החשבון למעלה, גללו אל BattAI: ציון בריאות הסוללה והקישו «עדכון» אם הכפתור מופיע. אם עדכונים אוטומטיים מופעלים, אין צורך לעשות דבר."
+        ],
+        [
+          "אני רוצה לדווח על תקלה — מה נחוץ לכם?",
+          "כתבו אל hourstag.app@gmail.com את דגם המכשיר, גרסת iOS, גרסת האפליקציה, השלבים שמשחזרים את התקלה וצילום או הקלטת מסך. ככל שהתיאור מדויק יותר, כך נתקן מהר יותר."
+        ]
+      ],
+      "faq_heading": "שאלות נפוצות",
+      "parent_note": "",
+      "path": "locales/he/support.html"
+    },
+    {
+      "locale": "hi",
+      "surface": "support",
+      "app_name": "BattAI: बैटरी स्वास्थ्य स्कोर",
+      "nav": [
+        "होम",
+        "सहायता",
+        "निजता"
+      ],
+      "nav_label": "भाषा",
+      "language_label": "भाषा",
+      "support_label": "सहायता पर जाएँ",
+      "contact_heading": "संपर्क",
+      "contact_body": "हमें hourstag.app@gmail.com पर लिखें। पहली ही जवाबी मेल में मदद कर सकें, इसके लिए अपने डिवाइस का मॉडल (सेटिंग्स → सामान्य → परिचय), iOS संस्करण, ऐप संस्करण और समस्या से ठीक पहले आप क्या कर रहे थे — यह ज़रूर बताएँ। स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग हो तो और भी तेज़ी से हल निकलता है।",
+      "contact_button": "संपर्क",
+      "footer_note": "यह साइट किसी तीसरे पक्ष के ट्रैकर, विज्ञापन या एनालिटिक्स का उपयोग नहीं करती।",
+      "title": "BattAI: बैटरी स्वास्थ्य स्कोर सहायता — सामान्य सवाल और समस्या समाधान",
+      "description": "BattAI: बैटरी स्वास्थ्य स्कोर के बारे में हमें जो सवाल सबसे ज़्यादा मिलते हैं, जो जाँच आप खुद कर सकते हैं, और किसी असली इंसान तक पहुँचने का सबसे तेज़ रास्ता — सब यहाँ है।",
+      "eyebrow": "सहायता केंद्र",
+      "heading": "संपर्क",
+      "lead": "BattAI: बैटरी स्वास्थ्य स्कोर के बारे में हमें जो सवाल सबसे ज़्यादा मिलते हैं, जो जाँच आप खुद कर सकते हैं, और किसी असली इंसान तक पहुँचने का सबसे तेज़ रास्ता — सब यहाँ है।",
+      "sections": [
+        {
+          "heading": "अगर कुछ काम न करे",
+          "body": "ऐप को पूरी तरह बंद करके दोबारा खोलें: स्क्रीन के निचले किनारे से ऊपर स्वाइप करें, बीच में रुकें, BattAI: बैटरी स्वास्थ्य स्कोर का कार्ड ऊपर की ओर हटाएँ और ऐप फिर से खोलें। अपना iPhone या iPad रीस्टार्ट करें। डिस्प्ले या प्रतिक्रिया की लगभग सारी अस्थायी दिक्कतें इसी से ठीक हो जाती हैं। App Store → ऊपर दाईं ओर अकाउंट आइकन खोलकर देखें कि BattAI: बैटरी स्वास्थ्य स्कोर का कोई अपडेट है या नहीं: जो गड़बड़ियाँ ठीक हो चुकी हैं वे नए संस्करण के साथ चली जाती हैं। सेटिंग्स → सामान्य → सॉफ़्टवेयर अपडेट में देख लें कि iOS नवीनतम है। अगर टेक्स्ट कटा दिख रहा है या कुछ हिस्से नहीं दिख रहे, तो सेटिंग्स → सुलभता में बड़ा टेक्स्ट और डिस्प्ले ज़ूम कुछ देर के लिए बंद करके दोबारा कोशिश करें।"
+        }
+      ],
+      "faqs": [
+        [
+          "क्या अकाउंट बनाना ज़रूरी है?",
+          "नहीं। जैसा BattAI: बैटरी स्वास्थ्य स्कोर के App Store पेज पर लिखा है, यहाँ न अकाउंट है न साइन-इन — इंस्टॉल करते ही आप शुरू कर सकते हैं।"
+        ],
+        [
+          "क्या इसमें विज्ञापन या तीसरे पक्ष की ट्रैकिंग है?",
+          "नहीं। BattAI: बैटरी स्वास्थ्य स्कोर में तीसरे पक्ष के विज्ञापन नहीं हैं, और ऐप्स के बीच ट्रैक करने वाले एनालिटिक्स या ट्रैकिंग SDK भी नहीं हैं।"
+        ],
+        [
+          "क्या यह सब्सक्रिप्शन है?",
+          "नहीं। BattAI: बैटरी स्वास्थ्य स्कोर में कोई सब्सक्रिप्शन नहीं है। जो हिस्सा सशुल्क है वह एक बार की ख़रीद है, जो अपने आप नवीनीकृत नहीं होती।"
+        ],
+        [
+          "मुफ़्त में क्या-क्या इस्तेमाल कर सकता हूँ?",
+          "बुनियादी सुविधाएँ मुफ़्त हैं। पूरा कॉन्टेंट BattAI: बैटरी स्वास्थ्य स्कोर की एक बार की इन-ऐप ख़रीद से खुलता है, इसलिए फ़ैसला लेने से पहले आप ऐप को इत्मीनान से आज़मा सकते हैं।"
+        ],
+        [
+          "iPhone बदलने पर क्या मेरी ख़रीद बनी रहेगी?",
+          "हाँ। उसी Apple अकाउंट से साइन इन करें और ऐप में «ख़रीदारी पुनर्स्थापित करें» पर टैप करें — आपकी ख़रीद बिना दोबारा भुगतान किए फिर से सक्रिय हो जाएगी।"
+        ],
+        [
+          "नवीनतम संस्करण पर अपडेट कैसे करूँ?",
+          "App Store खोलें, ऊपर दाईं ओर अकाउंट आइकन पर टैप करें, BattAI: बैटरी स्वास्थ्य स्कोर तक स्क्रॉल करें और बटन दिखे तो «अपडेट» पर टैप करें। स्वचालित अपडेट चालू हों तो कुछ करने की ज़रूरत नहीं।"
+        ],
+        [
+          "मुझे कोई गड़बड़ी बतानी है — आपको क्या चाहिए?",
+          "hourstag.app@gmail.com पर डिवाइस मॉडल, iOS संस्करण, ऐप संस्करण, गड़बड़ी दोहराने के चरण और एक स्क्रीनशॉट या स्क्रीन रिकॉर्डिंग भेजें। जानकारी जितनी ठोस होगी, सुधार उतनी ही जल्दी होगा।"
+        ]
+      ],
+      "faq_heading": "सामान्य सवाल",
+      "parent_note": "",
+      "path": "locales/hi/support.html"
+    },
+    {
+      "locale": "hr",
+      "surface": "support",
+      "app_name": "BattAI: Ocjena stanja baterije",
+      "nav": [
+        "Početna",
+        "Podrška",
+        "Privatnost"
+      ],
+      "nav_label": "Jezik",
+      "language_label": "Jezik",
+      "support_label": "Idi na podršku",
+      "contact_heading": "Kontakt",
+      "contact_body": "Pišite nam na hourstag.app@gmail.com . Da vam možemo pomoći već u prvom odgovoru, navedite model uređaja (Postavke → Općenito → Informacije), verziju iOS-a, verziju aplikacije i što ste radili neposredno prije problema. Snimka zaslona ili snimka zaslona u videu ubrzat će stvar još više.",
+      "contact_button": "Kontakt",
+      "footer_note": "Ova stranica ne koristi alate za praćenje, oglase ni analitiku trećih strana.",
+      "title": "Podrška za BattAI: Ocjena stanja baterije — česta pitanja i rješavanje problema",
+      "description": "Ovdje su pitanja koja o aplikaciji BattAI: Ocjena stanja baterije dobivamo najčešće, ono što možete provjeriti sami i najbrži način da razgovarate sa živim čovjekom.",
+      "eyebrow": "Centar za podršku",
+      "heading": "Kontakt",
+      "lead": "Ovdje su pitanja koja o aplikaciji BattAI: Ocjena stanja baterije dobivamo najčešće, ono što možete provjeriti sami i najbrži način da razgovarate sa živim čovjekom.",
+      "sections": [
+        {
+          "heading": "Ako nešto ne radi",
+          "body": "Zatvorite aplikaciju do kraja i otvorite je ponovno: povucite prstom prema gore s donjeg ruba, zastanite na pola, odgurnite karticu BattAI: Ocjena stanja baterije prema gore i pokrenite aplikaciju opet. Ponovno pokrenite iPhone ili iPad. Tako nestanu gotovo svi privremeni problemi s prikazom ili odzivom. Otvorite App Store → ikona računa gore desno i provjerite ima li ažuriranja za BattAI: Ocjena stanja baterije: već ispravljene pogreške nestaju s novom verzijom. Provjerite je li iOS ažuran u Postavke → Općenito → Ažuriranje softvera. Ako je tekst odrezan ili se neki elementi ne vide, nakratko isključite veći tekst i zumiranje zaslona u Postavke → Pristupačnost pa pokušajte ponovno."
+        }
+      ],
+      "faqs": [
+        [
+          "Treba li mi račun?",
+          "Ne. Kako piše na stranici aplikacije BattAI: Ocjena stanja baterije u App Storeu, nema računa ni prijave — možete početi odmah nakon instalacije."
+        ],
+        [
+          "Ima li oglasa ili praćenja trećih strana?",
+          "Nema. BattAI: Ocjena stanja baterije ne sadrži oglase trećih strana ni analitičke ili prateće SDK-ove koji bi vas pratili među aplikacijama."
+        ],
+        [
+          "Je li ovo pretplata?",
+          "Nije. BattAI: Ocjena stanja baterije nema pretplatu. Ono što se plaća jednokratna je kupnja koja se ne obnavlja."
+        ],
+        [
+          "Što mogu koristiti besplatno?",
+          "Osnovne značajke su besplatne. Sve se otključava jednokratnom kupnjom unutar aplikacije BattAI: Ocjena stanja baterije, pa aplikaciju možete u miru isprobati prije odluke."
+        ],
+        [
+          "Ostaje li mi kupnja ako promijenim iPhone?",
+          "Da. Prijavite se istim Apple računom i u aplikaciji dodirnite «Vrati kupnje» — kupnja će ponovno biti aktivna bez novog plaćanja."
+        ],
+        [
+          "Kako se ažurira na najnoviju verziju?",
+          "Otvorite App Store, dodirnite ikonu računa gore desno, dođite do stavke BattAI: Ocjena stanja baterije i dodirnite «Ažuriraj» ako se gumb pojavi. Uz uključena automatska ažuriranja ne morate raditi ništa."
+        ],
+        [
+          "Želim prijaviti pogrešku — što vam treba?",
+          "Pišite na hourstag.app@gmail.com i navedite model uređaja, verziju iOS-a, verziju aplikacije, korake kojima se pogreška izazove te snimku zaslona ili videosnimku. Što konkretnije, to brže ispravljamo."
+        ]
+      ],
+      "faq_heading": "Česta pitanja",
+      "parent_note": "",
+      "path": "locales/hr/support.html"
+    },
+    {
+      "locale": "hu",
+      "surface": "support",
+      "app_name": "BattAI: Akkuállapot",
+      "nav": [
+        "Kezdőlap",
+        "Támogatás",
+        "Adatvédelem"
+      ],
+      "nav_label": "Nyelv",
+      "language_label": "Nyelv",
+      "support_label": "Tovább a támogatáshoz",
+      "contact_heading": "Kapcsolat",
+      "contact_body": "Írj nekünk a hourstag.app@gmail.com címre. Hogy már az első válaszban segíteni tudjunk, add meg a készülék típusát (Beállítások → Általános → Névjegy), az iOS verzióját, az alkalmazás verzióját, és hogy mit csináltál közvetlenül a hiba előtt. Egy képernyőkép vagy képernyőfelvétel még gyorsabbá teszi a megoldást.",
+      "contact_button": "Kapcsolat",
+      "footer_note": "Ez az oldal nem használ harmadik féltől származó nyomkövetőt, hirdetést vagy analitikát.",
+      "title": "BattAI: Akkuállapot támogatás — gyakori kérdések és hibaelhárítás",
+      "description": "Itt vannak a leggyakoribb kérdések a(z) BattAI: Akkuállapot alkalmazásról, amiket magad is ellenőrizhetsz, és a leggyorsabb út ahhoz, hogy élő emberrel beszélj.",
+      "eyebrow": "Ügyfélszolgálat",
+      "heading": "Kapcsolat",
+      "lead": "Itt vannak a leggyakoribb kérdések a(z) BattAI: Akkuállapot alkalmazásról, amiket magad is ellenőrizhetsz, és a leggyorsabb út ahhoz, hogy élő emberrel beszélj.",
+      "sections": [
+        {
+          "heading": "Ha valami nem működik",
+          "body": "Zárd be teljesen az alkalmazást, majd nyisd meg újra: húzz felfelé a képernyő aljáról, állj meg félúton, told fel a(z) BattAI: Akkuállapot kártyáját, aztán indítsd el újra. Indítsd újra az iPhone-t vagy iPadet. Az átmeneti megjelenítési és reagálási hibák szinte mindig így szűnnek meg. Nyisd meg az App Store-t → jobb felül a fiók ikonja, és nézd meg, van-e frissítés a(z) BattAI: Akkuállapot alkalmazáshoz: a már javított hibák az új verzióval eltűnnek. Ellenőrizd, hogy naprakész-e az iOS: Beállítások → Általános → Szoftverfrissítés. Ha a szöveg levágódik vagy elemek nem látszanak, kapcsold ki egy időre a nagyobb szöveget és a képernyőnagyítást a Beállítások → Kisegítő lehetőségek menüben, és próbáld újra."
+        }
+      ],
+      "faqs": [
+        [
+          "Kell hozzá fiók?",
+          "Nem. Ahogy a(z) BattAI: Akkuállapot App Store-oldalán is szerepel, nincs fiók és nincs bejelentkezés — a telepítés után azonnal kezdheted."
+        ],
+        [
+          "Van benne hirdetés vagy külső követés?",
+          "Nincs. A(z) BattAI: Akkuállapot nem tartalmaz harmadik féltől származó hirdetést, sem analitikai vagy alkalmazások közti követésre szolgáló SDK-t."
+        ],
+        [
+          "Ez előfizetés?",
+          "Nem. A(z) BattAI: Akkuállapot alkalmazásban nincs előfizetés. A fizetős rész egyszeri vásárlás, amely nem újul meg."
+        ],
+        [
+          "Mit használhatok ingyen?",
+          "Az alapfunkciók ingyenesek. A teljes tartalmat a(z) BattAI: Akkuállapot egyszeri alkalmazáson belüli vásárlásával oldhatod fel, így nyugodtan kipróbálhatod, mielőtt döntesz."
+        ],
+        [
+          "Megmarad a vásárlásom, ha iPhone-t váltok?",
+          "Igen. Jelentkezz be ugyanazzal az Apple-fiókkal, és koppints az alkalmazásban a «Vásárlások visszaállítása» gombra — a vásárlás újra aktív lesz, fizetned nem kell újra."
+        ],
+        [
+          "Hogyan frissítek a legújabb verzióra?",
+          "Nyisd meg az App Store-t, koppints jobb felül a fiók ikonjára, görgess a(z) BattAI: Akkuállapot sorához, és koppints a «Frissítés» gombra, ha megjelenik. Ha be van kapcsolva az automatikus frissítés, nincs teendőd."
+        ],
+        [
+          "Hibát szeretnék jelenteni — mire van szükségetek?",
+          "Írd meg a hourstag.app@gmail.com címre a készülék típusát, az iOS verzióját, az alkalmazás verzióját, a hiba előidézésének lépéseit, és küldj képernyőképet vagy felvételt. Minél konkrétabb, annál hamarabb javítjuk."
+        ]
+      ],
+      "faq_heading": "Gyakori kérdések",
+      "parent_note": "",
+      "path": "locales/hu/support.html"
+    },
+    {
+      "locale": "id",
+      "surface": "support",
+      "app_name": "BattAI: Skor kesehatan baterai",
+      "nav": [
+        "Beranda",
+        "Dukungan",
+        "Privasi"
+      ],
+      "nav_label": "Bahasa",
+      "language_label": "Bahasa",
+      "support_label": "Ke halaman dukungan",
+      "contact_heading": "Hubungi kami",
+      "contact_body": "Kirim email ke hourstag.app@gmail.com . Agar kami bisa membantu sejak balasan pertama, sebutkan model perangkat Anda (Pengaturan → Umum → Mengenai), versi iOS, versi aplikasi, dan apa yang Anda lakukan tepat sebelum masalah muncul. Tangkapan layar atau rekaman layar membuatnya lebih cepat lagi.",
+      "contact_button": "Hubungi kami",
+      "footer_note": "Situs ini tidak memakai pelacak, iklan, atau analitik pihak ketiga.",
+      "title": "Dukungan BattAI: Skor kesehatan baterai — pertanyaan umum dan pemecahan masalah",
+      "description": "Ini pertanyaan yang paling sering kami terima tentang BattAI: Skor kesehatan baterai, hal-hal yang bisa Anda periksa sendiri, dan cara tercepat berbicara dengan manusia.",
+      "eyebrow": "Pusat dukungan",
+      "heading": "Hubungi kami",
+      "lead": "Ini pertanyaan yang paling sering kami terima tentang BattAI: Skor kesehatan baterai, hal-hal yang bisa Anda periksa sendiri, dan cara tercepat berbicara dengan manusia.",
+      "sections": [
+        {
+          "heading": "Kalau ada yang tidak berfungsi",
+          "body": "Tutup aplikasi sepenuhnya lalu buka lagi: geser ke atas dari tepi bawah layar, berhenti di tengah, dorong kartu BattAI: Skor kesehatan baterai ke atas, lalu buka aplikasinya kembali. Nyalakan ulang iPhone atau iPad. Hampir semua gangguan tampilan atau respons yang sementara hilang dengan cara ini. Buka App Store → ikon akun di kanan atas dan lihat apakah ada pembaruan untuk BattAI: Skor kesehatan baterai: bug yang sudah diperbaiki akan hilang di versi baru. Pastikan iOS sudah yang terbaru di Pengaturan → Umum → Pembaruan Perangkat Lunak. Kalau teks terpotong atau ada elemen yang tidak muncul, matikan sebentar teks lebih besar dan zoom layar di Pengaturan → Aksesibilitas, lalu coba lagi."
+        }
+      ],
+      "faqs": [
+        [
+          "Apakah saya perlu akun?",
+          "Tidak. Seperti tertulis di halaman BattAI: Skor kesehatan baterai di App Store, tidak ada akun maupun proses masuk — Anda bisa langsung mulai setelah memasang aplikasinya."
+        ],
+        [
+          "Apakah ada iklan atau pelacakan pihak ketiga?",
+          "Tidak. BattAI: Skor kesehatan baterai tidak memuat iklan pihak ketiga maupun SDK analitik atau pelacakan antar-aplikasi."
+        ],
+        [
+          "Apakah ini langganan?",
+          "Bukan. BattAI: Skor kesehatan baterai tidak punya langganan. Bagian berbayarnya adalah pembelian sekali bayar yang tidak diperpanjang otomatis."
+        ],
+        [
+          "Apa yang bisa saya pakai gratis?",
+          "Fitur dasarnya gratis. Seluruh isinya dibuka dengan satu kali pembelian dalam aplikasi BattAI: Skor kesehatan baterai, jadi Anda bisa mencoba dulu dengan tenang sebelum memutuskan."
+        ],
+        [
+          "Kalau ganti iPhone, apakah pembelian saya tetap berlaku?",
+          "Ya. Masuk dengan akun Apple yang sama lalu ketuk «Pulihkan Pembelian» di dalam aplikasi — pembelian Anda aktif lagi tanpa perlu bayar ulang."
+        ],
+        [
+          "Bagaimana memperbarui ke versi terbaru?",
+          "Buka App Store, ketuk ikon akun di kanan atas, gulir ke BattAI: Skor kesehatan baterai, lalu ketuk «Perbarui» jika tombolnya muncul. Kalau pembaruan otomatis aktif, Anda tidak perlu melakukan apa pun."
+        ],
+        [
+          "Saya ingin melaporkan bug — apa yang Anda perlukan?",
+          "Kirim ke hourstag.app@gmail.com model perangkat, versi iOS, versi aplikasi, langkah-langkah yang memunculkan masalah, serta tangkapan atau rekaman layar. Makin konkret, makin cepat kami perbaiki."
+        ]
+      ],
+      "faq_heading": "Pertanyaan umum",
+      "parent_note": "",
+      "path": "locales/id/support.html"
+    },
+    {
+      "locale": "it",
+      "surface": "support",
+      "app_name": "BattAI: Salute della batteria",
+      "nav": [
+        "Home",
+        "Assistenza",
+        "Privacy"
+      ],
+      "nav_label": "Lingua",
+      "language_label": "Lingua",
+      "support_label": "Vai all'assistenza",
+      "contact_heading": "Contattaci",
+      "contact_body": "Scrivici a hourstag.app@gmail.com . Per aiutarti già alla prima risposta, indica il modello del dispositivo (Impostazioni → Generali → Info), la versione di iOS, la versione dell'app e che cosa stavi facendo subito prima del problema. Uno screenshot o una registrazione dello schermo velocizzano ancora di più.",
+      "contact_button": "Contattaci",
+      "footer_note": "Questo sito non usa tracker, pubblicità o analytics di terze parti.",
+      "title": "Assistenza BattAI: Salute della batteria — domande frequenti e risoluzione dei problemi",
+      "description": "Qui trovi le domande che ci vengono poste più spesso su BattAI: Salute della batteria, i controlli che puoi fare da solo e il modo più rapido per parlare con una persona.",
+      "eyebrow": "Centro assistenza",
+      "heading": "Contattaci",
+      "lead": "Qui trovi le domande che ci vengono poste più spesso su BattAI: Salute della batteria, i controlli che puoi fare da solo e il modo più rapido per parlare con una persona.",
+      "sections": [
+        {
+          "heading": "Se qualcosa non funziona",
+          "body": "Chiudi del tutto l'app e riaprila: scorri verso l'alto dal bordo inferiore e fermati a metà, trascina in alto la scheda di BattAI: Salute della batteria, poi riaprila. Riavvia iPhone o iPad. Quasi tutti i problemi temporanei di visualizzazione o di risposta si risolvono così. Apri App Store → icona dell'account in alto a destra e controlla se c'è un aggiornamento di BattAI: Salute della batteria: i problemi già corretti spariscono con la versione nuova. Verifica che iOS sia aggiornato in Impostazioni → Generali → Aggiornamento software. Se il testo appare tagliato o alcuni elementi non si vedono, disattiva temporaneamente il testo più grande e lo zoom schermo in Impostazioni → Accessibilità e riprova."
+        }
+      ],
+      "faqs": [
+        [
+          "Serve un account?",
+          "No. Come indicato sulla scheda di BattAI: Salute della batteria su App Store, non servono account né accessi: puoi iniziare subito dopo l'installazione."
+        ],
+        [
+          "Ci sono pubblicità o tracciamento di terze parti?",
+          "No. BattAI: Salute della batteria non contiene pubblicità di terze parti né SDK di analytics o di tracciamento tra app."
+        ],
+        [
+          "È un abbonamento?",
+          "No. BattAI: Salute della batteria non ha abbonamenti. Le parti a pagamento sono un acquisto singolo e non si rinnovano."
+        ],
+        [
+          "Che cosa posso usare gratuitamente?",
+          "Le funzioni di base sono gratuite. Per aprire tutti i contenuti c'è un acquisto in-app una tantum di BattAI: Salute della batteria, così puoi provare l'app con calma prima di decidere."
+        ],
+        [
+          "Se cambio iPhone, l'acquisto resta valido?",
+          "Sì. Accedi con lo stesso account Apple e tocca «Ripristina acquisti» nell'app: il tuo acquisto torna attivo senza pagare di nuovo."
+        ],
+        [
+          "Come aggiorno all'ultima versione?",
+          "Apri App Store, tocca l'icona dell'account in alto a destra, scorri fino a BattAI: Salute della batteria e tocca «Aggiorna» se compare. Con gli aggiornamenti automatici attivi non devi fare nulla."
+        ],
+        [
+          "Voglio segnalare un problema: che cosa serve?",
+          "Scrivi a hourstag.app@gmail.com indicando il modello del dispositivo, la versione di iOS, la versione dell'app, i passaggi per riprodurre il problema e uno screenshot o una registrazione dello schermo. Più dettagli ci dai, più in fretta lo correggiamo."
+        ]
+      ],
+      "faq_heading": "Domande frequenti",
+      "parent_note": "",
+      "path": "locales/it/support.html"
+    },
+    {
+      "locale": "ja",
+      "surface": "support",
+      "app_name": "BattAI: バッテリー状態スコア",
+      "nav": [
+        "ホーム",
+        "サポート",
+        "プライバシー"
+      ],
+      "nav_label": "言語",
+      "language_label": "言語",
+      "support_label": "サポートを見る",
+      "contact_heading": "お問い合わせ",
+      "contact_body": "hourstag.app@gmail.com までメールでご連絡ください。最初の返信でお役に立てるよう、端末の機種名(設定 → 一般 → 情報)、iOS のバージョン、アプリのバージョン、問題が起きる直前に操作した内容を添えていただけると助かります。スクリーンショットや画面収録があるとさらにスムーズです。",
+      "contact_button": "お問い合わせ",
+      "footer_note": "このサイトでは第三者のトラッキング、広告、アナリティクスを使用していません。",
+      "title": "BattAI: バッテリー状態スコア サポート — よくある質問とトラブルシューティング",
+      "description": "BattAI: バッテリー状態スコア について特によくいただく質問と、ご自身で試せる対処法、そして担当者への連絡方法をまとめました。",
+      "eyebrow": "サポートセンター",
+      "heading": "お問い合わせ",
+      "lead": "BattAI: バッテリー状態スコア について特によくいただく質問と、ご自身で試せる対処法、そして担当者への連絡方法をまとめました。",
+      "sections": [
+        {
+          "heading": "うまく動かないとき",
+          "body": "アプリを完全に終了して開き直します。画面下端から上にスワイプして途中で止め、BattAI: バッテリー状態スコア のカードを上にはらってから、もう一度開いてください。 iPhone または iPad を再起動します。表示や動作の一時的な不具合はこれで解消することがほとんどです。 App Store → 右上のアカウントアイコン → BattAI: バッテリー状態スコア にアップデートがないか確認します。修正済みの不具合は新しいバージョンで解決していることがあります。 「設定 → 一般 → ソフトウェアアップデート」で iOS が最新かご確認ください。 表示が崩れる、要素が見えないといった場合は「設定 → アクセシビリティ」の文字を大きくする設定や画面表示のズームを一度オフにしてお試しください。"
+        }
+      ],
+      "faqs": [
+        [
+          "アカウント登録は必要ですか?",
+          "必要ありません。BattAI: バッテリー状態スコア の App Store 製品ページに記載のとおり、アカウントもログインも不要で、インストール後すぐに使い始められます。"
+        ],
+        [
+          "広告や第三者のトラッキングはありますか?",
+          "ありません。BattAI: バッテリー状態スコア には第三者の広告も、第三者のアナリティクスやアプリ間トラッキングの SDK も含まれていません。"
+        ],
+        [
+          "サブスクリプションですか?",
+          "いいえ。BattAI: バッテリー状態スコア にサブスクリプションはありません。有料要素は買い切りで、継続課金は発生しません。"
+        ],
+        [
+          "無料でどこまで使えますか?",
+          "基本の機能は無料でお使いいただけます。すべての内容を利用したい場合は、BattAI: バッテリー状態スコア の買い切りのアプリ内課金でアンロックできます。購入前に無料の範囲で十分に試せます。"
+        ],
+        [
+          "機種変更しても購入は引き継げますか?",
+          "引き継げます。同じ Apple アカウントでサインインし、アプリ内の「購入を復元」をタップすれば、以前の購入が再度有効になります。もう一度お支払いいただく必要はありません。"
+        ],
+        [
+          "最新バージョンに更新するには?",
+          "App Store を開き、右上のアカウントアイコンをタップして下にスクロールし、BattAI: バッテリー状態スコア に「アップデート」が表示されていればタップしてください。自動アップデートを有効にしておくとこの操作は不要になります。"
+        ],
+        [
+          "不具合を報告したいのですが、何を書けばよいですか?",
+          "hourstag.app@gmail.com まで、端末の機種名、iOS のバージョン、アプリのバージョン、再現手順、スクリーンショットまたは画面収録を添えてご連絡ください。情報が具体的なほど修正が早くなります。"
+        ]
+      ],
+      "faq_heading": "よくある質問",
+      "parent_note": "",
+      "path": "locales/ja/support.html"
+    },
+    {
+      "locale": "kn-IN",
+      "surface": "support",
+      "app_name": "BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ",
+      "nav": [
+        "ಮುಖಪುಟ",
+        "ನೆರವು",
+        "ಗೌಪ್ಯತೆ"
+      ],
+      "nav_label": "ಭಾಷೆ",
+      "language_label": "ಭಾಷೆ",
+      "support_label": "ನೆರವಿಗೆ ಹೋಗಿ",
+      "contact_heading": "ಸಂಪರ್ಕ",
+      "contact_body": "ನಮಗೆ hourstag.app@gmail.com ಗೆ ಬರೆಯಿರಿ. ಮೊದಲ ಉತ್ತರದಲ್ಲೇ ನೆರವಾಗಲು, ನಿಮ್ಮ ಸಾಧನದ ಮಾದರಿ (ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಸಾಮಾನ್ಯ → ಕುರಿತು), iOS ಆವೃತ್ತಿ, ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ ಮತ್ತು ಸಮಸ್ಯೆ ಬರುವ ಸ್ವಲ್ಪ ಮೊದಲು ನೀವು ಏನು ಮಾಡುತ್ತಿದ್ದಿರಿ ಎಂಬುದನ್ನು ತಿಳಿಸಿ. ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಅಥವಾ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಇದ್ದರೆ ಪರಿಹಾರ ಇನ್ನಷ್ಟು ಬೇಗ ಸಿಗುತ್ತದೆ.",
+      "contact_button": "ಸಂಪರ್ಕ",
+      "footer_note": "ಈ ತಾಣ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಟ್ರ್ಯಾಕರ್, ಜಾಹೀರಾತು ಅಥವಾ ಅನಲಿಟಿಕ್ಸ್ ಬಳಸುವುದಿಲ್ಲ.",
+      "title": "BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ನೆರವು — ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಸಮಸ್ಯೆ ಪರಿಹಾರ",
+      "description": "BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ಕುರಿತು ನಮಗೆ ಹೆಚ್ಚು ಬರುವ ಪ್ರಶ್ನೆಗಳು, ನೀವೇ ಪರಿಶೀಲಿಸಬಹುದಾದವು, ಮತ್ತು ನಿಜವಾದ ವ್ಯಕ್ತಿಯನ್ನು ತಲುಪುವ ಅತಿ ವೇಗದ ದಾರಿ — ಎಲ್ಲವೂ ಇಲ್ಲಿದೆ.",
+      "eyebrow": "ನೆರವು ಕೇಂದ್ರ",
+      "heading": "ಸಂಪರ್ಕ",
+      "lead": "BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ಕುರಿತು ನಮಗೆ ಹೆಚ್ಚು ಬರುವ ಪ್ರಶ್ನೆಗಳು, ನೀವೇ ಪರಿಶೀಲಿಸಬಹುದಾದವು, ಮತ್ತು ನಿಜವಾದ ವ್ಯಕ್ತಿಯನ್ನು ತಲುಪುವ ಅತಿ ವೇಗದ ದಾರಿ — ಎಲ್ಲವೂ ಇಲ್ಲಿದೆ.",
+      "sections": [
+        {
+          "heading": "ಏನಾದರೂ ಕೆಲಸ ಮಾಡದಿದ್ದರೆ",
+          "body": "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಪೂರ್ಣವಾಗಿ ಮುಚ್ಚಿ ಮತ್ತೆ ತೆರೆಯಿರಿ: ಪರದೆಯ ಕೆಳ ಅಂಚಿನಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ ಮಧ್ಯದಲ್ಲಿ ನಿಲ್ಲಿಸಿ, BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ಕಾರ್ಡ್ ಅನ್ನು ಮೇಲಕ್ಕೆ ತಳ್ಳಿ, ನಂತರ ಅಪ್ಲಿಕೇಶನ್ ಮತ್ತೆ ತೆರೆಯಿರಿ. ನಿಮ್ಮ iPhone ಅಥವಾ iPad ಅನ್ನು ಪುನಃ ಆರಂಭಿಸಿ. ಪ್ರದರ್ಶನ ಅಥವಾ ಸ್ಪಂದನೆಯ ತಾತ್ಕಾಲಿಕ ತೊಂದರೆಗಳು ಬಹುತೇಕ ಎಲ್ಲವೂ ಇದರಿಂದಲೇ ಸರಿಹೋಗುತ್ತವೆ. App Store → ಮೇಲೆ ಬಲಭಾಗದ ಖಾತೆ ಚಿಹ್ನೆ ತೆರೆದು BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ಗೆ ನವೀಕರಣ ಇದೆಯೇ ನೋಡಿ: ಈಗಾಗಲೇ ಸರಿಪಡಿಸಿದ ದೋಷಗಳು ಹೊಸ ಆವೃತ್ತಿಯಲ್ಲಿ ಇರುವುದಿಲ್ಲ. ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಸಾಮಾನ್ಯ → ಸಾಫ್ಟ್‌ವೇರ್ ನವೀಕರಣ ದಲ್ಲಿ iOS ಇತ್ತೀಚಿನದೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಪಠ್ಯ ಕತ್ತರಿಸಿದಂತೆ ಕಂಡರೆ ಅಥವಾ ಕೆಲವು ಭಾಗ ಕಾಣದಿದ್ದರೆ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಪ್ರವೇಶಸಾಧ್ಯತೆ ಯಲ್ಲಿ ದೊಡ್ಡ ಪಠ್ಯ ಮತ್ತು ಪರದೆ ಜೂಮ್ ಅನ್ನು ಸ್ವಲ್ಪ ಹೊತ್ತು ಆಫ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+        }
+      ],
+      "faqs": [
+        [
+          "ಖಾತೆ ಬೇಕೇ?",
+          "ಬೇಡ. BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ನ App Store ಪುಟದಲ್ಲಿ ತಿಳಿಸಿರುವಂತೆ ಇಲ್ಲಿ ಖಾತೆಯೂ ಇಲ್ಲ, ಸೈನ್-ಇನ್ ಕೂಡ ಇಲ್ಲ — ಸ್ಥಾಪಿಸಿದ ಕೂಡಲೇ ಆರಂಭಿಸಬಹುದು."
+        ],
+        [
+          "ಜಾಹೀರಾತು ಅಥವಾ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಟ್ರ್ಯಾಕಿಂಗ್ ಇದೆಯೇ?",
+          "ಇಲ್ಲ. BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ನಲ್ಲಿ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಜಾಹೀರಾತುಗಳಿಲ್ಲ; ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ನಡುವೆ ಟ್ರ್ಯಾಕ್ ಮಾಡುವ ಅನಲಿಟಿಕ್ಸ್ ಅಥವಾ ಟ್ರ್ಯಾಕಿಂಗ್ SDK ಗಳೂ ಇಲ್ಲ."
+        ],
+        [
+          "ಇದು ಚಂದಾದಾರಿಕೆಯೇ?",
+          "ಅಲ್ಲ. BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ನಲ್ಲಿ ಯಾವುದೇ ಚಂದಾದಾರಿಕೆ ಇಲ್ಲ. ಶುಲ್ಕದ ಭಾಗವು ಒಂದೇ ಬಾರಿಯ ಖರೀದಿ; ಅದು ತಾನಾಗಿಯೇ ನವೀಕರಣಗೊಳ್ಳುವುದಿಲ್ಲ."
+        ],
+        [
+          "ಉಚಿತವಾಗಿ ಏನನ್ನು ಬಳಸಬಹುದು?",
+          "ಮೂಲ ಸೌಲಭ್ಯಗಳು ಉಚಿತ. ಪೂರ್ಣ ವಿಷಯವು BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ನಲ್ಲಿ ಒಂದೇ ಬಾರಿಯ ಇನ್-ಆಪ್ ಖರೀದಿಯಿಂದ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ; ಹಾಗಾಗಿ ನಿರ್ಧರಿಸುವ ಮೊದಲು ನಿಧಾನವಾಗಿ ಬಳಸಿ ನೋಡಬಹುದು."
+        ],
+        [
+          "iPhone ಬದಲಾಯಿಸಿದರೆ ನನ್ನ ಖರೀದಿ ಉಳಿಯುತ್ತದೆಯೇ?",
+          "ಹೌದು. ಅದೇ Apple ಖಾತೆಯಿಂದ ಸೈನ್ ಇನ್ ಮಾಡಿ, ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ «ಖರೀದಿಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ» ಒತ್ತಿ — ಮತ್ತೆ ಹಣ ಪಾವತಿಸದೆಯೇ ನಿಮ್ಮ ಖರೀದಿ ಪುನಃ ಸಕ್ರಿಯವಾಗುತ್ತದೆ."
+        ],
+        [
+          "ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ಹೇಗೆ ನವೀಕರಿಸುವುದು?",
+          "App Store ತೆರೆದು, ಮೇಲೆ ಬಲಭಾಗದ ಖಾತೆ ಚಿಹ್ನೆ ಒತ್ತಿ, BattAI: ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ ಅಂಕ ವರೆಗೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ, ಗುಂಡಿ ಕಂಡರೆ «ನವೀಕರಿಸಿ» ಒತ್ತಿ. ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣ ಆನ್ ಇದ್ದರೆ ಏನೂ ಮಾಡಬೇಕಿಲ್ಲ."
+        ],
+        [
+          "ಒಂದು ದೋಷವನ್ನು ತಿಳಿಸಬೇಕು — ನಿಮಗೆ ಏನು ಬೇಕು?",
+          "hourstag.app@gmail.com ಗೆ ಸಾಧನದ ಮಾದರಿ, iOS ಆವೃತ್ತಿ, ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ, ದೋಷ ಮತ್ತೆ ಬರುವ ಹಂತಗಳು ಮತ್ತು ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಅಥವಾ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಕಳುಹಿಸಿ. ವಿವರಣೆ ಎಷ್ಟು ಸ್ಪಷ್ಟವೋ ಸರಿಪಡಿಸುವುದು ಅಷ್ಟು ಬೇಗ."
+        ]
+      ],
+      "faq_heading": "ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು",
+      "parent_note": "",
+      "path": "locales/kn/support.html"
+    },
+    {
+      "locale": "ko",
+      "surface": "support",
+      "app_name": "BattAI: 배터리 상태 점수",
+      "nav": [
+        "홈",
+        "지원",
+        "개인정보 처리방침"
+      ],
+      "nav_label": "언어",
+      "language_label": "언어",
+      "support_label": "지원 안내 보기",
+      "contact_heading": "문의하기",
+      "contact_body": "hourstag.app@gmail.com 로 메일을 보내주세요. 첫 답장에서 바로 도움을 드릴 수 있도록 기기 모델(설정 → 일반 → 정보), iOS 버전, 앱 버전, 문제가 나타나기 직전에 무엇을 했는지 함께 적어주시면 좋습니다. 스크린샷이나 화면 기록이 있으면 훨씬 빠릅니다.",
+      "contact_button": "문의하기",
+      "footer_note": "이 사이트는 제3자 추적, 광고, 분석 도구를 사용하지 않습니다.",
+      "title": "BattAI: 배터리 상태 점수 지원 — 자주 묻는 질문과 문제 해결",
+      "description": "BattAI: 배터리 상태 점수에 대해 가장 많이 받는 질문과 직접 해볼 수 있는 해결 방법, 그리고 담당자에게 연락하는 방법을 정리했습니다.",
+      "eyebrow": "지원 센터",
+      "heading": "문의하기",
+      "lead": "BattAI: 배터리 상태 점수에 대해 가장 많이 받는 질문과 직접 해볼 수 있는 해결 방법, 그리고 담당자에게 연락하는 방법을 정리했습니다.",
+      "sections": [
+        {
+          "heading": "문제 해결",
+          "body": "앱을 완전히 종료한 뒤 다시 엽니다. 화면 아래에서 위로 쓸어올려 잠시 멈춘 다음 BattAI: 배터리 상태 점수 카드를 위로 밀어 닫고 다시 실행하세요. iPhone 또는 iPad를 재시동합니다. 일시적인 표시 오류나 성능 문제는 대부분 이것으로 해결됩니다. App Store → 오른쪽 위 계정 아이콘에서 BattAI: 배터리 상태 점수 업데이트가 있는지 확인하세요. 이미 수정된 문제는 새 버전에서 해결되어 있습니다. 설정 → 일반 → 소프트웨어 업데이트에서 iOS가 최신 버전인지 확인하세요. 화면 요소가 보이지 않거나 배치가 이상하면 설정 → 손쉬운 사용에서 큰 텍스트나 화면 확대를 끄고 다시 확인해 보세요."
+        }
+      ],
+      "faqs": [
+        [
+          "계정을 만들어야 하나요?",
+          "아니요. BattAI: 배터리 상태 점수의 App Store 제품 페이지에 안내된 대로 계정이나 로그인이 필요 없으며, 설치 후 바로 사용할 수 있습니다."
+        ],
+        [
+          "광고나 제3자 추적이 있나요?",
+          "없습니다. BattAI: 배터리 상태 점수에는 제3자 광고도, 제3자 분석이나 앱 간 추적 SDK도 포함되어 있지 않습니다."
+        ],
+        [
+          "구독형인가요?",
+          "아닙니다. BattAI: 배터리 상태 점수에는 구독이 없습니다. 유료 항목은 한 번만 결제하는 방식이며 정기 결제가 발생하지 않습니다."
+        ],
+        [
+          "무료로 어디까지 쓸 수 있나요?",
+          "기본 기능은 무료로 사용할 수 있습니다. 전체 콘텐츠를 사용하려면 BattAI: 배터리 상태 점수의 일회성 인앱 구매로 잠금을 해제하면 됩니다. 구매 전에 무료 범위에서 충분히 사용해 볼 수 있습니다."
+        ],
+        [
+          "기기를 바꿔도 구매 내역이 유지되나요?",
+          "유지됩니다. 같은 Apple 계정으로 로그인한 뒤 앱에서 '구매 복원'을 누르면 이전 구매가 다시 활성화됩니다. 다시 결제할 필요는 없습니다."
+        ],
+        [
+          "최신 버전으로 업데이트하려면?",
+          "App Store를 열고 오른쪽 위 계정 아이콘을 누른 뒤 아래로 스크롤해 BattAI: 배터리 상태 점수에 '업데이트'가 보이면 누르세요. 자동 업데이트를 켜두면 이 과정이 필요 없습니다."
+        ],
+        [
+          "버그를 신고하려면 무엇을 보내야 하나요?",
+          "hourstag.app@gmail.com로 기기 모델, iOS 버전, 앱 버전, 재현 절차, 스크린샷 또는 화면 기록을 보내주세요. 정보가 구체적일수록 더 빨리 고칠 수 있습니다."
+        ]
+      ],
+      "faq_heading": "자주 묻는 질문",
+      "parent_note": "",
+      "path": "locales/ko/support.html"
+    },
+    {
+      "locale": "ml-IN",
+      "surface": "support",
+      "app_name": "BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ",
+      "nav": [
+        "ഹോം",
+        "പിന്തുണ",
+        "സ്വകാര്യത"
+      ],
+      "nav_label": "ഭാഷ",
+      "language_label": "ഭാഷ",
+      "support_label": "പിന്തുണയിലേക്ക്",
+      "contact_heading": "ബന്ധപ്പെടുക",
+      "contact_body": "ഞങ്ങൾക്ക് hourstag.app@gmail.com എന്ന വിലാസത്തിൽ എഴുതുക. ആദ്യ മറുപടിയിൽത്തന്നെ സഹായിക്കാനായി, ഉപകരണ മോഡൽ (ക്രമീകരണങ്ങൾ → പൊതുവായവ → ഇതിനെക്കുറിച്ച്), iOS പതിപ്പ്, ആപ്പ് പതിപ്പ്, പ്രശ്നം വരുന്നതിന് തൊട്ടുമുമ്പ് നിങ്ങൾ എന്തു ചെയ്യുകയായിരുന്നു എന്നിവ അറിയിക്കുക. സ്ക്രീൻഷോട്ടോ സ്ക്രീൻ റെക്കോർഡിംഗോ ഉണ്ടെങ്കിൽ പരിഹാരം കൂടുതൽ വേഗത്തിലാകും.",
+      "contact_button": "ബന്ധപ്പെടുക",
+      "footer_note": "ഈ സൈറ്റ് മൂന്നാം കക്ഷിയുടെ ട്രാക്കറുകളോ പരസ്യങ്ങളോ അനലിറ്റിക്സോ ഉപയോഗിക്കുന്നില്ല.",
+      "title": "BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ പിന്തുണ — പതിവുചോദ്യങ്ങളും പ്രശ്നപരിഹാരവും",
+      "description": "BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-നെക്കുറിച്ച് ഞങ്ങൾക്ക് ഏറ്റവും കൂടുതൽ കിട്ടുന്ന ചോദ്യങ്ങൾ, നിങ്ങൾക്കുതന്നെ പരിശോധിക്കാവുന്നവ, ഒരു യഥാർത്ഥ വ്യക്തിയെ വേഗം ബന്ധപ്പെടാനുള്ള വഴി — എല്ലാം ഇവിടെയുണ്ട്.",
+      "eyebrow": "പിന്തുണാ കേന്ദ്രം",
+      "heading": "ബന്ധപ്പെടുക",
+      "lead": "BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-നെക്കുറിച്ച് ഞങ്ങൾക്ക് ഏറ്റവും കൂടുതൽ കിട്ടുന്ന ചോദ്യങ്ങൾ, നിങ്ങൾക്കുതന്നെ പരിശോധിക്കാവുന്നവ, ഒരു യഥാർത്ഥ വ്യക്തിയെ വേഗം ബന്ധപ്പെടാനുള്ള വഴി — എല്ലാം ഇവിടെയുണ്ട്.",
+      "sections": [
+        {
+          "heading": "എന്തെങ്കിലും പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ",
+          "body": "ആപ്പ് പൂർണമായി അടച്ച് വീണ്ടും തുറക്കുക: സ്ക്രീനിന്റെ താഴത്തെ അറ്റത്തുനിന്ന് മുകളിലേക്ക് സ്വൈപ്പ് ചെയ്ത് പാതിവഴിയിൽ നിർത്തുക, BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ന്റെ കാർഡ് മുകളിലേക്ക് തള്ളുക, പിന്നെ ആപ്പ് വീണ്ടും തുറക്കുക. നിങ്ങളുടെ iPhone അല്ലെങ്കിൽ iPad പുനരാരംഭിക്കുക. പ്രദർശനത്തിലോ പ്രതികരണത്തിലോ ഉള്ള താൽക്കാലിക പ്രശ്നങ്ങൾ മിക്കവാറും എല്ലാം ഇതോടെ മാറും. App Store → മുകളിൽ വലതുവശത്തെ അക്കൗണ്ട് ചിഹ്നം തുറന്ന് BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ന് അപ്ഡേറ്റ് ഉണ്ടോ എന്നു നോക്കുക: ഇതിനകം പരിഹരിച്ച പിഴവുകൾ പുതിയ പതിപ്പിൽ ഉണ്ടാകില്ല. ക്രമീകരണങ്ങൾ → പൊതുവായവ → സോഫ്റ്റ്‌വെയർ അപ്ഡേറ്റ് വഴി iOS ഏറ്റവും പുതിയതാണെന്ന് ഉറപ്പാക്കുക. എഴുത്ത് മുറിഞ്ഞുപോകുകയോ ചില ഭാഗങ്ങൾ കാണാതിരിക്കുകയോ ചെയ്താൽ, ക്രമീകരണങ്ങൾ → പ്രാപ്യത-യിൽ വലിയ എഴുത്തും ഡിസ്പ്ലേ സൂമും കുറച്ചുനേരം ഓഫാക്കി വീണ്ടും ശ്രമിക്കുക."
+        }
+      ],
+      "faqs": [
+        [
+          "അക്കൗണ്ട് വേണോ?",
+          "വേണ്ട. BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ന്റെ App Store പേജിൽ പറയുന്നതുപോലെ ഇവിടെ അക്കൗണ്ടോ സൈൻ-ഇന്നോ ഇല്ല — ഇൻസ്റ്റാൾ ചെയ്ത ഉടനെ തുടങ്ങാം."
+        ],
+        [
+          "പരസ്യങ്ങളോ മൂന്നാം കക്ഷിയുടെ ട്രാക്കിംഗോ ഉണ്ടോ?",
+          "ഇല്ല. BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ൽ മൂന്നാം കക്ഷിയുടെ പരസ്യങ്ങളില്ല; ആപ്പുകൾക്കിടയിൽ പിന്തുടരുന്ന അനലിറ്റിക്സ് അല്ലെങ്കിൽ ട്രാക്കിംഗ് SDK-കളും ഇല്ല."
+        ],
+        [
+          "ഇത് സബ്സ്ക്രിപ്ഷനാണോ?",
+          "അല്ല. BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ൽ സബ്സ്ക്രിപ്ഷൻ ഇല്ല. പണം നൽകേണ്ട ഭാഗം ഒറ്റത്തവണ വാങ്ങലാണ്; അത് സ്വയം പുതുക്കപ്പെടുന്നില്ല."
+        ],
+        [
+          "സൗജന്യമായി എന്തൊക്കെ ഉപയോഗിക്കാം?",
+          "അടിസ്ഥാന സവിശേഷതകൾ സൗജന്യമാണ്. മുഴുവൻ ഉള്ളടക്കവും BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ-ലെ ഒറ്റത്തവണ ഇൻ-ആപ്പ് വാങ്ങലിലൂടെ തുറക്കും; അതിനാൽ തീരുമാനിക്കുംമുമ്പ് സാവധാനം പരീക്ഷിച്ചുനോക്കാം."
+        ],
+        [
+          "iPhone മാറ്റിയാൽ ഞാൻ വാങ്ങിയത് നിലനിൽക്കുമോ?",
+          "നിലനിൽക്കും. അതേ Apple അക്കൗണ്ടിൽ സൈൻ ഇൻ ചെയ്ത് ആപ്പിൽ «വാങ്ങലുകൾ പുനഃസ്ഥാപിക്കുക» അമർത്തുക — വീണ്ടും പണം നൽകാതെ നിങ്ങളുടെ വാങ്ങൽ വീണ്ടും സജീവമാകും."
+        ],
+        [
+          "ഏറ്റവും പുതിയ പതിപ്പിലേക്ക് എങ്ങനെ അപ്ഡേറ്റ് ചെയ്യും?",
+          "App Store തുറന്ന്, മുകളിൽ വലതുവശത്തെ അക്കൗണ്ട് ചിഹ്നം അമർത്തി, BattAI: ബാറ്ററി ആരോഗ്യ സ്കോർ വരെ സ്ക്രോൾ ചെയ്ത്, ബട്ടൺ കാണുന്നുണ്ടെങ്കിൽ «അപ്ഡേറ്റ്» അമർത്തുക. സ്വയമേവയുള്ള അപ്ഡേറ്റ് ഓണാണെങ്കിൽ ഒന്നും ചെയ്യേണ്ടതില്ല."
+        ],
+        [
+          "ഒരു പിഴവ് അറിയിക്കണം — നിങ്ങൾക്ക് എന്താണ് വേണ്ടത്?",
+          "hourstag.app@gmail.com എന്ന വിലാസത്തിലേക്ക് ഉപകരണ മോഡൽ, iOS പതിപ്പ്, ആപ്പ് പതിപ്പ്, പിഴവ് വീണ്ടും വരുത്തുന്ന ഘട്ടങ്ങൾ, സ്ക്രീൻഷോട്ട് അല്ലെങ്കിൽ സ്ക്രീൻ റെക്കോർഡിംഗ് എന്നിവ അയക്കുക. വിവരണം എത്ര വ്യക്തമോ അത്ര വേഗത്തിൽ പരിഹരിക്കാം."
+        ]
+      ],
+      "faq_heading": "പതിവുചോദ്യങ്ങൾ",
+      "parent_note": "",
+      "path": "locales/ml/support.html"
+    },
+    {
+      "locale": "mr-IN",
+      "surface": "support",
+      "app_name": "BattAI: बॅटरी आरोग्य गुण",
+      "nav": [
+        "मुख्यपृष्ठ",
+        "मदत",
+        "गोपनीयता"
+      ],
+      "nav_label": "भाषा",
+      "language_label": "भाषा",
+      "support_label": "मदतीकडे जा",
+      "contact_heading": "संपर्क",
+      "contact_body": "आम्हाला hourstag.app@gmail.com वर लिहा. पहिल्याच उत्तरात मदत करता यावी म्हणून तुमच्या उपकरणाचे मॉडेल (सेटिंग्ज → सामान्य → विषयी), iOS आवृत्ती, अॅप आवृत्ती आणि अडचण येण्याच्या अगदी आधी तुम्ही काय करत होतात हे कळवा. स्क्रीनशॉट किंवा स्क्रीन रेकॉर्डिंग असेल तर आणखी लवकर मार्ग निघतो.",
+      "contact_button": "संपर्क",
+      "footer_note": "हे संकेतस्थळ तिसऱ्या पक्षाचे ट्रॅकर, जाहिराती किंवा अॅनालिटिक्स वापरत नाही.",
+      "title": "BattAI: बॅटरी आरोग्य गुण मदत — नेहमीचे प्रश्न आणि अडचणींवर उपाय",
+      "description": "BattAI: बॅटरी आरोग्य गुण विषयी आम्हाला सर्वाधिक विचारले जाणारे प्रश्न, तुम्ही स्वतः तपासू शकता अशा गोष्टी आणि खऱ्या माणसाशी बोलण्याचा सर्वात जलद मार्ग — सगळे इथे आहे.",
+      "eyebrow": "साहाय्य केंद्र",
+      "heading": "संपर्क",
+      "lead": "BattAI: बॅटरी आरोग्य गुण विषयी आम्हाला सर्वाधिक विचारले जाणारे प्रश्न, तुम्ही स्वतः तपासू शकता अशा गोष्टी आणि खऱ्या माणसाशी बोलण्याचा सर्वात जलद मार्ग — सगळे इथे आहे.",
+      "sections": [
+        {
+          "heading": "काही चालत नसेल तर",
+          "body": "अॅप पूर्णपणे बंद करून पुन्हा उघडा: पडद्याच्या खालच्या कडेपासून वर सरकवा, मध्येच थांबा, BattAI: बॅटरी आरोग्य गुण चे कार्ड वर ढकला आणि अॅप पुन्हा उघडा. तुमचा iPhone किंवा iPad पुन्हा सुरू करा. प्रदर्शन किंवा प्रतिसादाच्या तात्पुरत्या अडचणी जवळपास सगळ्या यानेच दूर होतात. App Store → वर उजवीकडील खाते चिन्ह उघडून पहा की BattAI: बॅटरी आरोग्य गुण चे अद्ययावत आहे का: आधीच दुरुस्त झालेल्या त्रुटी नव्या आवृत्तीत राहत नाहीत. सेटिंग्ज → सामान्य → सॉफ्टवेअर अद्ययावत मध्ये iOS नवीनतम आहे ना ते तपासा. मजकूर कापला जात असेल किंवा काही भाग दिसत नसेल, तर सेटिंग्ज → सुलभता मध्ये मोठा मजकूर आणि डिस्प्ले झूम काही वेळासाठी बंद करून पुन्हा प्रयत्न करा."
+        }
+      ],
+      "faqs": [
+        [
+          "खाते तयार करावे लागते का?",
+          "नाही. BattAI: बॅटरी आरोग्य गुण च्या App Store पानावर लिहिल्याप्रमाणे इथे खाते किंवा साइन-इन काहीच नाही — इन्स्टॉल केल्यावर लगेच सुरुवात करता येते."
+        ],
+        [
+          "यात जाहिराती किंवा तिसऱ्या पक्षाचा मागोवा आहे का?",
+          "नाही. BattAI: बॅटरी आरोग्य गुण मध्ये तिसऱ्या पक्षाच्या जाहिराती नाहीत, तसेच अॅपांदरम्यान मागोवा घेणारे अॅनालिटिक्स किंवा ट्रॅकिंग SDK देखील नाहीत."
+        ],
+        [
+          "ही वर्गणी आहे का?",
+          "नाही. BattAI: बॅटरी आरोग्य गुण मध्ये वर्गणी नाही. जो भाग सशुल्क आहे तो एकदाच करायची खरेदी आहे, ती आपोआप नूतनीकरण होत नाही."
+        ],
+        [
+          "मोफत काय वापरता येते?",
+          "मूलभूत वैशिष्ट्ये मोफत आहेत. संपूर्ण मजकूर BattAI: बॅटरी आरोग्य गुण मधील एकदाच करायच्या इन-अॅप खरेदीने उघडतो, त्यामुळे निर्णय घेण्याआधी अॅप निवांत वापरून पाहता येते."
+        ],
+        [
+          "iPhone बदलल्यावर खरेदी टिकते का?",
+          "होय. त्याच Apple खात्याने साइन इन करा आणि अॅपमध्ये «खरेदी पुनर्संचयित करा» वर टॅप करा — पुन्हा पैसे न भरता तुमची खरेदी पुन्हा सक्रिय होते."
+        ],
+        [
+          "नवीनतम आवृत्तीवर कसे जायचे?",
+          "App Store उघडा, वर उजवीकडील खाते चिन्हावर टॅप करा, BattAI: बॅटरी आरोग्य गुण पर्यंत खाली जा आणि बटण दिसल्यास «अद्ययावत करा» वर टॅप करा. स्वयंचलित अद्ययावत चालू असतील तर काहीच करावे लागत नाही."
+        ],
+        [
+          "मला एक त्रुटी कळवायची आहे — तुम्हाला काय हवे?",
+          "hourstag.app@gmail.com वर उपकरणाचे मॉडेल, iOS आवृत्ती, अॅप आवृत्ती, त्रुटी पुन्हा घडवण्याच्या पायऱ्या आणि स्क्रीनशॉट किंवा स्क्रीन रेकॉर्डिंग पाठवा. वर्णन जितके नेमके, दुरुस्ती तितकी लवकर."
+        ]
+      ],
+      "faq_heading": "नेहमीचे प्रश्न",
+      "parent_note": "",
+      "path": "locales/mr/support.html"
+    },
+    {
+      "locale": "ms",
+      "surface": "support",
+      "app_name": "BattAI: Skor kesihatan bateri",
+      "nav": [
+        "Laman utama",
+        "Sokongan",
+        "Privasi"
+      ],
+      "nav_label": "Bahasa",
+      "language_label": "Bahasa",
+      "support_label": "Ke halaman sokongan",
+      "contact_heading": "Hubungi kami",
+      "contact_body": "E-mel kami di hourstag.app@gmail.com . Supaya kami dapat membantu sejak balasan pertama, nyatakan model peranti anda (Tetapan → Umum → Perihal), versi iOS, versi apl, dan apa yang anda lakukan sejurus sebelum masalah berlaku. Tangkapan skrin atau rakaman skrin menjadikannya lebih pantas lagi.",
+      "contact_button": "Hubungi kami",
+      "footer_note": "Laman ini tidak menggunakan penjejak, iklan atau analitis pihak ketiga.",
+      "title": "Sokongan BattAI: Skor kesihatan bateri — soalan lazim dan penyelesaian masalah",
+      "description": "Ini soalan yang paling kerap kami terima tentang BattAI: Skor kesihatan bateri, perkara yang boleh anda semak sendiri, dan cara terpantas untuk bercakap dengan manusia.",
+      "eyebrow": "Pusat sokongan",
+      "heading": "Hubungi kami",
+      "lead": "Ini soalan yang paling kerap kami terima tentang BattAI: Skor kesihatan bateri, perkara yang boleh anda semak sendiri, dan cara terpantas untuk bercakap dengan manusia.",
+      "sections": [
+        {
+          "heading": "Jika sesuatu tidak berfungsi",
+          "body": "Tutup apl sepenuhnya dan buka semula: leret ke atas dari tepi bawah skrin, berhenti di pertengahan, tolak kad BattAI: Skor kesihatan bateri ke atas, kemudian buka apl sekali lagi. Mulakan semula iPhone atau iPad anda. Hampir semua masalah paparan atau tindak balas yang sementara hilang dengan cara ini. Buka App Store → ikon akaun di kanan atas dan lihat sama ada ada kemas kini untuk BattAI: Skor kesihatan bateri: pepijat yang sudah dibaiki akan hilang dengan versi baharu. Pastikan iOS terkini melalui Tetapan → Umum → Kemas Kini Perisian. Jika teks terpotong atau ada elemen yang tidak kelihatan, matikan seketika teks lebih besar dan zum skrin di Tetapan → Kebolehcapaian, kemudian cuba lagi."
+        }
+      ],
+      "faqs": [
+        [
+          "Adakah saya perlukan akaun?",
+          "Tidak. Seperti tertera pada halaman BattAI: Skor kesihatan bateri dalam App Store, tiada akaun dan tiada log masuk — anda boleh terus mula selepas memasangnya."
+        ],
+        [
+          "Adakah terdapat iklan atau penjejakan pihak ketiga?",
+          "Tidak. BattAI: Skor kesihatan bateri tidak mengandungi iklan pihak ketiga mahupun SDK analitis atau penjejakan merentas apl."
+        ],
+        [
+          "Adakah ini langganan?",
+          "Tidak. BattAI: Skor kesihatan bateri tiada langganan. Bahagian berbayarnya ialah pembelian sekali sahaja yang tidak diperbaharui."
+        ],
+        [
+          "Apa yang boleh saya guna secara percuma?",
+          "Ciri asas adalah percuma. Semua kandungan dibuka dengan satu pembelian dalam apl BattAI: Skor kesihatan bateri, jadi anda boleh mencubanya dengan tenang sebelum membuat keputusan."
+        ],
+        [
+          "Jika saya tukar iPhone, adakah pembelian saya kekal?",
+          "Ya. Log masuk dengan akaun Apple yang sama dan ketik «Pulihkan Pembelian» dalam apl — pembelian anda aktif semula tanpa perlu membayar lagi."
+        ],
+        [
+          "Bagaimana saya kemas kini kepada versi terbaharu?",
+          "Buka App Store, ketik ikon akaun di kanan atas, tatal ke BattAI: Skor kesihatan bateri, dan ketik «Kemas Kini» jika butang itu muncul. Jika kemas kini automatik dihidupkan, anda tidak perlu buat apa-apa."
+        ],
+        [
+          "Saya mahu melaporkan pepijat — apa yang anda perlukan?",
+          "E-mel hourstag.app@gmail.com dengan model peranti, versi iOS, versi apl, langkah untuk menghasilkan semula masalah, serta tangkapan atau rakaman skrin. Lebih terperinci, lebih cepat kami baiki."
+        ]
+      ],
+      "faq_heading": "Soalan lazim",
+      "parent_note": "",
+      "path": "locales/ms/support.html"
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "support",
+      "app_name": "BattAI: Batterijconditiescore",
+      "nav": [
+        "Home",
+        "Support",
+        "Privacy"
+      ],
+      "nav_label": "Taal",
+      "language_label": "Taal",
+      "support_label": "Naar support",
+      "contact_heading": "Contact",
+      "contact_body": "Mail ons op hourstag.app@gmail.com . Om je meteen in de eerste reactie te kunnen helpen: vermeld je toestelmodel (Instellingen → Algemeen → Info), je iOS-versie, de app-versie en wat je deed vlak voordat het misging. Een schermafbeelding of schermopname helpt nog sneller.",
+      "contact_button": "Contact",
+      "footer_note": "Deze site gebruikt geen trackers, advertenties of analytics van derden.",
+      "title": "BattAI: Batterijconditiescore support — veelgestelde vragen en probleemoplossing",
+      "description": "Hier staan de vragen die we het vaakst over BattAI: Batterijconditiescore krijgen, wat je zelf kunt controleren en hoe je het snelst een mens spreekt.",
+      "eyebrow": "Supportcentrum",
+      "heading": "Contact",
+      "lead": "Hier staan de vragen die we het vaakst over BattAI: Batterijconditiescore krijgen, wat je zelf kunt controleren en hoe je het snelst een mens spreekt.",
+      "sections": [
+        {
+          "heading": "Als iets niet werkt",
+          "body": "Sluit de app helemaal af en open hem opnieuw: veeg vanaf de onderrand omhoog, houd halverwege stil, veeg de kaart van BattAI: Batterijconditiescore omhoog en start de app opnieuw. Start je iPhone of iPad opnieuw op. Bijna alle tijdelijke weergave- of reactieproblemen zijn daarmee verholpen. Kijk in de App Store → accountsymbool rechtsboven of er een update van BattAI: Batterijconditiescore klaarstaat: al opgeloste problemen verdwijnen met de nieuwe versie. Controleer bij Instellingen → Algemeen → Software-update of iOS bij is. Zie je afgekapte tekst of ontbrekende elementen? Zet grotere tekst en beeldschermzoom bij Instellingen → Toegankelijkheid tijdelijk uit en probeer het opnieuw."
+        }
+      ],
+      "faqs": [
+        [
+          "Heb ik een account nodig?",
+          "Nee. Zoals op de App Store-pagina van BattAI: Batterijconditiescore staat, zijn er geen accounts of inlogschermen: na de installatie kun je meteen beginnen."
+        ],
+        [
+          "Zitten er advertenties of trackers van derden in?",
+          "Nee. BattAI: Batterijconditiescore bevat geen advertenties van derden en geen analytics- of trackingSDK's die je tussen apps volgen."
+        ],
+        [
+          "Is dit een abonnement?",
+          "Nee. BattAI: Batterijconditiescore heeft geen abonnementen. Wat je betaalt, is een eenmalige aankoop die niet doorloopt."
+        ],
+        [
+          "Wat kan ik gratis gebruiken?",
+          "De basisfuncties zijn gratis. Alles ontgrendel je met één eenmalige in-app aankoop in BattAI: Batterijconditiescore, dus je kunt de app eerst rustig uitproberen."
+        ],
+        [
+          "Blijft mijn aankoop geldig op een nieuwe iPhone?",
+          "Ja. Log in met hetzelfde Apple-account en tik in de app op «Herstel aankopen»; je aankoop wordt weer actief zonder dat je opnieuw betaalt."
+        ],
+        [
+          "Hoe werk ik bij naar de nieuwste versie?",
+          "Open de App Store, tik rechtsboven op je accountsymbool, scrol naar BattAI: Batterijconditiescore en tik op «Werk bij» als dat er staat. Met automatische updates aan hoef je niets te doen."
+        ],
+        [
+          "Ik wil een probleem melden — wat hebben jullie nodig?",
+          "Mail hourstag.app@gmail.com met je toestelmodel, iOS-versie, app-versie, de stappen om het probleem op te roepen en een schermafbeelding of schermopname. Hoe concreter, hoe sneller we het oplossen."
+        ]
+      ],
+      "faq_heading": "Veelgestelde vragen",
+      "parent_note": "",
+      "path": "locales/nl/support.html"
+    },
+    {
+      "locale": "no",
+      "surface": "support",
+      "app_name": "BattAI: Batteritilstand",
+      "nav": [
+        "Hjem",
+        "Kundestøtte",
+        "Personvern"
+      ],
+      "nav_label": "Språk",
+      "language_label": "Språk",
+      "support_label": "Gå til kundestøtte",
+      "contact_heading": "Kontakt",
+      "contact_body": "Skriv til oss på hourstag.app@gmail.com . For at vi skal kunne hjelpe deg allerede i første svar: oppgi gjerne enhetsmodell (Innstillinger → Generelt → Om), iOS-versjon, appversjon og hva du gjorde rett før problemet oppsto. Et skjermbilde eller et skjermopptak gjør det enda raskere.",
+      "contact_button": "Kontakt",
+      "footer_note": "Denne siden bruker ingen sporere, annonser eller analyseverktøy fra tredjeparter.",
+      "title": "BattAI: Batteritilstand kundestøtte — vanlige spørsmål og feilsøking",
+      "description": "Her er spørsmålene vi oftest får om BattAI: Batteritilstand, det du kan sjekke selv, og raskeste vei til å snakke med et menneske.",
+      "eyebrow": "Støttesenter",
+      "heading": "Kontakt",
+      "lead": "Her er spørsmålene vi oftest får om BattAI: Batteritilstand, det du kan sjekke selv, og raskeste vei til å snakke med et menneske.",
+      "sections": [
+        {
+          "heading": "Hvis noe ikke virker",
+          "body": "Lukk appen helt og åpne den på nytt: sveip opp fra bunnen av skjermen, stopp halvveis, dra BattAI: Batteritilstand-kortet oppover, og åpne appen igjen. Start iPhone eller iPad på nytt. Nesten alle midlertidige problemer med visning eller respons løser seg slik. Åpne App Store → kontosymbolet øverst til høyre og se om det finnes en oppdatering av BattAI: Batteritilstand: feil som allerede er rettet, forsvinner med den nye versjonen. Sjekk at iOS er oppdatert under Innstillinger → Generelt → Programvareoppdatering. Hvis tekst blir kuttet eller elementer ikke vises, slå av større tekst og skjermzoom en stund under Innstillinger → Tilgjengelighet, og prøv igjen."
+        }
+      ],
+      "faqs": [
+        [
+          "Trenger jeg en konto?",
+          "Nei. Som det står på BattAI: Batteritilstands side i App Store, finnes verken kontoer eller innlogging: du kan begynne rett etter installasjonen."
+        ],
+        [
+          "Er det annonser eller sporing fra tredjeparter?",
+          "Nei. BattAI: Batteritilstand inneholder verken tredjepartsannonser eller analyse- og sporings-SDK-er som følger deg på tvers av apper."
+        ],
+        [
+          "Er dette et abonnement?",
+          "Nei. BattAI: Batteritilstand har ingen abonnementer. Det som koster, er et engangskjøp som ikke fornyes."
+        ],
+        [
+          "Hva kan jeg bruke gratis?",
+          "Grunnfunksjonene er gratis. Alt innhold låses opp med et engangskjøp i BattAI: Batteritilstand, så du kan prøve appen i ro og mak før du bestemmer deg."
+        ],
+        [
+          "Beholder jeg kjøpet hvis jeg bytter iPhone?",
+          "Ja. Logg inn med den samme Apple-kontoen og trykk på «Gjenopprett kjøp» i appen: kjøpet blir aktivt igjen uten at du betaler på nytt."
+        ],
+        [
+          "Hvordan oppdaterer jeg til nyeste versjon?",
+          "Åpne App Store, trykk på kontosymbolet øverst til høyre, bla ned til BattAI: Batteritilstand og trykk på «Oppdater» hvis knappen er der. Med automatiske oppdateringer på trenger du ikke gjøre noe."
+        ],
+        [
+          "Jeg vil melde fra om en feil — hva trenger dere?",
+          "Skriv til hourstag.app@gmail.com med enhetsmodell, iOS-versjon, appversjon, trinnene som utløser feilen, og et skjermbilde eller skjermopptak. Jo mer konkret, desto raskere kan vi rette det."
+        ]
+      ],
+      "faq_heading": "Vanlige spørsmål",
+      "parent_note": "",
+      "path": "locales/no/support.html"
+    },
+    {
+      "locale": "or-IN",
+      "surface": "support",
+      "app_name": "BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି",
+      "nav": [
+        "ପରିଚୟ",
+        "ସହାୟତା",
+        "ଗୋପନୀୟତା"
+      ],
+      "nav_label": "ଭାଷା",
+      "language_label": "ଭାଷା",
+      "support_label": "ସହାୟତା ଦେଖନ୍ତୁ",
+      "contact_heading": "ଆମ ସହ ଯୋଗାଯୋଗ",
+      "contact_body": "ଆପଣ କ’ଣ କରିଥିଲେ, କ’ଣ ଘଟିଲା, ଡିଭାଇସ୍ ମଡେଲ୍, iOS ଓ App ସଂସ୍କରଣ ଲେଖନ୍ତୁ। ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ପଠାନ୍ତୁ ନାହିଁ।",
+      "contact_button": "ଆମ ସହ ଯୋଗାଯୋଗ",
+      "footer_note": "ଏହି ସ୍ଥିର ସାଇଟ୍‌ରେ ଆନାଲିଟିକ୍ସ, ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକିଂ ନାହିଁ।",
+      "title": "BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ସହାୟତା — ପ୍ରଶ୍ନ ଓ ସମସ୍ୟା ସମାଧାନ",
+      "description": "BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ବିଷୟରେ ସ୍ପଷ୍ଟ ଉତ୍ତର, ନିଜେ ସମାଧାନ କରିବା ପଦକ୍ଷେପ ଓ ଡେଭଲପର୍‌ଙ୍କ ସହ ସିଧା ଯୋଗାଯୋଗ।",
+      "eyebrow": "ସହାୟତା କେନ୍ଦ୍ର",
+      "heading": "ଆମ ସହ ଯୋଗାଯୋଗ",
+      "lead": "BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ବିଷୟରେ ସ୍ପଷ୍ଟ ଉତ୍ତର, ନିଜେ ସମାଧାନ କରିବା ପଦକ୍ଷେପ ଓ ଡେଭଲପର୍‌ଙ୍କ ସହ ସିଧା ଯୋଗାଯୋଗ।",
+      "sections": [
+        {
+          "heading": "ସମସ୍ୟା ସମାଧାନ",
+          "body": "BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତିକୁ ସମ୍ପୂର୍ଣ୍ଣ ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ। ଅସ୍ଥାୟୀ ସିଷ୍ଟମ୍ ସମସ୍ୟା ହଟାଇବାକୁ iPhone କିମ୍ବା iPad ପୁନରାରମ୍ଭ କରନ୍ତୁ। App Store ଖୋଲି BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ପାଇଁ ଥିବା ଅଦ୍ୟତନ ସ୍ଥାପନ କରନ୍ତୁ। ସମସ୍ୟା ରହିଲେ ଇମେଲ୍‌ରେ ଠିକ୍ ପୁନରୁତ୍ପାଦନ ପଦକ୍ଷେପ ଦିଅନ୍ତୁ।"
+        }
+      ],
+      "faqs": [
+        [
+          "ଖାତା ଦରକାର କି?",
+          "ନା। BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ପାଇଁ ଡେଭଲପର୍ ଖାତା କିମ୍ବା ସାଇନ୍-ଇନ୍ ଦରକାର ନାହିଁ।"
+        ],
+        [
+          "ବିଜ୍ଞାପନ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ଟ୍ରାକିଂ ଅଛି କି?",
+          "ନା। BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତିରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, ଆନାଲିଟିକ୍ସ କିମ୍ବା କ୍ରସ୍-App ଟ୍ରାକିଂ SDK ନାହିଁ।"
+        ],
+        [
+          "ଏହା ସଦସ୍ୟତା କି?",
+          "ନା। BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତିର ଯାଞ୍ଚିତ ଦେୟ ବିକଳ୍ପ ଏକଥର କ୍ରୟ; ନିୟମିତ ସଦସ୍ୟତା ନୁହେଁ।"
+        ],
+        [
+          "ଇଚ୍ଛାଧୀନ ଅନଲକ୍ କ’ଣ ଦେଇଥାଏ?",
+          "ମାଗଣା ଅନୁଭବ ବ୍ୟବହାରଯୋଗ୍ୟ ରହେ। ଏକଥର App ଭିତର କ୍ରୟ ଆଗରୁ ଦେଖାଯାଇଥିବା ଅତିରିକ୍ତ ସୁବିଧା ଖୋଲେ।"
+        ],
+        [
+          "କ୍ରୟ କିପରି ପୁନଃସ୍ଥାପନ କରିବି?",
+          "ମୂଳ କ୍ରୟର Apple Account ସହ BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତିରେ କ୍ରୟ ପୁନଃସ୍ଥାପନ ବାଛନ୍ତୁ। କ୍ରୟ ରେକର୍ଡ Apple ପାଖରେ ରହେ।"
+        ],
+        [
+          "App କିପରି ଅଦ୍ୟତନ କରିବି?",
+          "App Store ଖୋଲି ଆପଣଙ୍କ ଖାତା ଚିତ୍ର ଟ୍ୟାପ୍ କରନ୍ତୁ ଓ BattAI: ବ୍ୟାଟେରୀ ସ୍ଥିତି ପାଇଁ ଥିବା ଅଦ୍ୟତନ ସ୍ଥାପନ କରନ୍ତୁ।"
+        ],
+        [
+          "ତ୍ରୁଟି ରିପୋର୍ଟରେ କ’ଣ ଦେବି?",
+          "hourstag.app@gmail.comକୁ ଡିଭାଇସ୍ ମଡେଲ୍, iOS, App ସଂସ୍କରଣ, ପୁନରୁତ୍ପାଦନ ପଦକ୍ଷେପ ଓ ବ୍ୟକ୍ତିଗତ ସୂଚନା ନଥିବା ସ୍କ୍ରିନ୍‌ଶଟ୍ ପଠାନ୍ତୁ।"
+        ]
+      ],
+      "faq_heading": "ସାଧାରଣ ପ୍ରଶ୍ନ",
+      "parent_note": "",
+      "path": "locales/or/support.html"
+    },
+    {
+      "locale": "pa-IN",
+      "surface": "support",
+      "app_name": "BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ",
+      "nav": [
+        "ਮੁੱਖ ਪੰਨਾ",
+        "ਸਹਾਇਤਾ",
+        "ਨਿੱਜਤਾ"
+      ],
+      "nav_label": "ਭਾਸ਼ਾ",
+      "language_label": "ਭਾਸ਼ਾ",
+      "support_label": "ਸਹਾਇਤਾ ਵੱਲ ਜਾਓ",
+      "contact_heading": "ਸੰਪਰਕ",
+      "contact_body": "ਸਾਨੂੰ hourstag.app@gmail.com ਉੱਤੇ ਲਿਖੋ। ਪਹਿਲੇ ਹੀ ਜਵਾਬ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕੀਏ, ਇਸ ਲਈ ਆਪਣੇ ਡਿਵਾਈਸ ਦਾ ਮਾਡਲ (ਸੈਟਿੰਗਜ਼ → ਆਮ → ਬਾਰੇ), iOS ਵਰਜਨ, ਐਪ ਵਰਜਨ ਅਤੇ ਸਮੱਸਿਆ ਤੋਂ ਐਨ ਪਹਿਲਾਂ ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਸੀ, ਜ਼ਰੂਰ ਦੱਸੋ। ਸਕਰੀਨਸ਼ਾਟ ਜਾਂ ਸਕਰੀਨ ਰਿਕਾਰਡਿੰਗ ਹੋਵੇ ਤਾਂ ਹੱਲ ਹੋਰ ਤੇਜ਼ ਨਿਕਲਦਾ ਹੈ।",
+      "contact_button": "ਸੰਪਰਕ",
+      "footer_note": "ਇਹ ਸਾਈਟ ਕਿਸੇ ਤੀਜੀ ਧਿਰ ਦੇ ਟ੍ਰੈਕਰ, ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਐਨਾਲਿਟਿਕਸ ਨਹੀਂ ਵਰਤਦੀ।",
+      "title": "BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਸਹਾਇਤਾ — ਆਮ ਸਵਾਲ ਅਤੇ ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੱਲ",
+      "description": "BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਬਾਰੇ ਸਾਨੂੰ ਸਭ ਤੋਂ ਵੱਧ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ, ਜੋ ਤੁਸੀਂ ਆਪ ਜਾਂਚ ਸਕਦੇ ਹੋ, ਅਤੇ ਕਿਸੇ ਅਸਲ ਬੰਦੇ ਤੱਕ ਪਹੁੰਚਣ ਦਾ ਸਭ ਤੋਂ ਤੇਜ਼ ਰਾਹ — ਸਭ ਇੱਥੇ ਹੈ।",
+      "eyebrow": "ਸਹਾਇਤਾ ਕੇਂਦਰ",
+      "heading": "ਸੰਪਰਕ",
+      "lead": "BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਬਾਰੇ ਸਾਨੂੰ ਸਭ ਤੋਂ ਵੱਧ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ, ਜੋ ਤੁਸੀਂ ਆਪ ਜਾਂਚ ਸਕਦੇ ਹੋ, ਅਤੇ ਕਿਸੇ ਅਸਲ ਬੰਦੇ ਤੱਕ ਪਹੁੰਚਣ ਦਾ ਸਭ ਤੋਂ ਤੇਜ਼ ਰਾਹ — ਸਭ ਇੱਥੇ ਹੈ।",
+      "sections": [
+        {
+          "heading": "ਜੇ ਕੁਝ ਕੰਮ ਨਾ ਕਰੇ",
+          "body": "ਐਪ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬੰਦ ਕਰ ਕੇ ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ: ਸਕਰੀਨ ਦੇ ਹੇਠਲੇ ਕਿਨਾਰੇ ਤੋਂ ਉੱਤੇ ਵੱਲ ਸਵਾਈਪ ਕਰੋ, ਵਿਚਕਾਰ ਰੁਕੋ, BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਦਾ ਕਾਰਡ ਉੱਤੇ ਵੱਲ ਸਰਕਾਓ ਅਤੇ ਐਪ ਫਿਰ ਖੋਲ੍ਹੋ। ਆਪਣਾ iPhone ਜਾਂ iPad ਮੁੜ ਚਾਲੂ ਕਰੋ। ਵਿਖਾਵੇ ਜਾਂ ਹੁੰਗਾਰੇ ਦੀਆਂ ਲਗਭਗ ਸਾਰੀਆਂ ਆਰਜ਼ੀ ਦਿੱਕਤਾਂ ਇਸੇ ਨਾਲ ਹਟ ਜਾਂਦੀਆਂ ਹਨ। App Store → ਉੱਤੇ ਸੱਜੇ ਪਾਸੇ ਖਾਤੇ ਦੇ ਨਿਸ਼ਾਨ ਵਿੱਚ ਜਾ ਕੇ ਵੇਖੋ ਕਿ BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਦਾ ਕੋਈ ਅੱਪਡੇਟ ਹੈ ਜਾਂ ਨਹੀਂ: ਜਿਹੜੀਆਂ ਖ਼ਾਮੀਆਂ ਠੀਕ ਹੋ ਚੁੱਕੀਆਂ ਹਨ ਉਹ ਨਵੇਂ ਵਰਜਨ ਵਿੱਚ ਨਹੀਂ ਰਹਿੰਦੀਆਂ। ਸੈਟਿੰਗਜ਼ → ਆਮ → ਸਾਫ਼ਟਵੇਅਰ ਅੱਪਡੇਟ ਵਿੱਚ ਵੇਖ ਲਵੋ ਕਿ iOS ਨਵੀਨਤਮ ਹੈ। ਜੇ ਲਿਖਤ ਕੱਟੀ ਦਿਸਦੀ ਹੈ ਜਾਂ ਕੁਝ ਹਿੱਸੇ ਨਹੀਂ ਦਿਸਦੇ, ਤਾਂ ਸੈਟਿੰਗਜ਼ → ਪਹੁੰਚਯੋਗਤਾ ਵਿੱਚ ਵੱਡੀ ਲਿਖਤ ਅਤੇ ਡਿਸਪਲੇ ਜ਼ੂਮ ਕੁਝ ਦੇਰ ਲਈ ਬੰਦ ਕਰ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        }
+      ],
+      "faqs": [
+        [
+          "ਕੀ ਖਾਤਾ ਬਣਾਉਣਾ ਪੈਂਦਾ ਹੈ?",
+          "ਨਹੀਂ। ਜਿਵੇਂ BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਦੇ App Store ਪੰਨੇ ਉੱਤੇ ਲਿਖਿਆ ਹੈ, ਇੱਥੇ ਨਾ ਖਾਤਾ ਹੈ ਨਾ ਸਾਈਨ-ਇਨ — ਇੰਸਟਾਲ ਕਰਦਿਆਂ ਹੀ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ।"
+        ],
+        [
+          "ਕੀ ਇਸ ਵਿੱਚ ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਤੀਜੀ ਧਿਰ ਦੀ ਟ੍ਰੈਕਿੰਗ ਹੈ?",
+          "ਨਹੀਂ। BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਵਿੱਚ ਤੀਜੀ ਧਿਰ ਦੇ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ ਹਨ, ਅਤੇ ਐਪਾਂ ਵਿਚਕਾਰ ਟ੍ਰੈਕ ਕਰਨ ਵਾਲੇ ਐਨਾਲਿਟਿਕਸ ਜਾਂ ਟ੍ਰੈਕਿੰਗ SDK ਵੀ ਨਹੀਂ ਹਨ।"
+        ],
+        [
+          "ਕੀ ਇਹ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਹੈ?",
+          "ਨਹੀਂ। BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਵਿੱਚ ਕੋਈ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਨਹੀਂ। ਜਿਹੜਾ ਹਿੱਸਾ ਅਦਾਇਗੀ ਵਾਲਾ ਹੈ ਉਹ ਇੱਕ ਵਾਰ ਦੀ ਖ਼ਰੀਦ ਹੈ, ਜੋ ਆਪਣੇ ਆਪ ਨਵੀਂ ਨਹੀਂ ਹੁੰਦੀ।"
+        ],
+        [
+          "ਮੁਫ਼ਤ ਵਿੱਚ ਕੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ?",
+          "ਮੁੱਢਲੀਆਂ ਖ਼ੂਬੀਆਂ ਮੁਫ਼ਤ ਹਨ। ਪੂਰੀ ਸਮੱਗਰੀ BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਦੀ ਇੱਕ ਵਾਰ ਦੀ ਇਨ-ਐਪ ਖ਼ਰੀਦ ਨਾਲ ਖੁੱਲ੍ਹਦੀ ਹੈ, ਇਸ ਲਈ ਫ਼ੈਸਲਾ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਸੀਂ ਐਪ ਸਹਿਜੇ ਅਜ਼ਮਾ ਸਕਦੇ ਹੋ।"
+        ],
+        [
+          "iPhone ਬਦਲਣ ਉੱਤੇ ਕੀ ਮੇਰੀ ਖ਼ਰੀਦ ਰਹਿੰਦੀ ਹੈ?",
+          "ਹਾਂ। ਉਸੇ Apple ਖਾਤੇ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਐਪ ਵਿੱਚ «ਖ਼ਰੀਦਾਂ ਬਹਾਲ ਕਰੋ» ਉੱਤੇ ਟੈਪ ਕਰੋ — ਦੁਬਾਰਾ ਪੈਸੇ ਦਿੱਤੇ ਬਿਨਾਂ ਤੁਹਾਡੀ ਖ਼ਰੀਦ ਫਿਰ ਚਾਲੂ ਹੋ ਜਾਂਦੀ ਹੈ।"
+        ],
+        [
+          "ਨਵੀਨਤਮ ਵਰਜਨ ਉੱਤੇ ਕਿਵੇਂ ਜਾਵਾਂ?",
+          "App Store ਖੋਲ੍ਹੋ, ਉੱਤੇ ਸੱਜੇ ਪਾਸੇ ਖਾਤੇ ਦੇ ਨਿਸ਼ਾਨ ਉੱਤੇ ਟੈਪ ਕਰੋ, BattAI: ਬੈਟਰੀ ਸਿਹਤ ਸਕੋਰ ਤੱਕ ਹੇਠਾਂ ਜਾਓ ਅਤੇ ਬਟਨ ਦਿਸੇ ਤਾਂ «ਅੱਪਡੇਟ» ਉੱਤੇ ਟੈਪ ਕਰੋ। ਆਪਣੇ-ਆਪ ਅੱਪਡੇਟ ਚਾਲੂ ਹੋਣ ਤਾਂ ਕੁਝ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।"
+        ],
+        [
+          "ਮੈਂ ਕੋਈ ਖ਼ਾਮੀ ਦੱਸਣੀ ਹੈ — ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ?",
+          "hourstag.app@gmail.com ਉੱਤੇ ਡਿਵਾਈਸ ਮਾਡਲ, iOS ਵਰਜਨ, ਐਪ ਵਰਜਨ, ਖ਼ਾਮੀ ਦੁਬਾਰਾ ਵਾਪਰਨ ਦੇ ਕਦਮ ਅਤੇ ਸਕਰੀਨਸ਼ਾਟ ਜਾਂ ਸਕਰੀਨ ਰਿਕਾਰਡਿੰਗ ਭੇਜੋ। ਵੇਰਵਾ ਜਿੰਨਾ ਸਾਫ਼, ਸੁਧਾਰ ਓਨਾ ਛੇਤੀ।"
+        ]
+      ],
+      "faq_heading": "ਆਮ ਸਵਾਲ",
+      "parent_note": "",
+      "path": "locales/pa/support.html"
+    },
+    {
+      "locale": "pl",
+      "surface": "support",
+      "app_name": "BattAI: Wynik kondycji baterii",
+      "nav": [
+        "Start",
+        "Pomoc techniczna",
+        "Prywatność"
+      ],
+      "nav_label": "Język",
+      "language_label": "Język",
+      "support_label": "Przejdź do pomocy",
+      "contact_heading": "Kontakt",
+      "contact_body": "Napisz do nas na adres hourstag.app@gmail.com . Żebyśmy mogli pomóc już w pierwszej odpowiedzi, podaj model urządzenia (Ustawienia → Ogólne → To urządzenie), wersję iOS, wersję aplikacji oraz to, co robiłeś tuż przed wystąpieniem problemu. Zrzut ekranu lub nagranie ekranu przyspieszy sprawę jeszcze bardziej.",
+      "contact_button": "Kontakt",
+      "footer_note": "Ta strona nie korzysta z zewnętrznych narzędzi śledzących, reklam ani analityki.",
+      "title": "BattAI: Wynik kondycji baterii — pomoc, najczęstsze pytania i rozwiązywanie problemów",
+      "description": "Zebraliśmy tu pytania, które najczęściej dostajemy w sprawie aplikacji BattAI: Wynik kondycji baterii, rzeczy, które możesz sprawdzić samodzielnie, oraz najszybszą drogę do kontaktu z człowiekiem.",
+      "eyebrow": "Centrum pomocy",
+      "heading": "Kontakt",
+      "lead": "Zebraliśmy tu pytania, które najczęściej dostajemy w sprawie aplikacji BattAI: Wynik kondycji baterii, rzeczy, które możesz sprawdzić samodzielnie, oraz najszybszą drogę do kontaktu z człowiekiem.",
+      "sections": [
+        {
+          "heading": "Gdy coś nie działa",
+          "body": "Zamknij aplikację całkowicie i otwórz ją ponownie: przesuń palcem w górę od dolnej krawędzi, zatrzymaj w połowie, przesuń kartę BattAI: Wynik kondycji baterii w górę i uruchom aplikację jeszcze raz. Uruchom ponownie iPhone'a lub iPada. W ten sposób znikają niemal wszystkie chwilowe problemy z wyświetlaniem lub reagowaniem. Otwórz App Store → ikona konta w prawym górnym rogu i sprawdź, czy jest aktualizacja aplikacji BattAI: Wynik kondycji baterii: naprawione już błędy znikają wraz z nową wersją. Sprawdź, czy iOS jest aktualny w Ustawienia → Ogólne → Uaktualnienia. Jeśli tekst jest ucięty albo elementy się nie pokazują, wyłącz na chwilę większy tekst i powiększenie ekranu w Ustawienia → Dostępność i spróbuj ponownie."
+        }
+      ],
+      "faqs": [
+        [
+          "Czy potrzebuję konta?",
+          "Nie. Jak podaje strona aplikacji BattAI: Wynik kondycji baterii w App Store, nie ma tu kont ani logowania — możesz zacząć od razu po instalacji."
+        ],
+        [
+          "Czy są reklamy albo śledzenie przez firmy trzecie?",
+          "Nie. BattAI: Wynik kondycji baterii nie zawiera reklam firm trzecich ani zestawów SDK do analityki czy śledzenia między aplikacjami."
+        ],
+        [
+          "Czy to subskrypcja?",
+          "Nie. BattAI: Wynik kondycji baterii nie ma subskrypcji. Płatna część to jednorazowy zakup, który się nie odnawia."
+        ],
+        [
+          "Z czego mogę korzystać bezpłatnie?",
+          "Podstawowe funkcje są bezpłatne. Całość odblokowuje jednorazowy zakup w aplikacji BattAI: Wynik kondycji baterii, więc możesz spokojnie przetestować aplikację przed decyzją."
+        ],
+        [
+          "Czy po zmianie iPhone'a zachowam zakup?",
+          "Tak. Zaloguj się na to samo konto Apple i dotknij w aplikacji «Przywróć zakupy» — zakup znów będzie aktywny bez ponownej płatności."
+        ],
+        [
+          "Jak zaktualizować do najnowszej wersji?",
+          "Otwórz App Store, dotknij ikony konta w prawym górnym rogu, przewiń do pozycji BattAI: Wynik kondycji baterii i dotknij «Uaktualnij», jeśli przycisk się pojawi. Przy włączonych automatycznych aktualizacjach nie musisz robić nic."
+        ],
+        [
+          "Chcę zgłosić błąd — czego potrzebujecie?",
+          "Napisz na hourstag.app@gmail.com, podając model urządzenia, wersję iOS, wersję aplikacji, kroki prowadzące do błędu oraz zrzut ekranu lub nagranie. Im konkretniej, tym szybciej to naprawimy."
+        ]
+      ],
+      "faq_heading": "Najczęstsze pytania",
+      "parent_note": "",
+      "path": "locales/pl/support.html"
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "support",
+      "app_name": "BattAI: Saúde da bateria",
+      "nav": [
+        "Início",
+        "Suporte",
+        "Privacidade"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir para o suporte",
+      "contact_heading": "Fale com a gente",
+      "contact_body": "Escreva para hourstag.app@gmail.com . Para que a primeira resposta já ajude, informe o modelo do aparelho (Ajustes → Geral → Sobre), a versão do iOS, a versão do app e o que você tocou logo antes do problema. Capturas de tela ou uma gravação de tela ajudam bastante.",
+      "contact_button": "Fale com a gente",
+      "footer_note": "Este site não usa rastreamento, publicidade ou análise de terceiros.",
+      "title": "Suporte do BattAI: Saúde da bateria — Perguntas frequentes e solução de problemas",
+      "description": "As perguntas mais comuns sobre o BattAI: Saúde da bateria, o que você mesmo pode testar e como falar com uma pessoa de verdade.",
+      "eyebrow": "Central de suporte",
+      "heading": "Fale com a gente",
+      "lead": "As perguntas mais comuns sobre o BattAI: Saúde da bateria, o que você mesmo pode testar e como falar com uma pessoa de verdade.",
+      "sections": [
+        {
+          "heading": "Solução de problemas",
+          "body": "Feche o app por completo e abra de novo: deslize de baixo para cima, segure um instante, arraste o cartão do BattAI: Saúde da bateria para cima e abra novamente. Reinicie o iPhone ou iPad. Isso resolve a maior parte das falhas temporárias de exibição ou desempenho. Na App Store, toque na sua foto de perfil no canto superior direito e veja se há atualização do BattAI: Saúde da bateria: problemas já corrigidos são resolvidos na versão nova. Confira em Ajustes → Geral → Atualização de Software se o iOS está em dia. Se sumirem elementos ou o layout ficar torto, desative temporariamente o texto maior ou o zoom de tela em Ajustes → Acessibilidade."
+        }
+      ],
+      "faqs": [
+        [
+          "Preciso criar uma conta?",
+          "Não. A página na App Store informa que o BattAI: Saúde da bateria não exige conta nem login: dá para começar logo depois de instalar."
+        ],
+        [
+          "Tem publicidade ou rastreamento de terceiros?",
+          "Não. O BattAI: Saúde da bateria não tem publicidade de terceiros nem SDKs de análise ou rastreamento entre apps."
+        ],
+        [
+          "É assinatura?",
+          "Não. O BattAI: Saúde da bateria não tem assinatura. O conteúdo pago é uma compra única, sem cobrança recorrente."
+        ],
+        [
+          "Até onde dá para usar de graça?",
+          "Os recursos básicos são gratuitos. Para liberar tudo, o BattAI: Saúde da bateria oferece uma compra única no app. Você pode testar a parte gratuita com calma antes de comprar."
+        ],
+        [
+          "Minha compra continua valendo se eu trocar de aparelho?",
+          "Continua. Entre com a mesma conta Apple e toque em “Restaurar compras” no app: a compra é reativada sem pagar de novo."
+        ],
+        [
+          "Como atualizo para a versão mais recente?",
+          "Abra a App Store, toque na sua foto de perfil no canto superior direito, role até o BattAI: Saúde da bateria e toque em “Atualizar”, se aparecer. Com as atualizações automáticas ligadas, esse passo nem é preciso."
+        ],
+        [
+          "Quero relatar um erro: o que devo enviar?",
+          "Escreva para hourstag.app@gmail.com com o modelo do aparelho, a versão do iOS, a versão do app, os passos para reproduzir e uma captura ou gravação de tela. Quanto mais específico, mais rápido sai a correção."
+        ]
+      ],
+      "faq_heading": "Perguntas frequentes",
+      "parent_note": "",
+      "path": "locales/pt-BR/support.html"
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "support",
+      "app_name": "BattAI: Saúde da bateria",
+      "nav": [
+        "Início",
+        "Apoio",
+        "Privacidade"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir para o apoio",
+      "contact_heading": "Contacto",
+      "contact_body": "Escreva-nos para hourstag.app@gmail.com . Para o ajudarmos logo na primeira resposta, indique o modelo do dispositivo (Definições → Geral → Informações), a versão do iOS, a versão da aplicação e o que estava a fazer imediatamente antes do problema. Uma captura ou gravação de ecrã torna tudo ainda mais rápido.",
+      "contact_button": "Contacto",
+      "footer_note": "Este site não usa rastreadores, publicidade nem análises de terceiros.",
+      "title": "Apoio da BattAI: Saúde da bateria — perguntas frequentes e resolução de problemas",
+      "description": "Aqui estão as perguntas que mais nos fazem sobre a BattAI: Saúde da bateria, o que pode verificar por si e a forma mais rápida de falar com uma pessoa.",
+      "eyebrow": "Centro de apoio",
+      "heading": "Contacto",
+      "lead": "Aqui estão as perguntas que mais nos fazem sobre a BattAI: Saúde da bateria, o que pode verificar por si e a forma mais rápida de falar com uma pessoa.",
+      "sections": [
+        {
+          "heading": "Se algo não funcionar",
+          "body": "Feche totalmente a aplicação e volte a abri-la: deslize para cima a partir da margem inferior, pare a meio, arraste para cima o cartão da BattAI: Saúde da bateria e abra-a de novo. Reinicie o iPhone ou o iPad. Quase todas as falhas temporárias de apresentação ou de resposta ficam resolvidas assim. Abra a App Store → ícone da conta no canto superior direito e veja se existe uma atualização da BattAI: Saúde da bateria: os erros já corrigidos desaparecem com a versão nova. Confirme se o iOS está atualizado em Definições → Geral → Atualização de software. Se vir texto cortado ou elementos que não aparecem, desative por momentos o texto maior e o zoom do ecrã em Definições → Acessibilidade e tente novamente."
+        }
+      ],
+      "faqs": [
+        [
+          "É preciso criar conta?",
+          "Não. Tal como indica a página da BattAI: Saúde da bateria na App Store, não há contas nem início de sessão: pode começar logo após instalar."
+        ],
+        [
+          "Tem publicidade ou rastreio de terceiros?",
+          "Não. A BattAI: Saúde da bateria não inclui publicidade de terceiros nem SDK de análise ou de rastreio entre aplicações."
+        ],
+        [
+          "É uma subscrição?",
+          "Não. A BattAI: Saúde da bateria não tem subscrições. A parte paga é uma compra única que não se renova."
+        ],
+        [
+          "O que posso usar gratuitamente?",
+          "As funcionalidades base são gratuitas. Para desbloquear tudo existe uma compra dentro da aplicação, única, na BattAI: Saúde da bateria, por isso pode experimentar com calma antes de decidir."
+        ],
+        [
+          "Se mudar de iPhone, mantenho a compra?",
+          "Sim. Inicie sessão com o mesmo início de sessão Apple e toque em «Restaurar compras» dentro da aplicação: a compra volta a ficar ativa sem pagar de novo."
+        ],
+        [
+          "Como atualizo para a versão mais recente?",
+          "Abra a App Store, toque no ícone da conta no canto superior direito, desça até à BattAI: Saúde da bateria e toque em «Atualizar», se aparecer. Com as atualizações automáticas ativas não precisa de fazer nada."
+        ],
+        [
+          "Quero reportar um problema — do que precisam?",
+          "Escreva para hourstag.app@gmail.com com o modelo do dispositivo, a versão do iOS, a versão da aplicação, os passos para reproduzir e uma captura ou gravação de ecrã. Quanto mais concreto, mais depressa corrigimos."
+        ]
+      ],
+      "faq_heading": "Perguntas frequentes",
+      "parent_note": "",
+      "path": "locales/pt-PT/support.html"
+    },
+    {
+      "locale": "ro",
+      "surface": "support",
+      "app_name": "BattAI: Sănătatea bateriei",
+      "nav": [
+        "Acasă",
+        "Asistență",
+        "Confidențialitate"
+      ],
+      "nav_label": "Limbă",
+      "language_label": "Limbă",
+      "support_label": "Mergi la asistență",
+      "contact_heading": "Contact",
+      "contact_body": "Scrie-ne la hourstag.app@gmail.com . Ca să te putem ajuta chiar din primul răspuns, spune-ne modelul dispozitivului (Configurări → General → Despre), versiunea de iOS, versiunea aplicației și ce făceai chiar înainte de problemă. O captură sau o înregistrare de ecran grăbește și mai mult lucrurile.",
+      "contact_button": "Contact",
+      "footer_note": "Acest site nu folosește instrumente de urmărire, reclame sau analize de la terți.",
+      "title": "Asistență BattAI: Sănătatea bateriei — întrebări frecvente și depanare",
+      "description": "Aici sunt întrebările pe care le primim cel mai des despre BattAI: Sănătatea bateriei, verificările pe care le poți face singur și cea mai rapidă cale de a vorbi cu un om.",
+      "eyebrow": "Centru de asistență",
+      "heading": "Contact",
+      "lead": "Aici sunt întrebările pe care le primim cel mai des despre BattAI: Sănătatea bateriei, verificările pe care le poți face singur și cea mai rapidă cale de a vorbi cu un om.",
+      "sections": [
+        {
+          "heading": "Dacă ceva nu funcționează",
+          "body": "Închide complet aplicația și deschide-o din nou: glisează în sus de la marginea de jos, oprește-te la jumătate, aruncă în sus fișa BattAI: Sănătatea bateriei și deschide aplicația iar. Repornește iPhone-ul sau iPad-ul. Aproape toate problemele temporare de afișare sau de reacție dispar așa. Deschide App Store → pictograma contului din dreapta sus și vezi dacă există o actualizare pentru BattAI: Sănătatea bateriei: erorile deja corectate dispar odată cu versiunea nouă. Verifică dacă iOS este la zi în Configurări → General → Actualizare software. Dacă textul apare tăiat sau unele elemente lipsesc, dezactivează pentru o clipă textul mai mare și zoomul ecranului din Configurări → Accesibilitate și încearcă din nou."
+        }
+      ],
+      "faqs": [
+        [
+          "Am nevoie de un cont?",
+          "Nu. Așa cum scrie pe pagina BattAI: Sănătatea bateriei din App Store, nu există conturi și nici autentificare — poți începe imediat după instalare."
+        ],
+        [
+          "Există reclame sau urmărire de la terți?",
+          "Nu. BattAI: Sănătatea bateriei nu conține reclame de la terți și nici SDK-uri de analiză sau de urmărire între aplicații."
+        ],
+        [
+          "Este un abonament?",
+          "Nu. BattAI: Sănătatea bateriei nu are abonamente. Partea contra cost este o achiziție unică ce nu se reînnoiește."
+        ],
+        [
+          "Ce pot folosi gratuit?",
+          "Funcțiile de bază sunt gratuite. Tot conținutul se deblochează printr-o achiziție unică în aplicația BattAI: Sănătatea bateriei, așa că poți încerca aplicația în tihnă înainte să decizi."
+        ],
+        [
+          "Dacă schimb iPhone-ul, îmi păstrez achiziția?",
+          "Da. Autentifică-te cu același cont Apple și apasă «Restaurează cumpărăturile» în aplicație — achiziția redevine activă fără să plătești din nou."
+        ],
+        [
+          "Cum actualizez la ultima versiune?",
+          "Deschide App Store, apasă pictograma contului din dreapta sus, derulează până la BattAI: Sănătatea bateriei și apasă «Actualizează», dacă butonul apare. Cu actualizările automate pornite nu trebuie să faci nimic."
+        ],
+        [
+          "Vreau să raportez o problemă — de ce aveți nevoie?",
+          "Scrie la hourstag.app@gmail.com modelul dispozitivului, versiunea de iOS, versiunea aplicației, pașii prin care apare problema și o captură sau înregistrare de ecran. Cu cât e mai concret, cu atât o rezolvăm mai repede."
+        ]
+      ],
+      "faq_heading": "Întrebări frecvente",
+      "parent_note": "",
+      "path": "locales/ro/support.html"
+    },
+    {
+      "locale": "ru",
+      "surface": "support",
+      "app_name": "BattAI: Состояние батареи",
+      "nav": [
+        "Главная",
+        "Поддержка",
+        "Конфиденциальность"
+      ],
+      "nav_label": "Язык",
+      "language_label": "Язык",
+      "support_label": "Перейти к поддержке",
+      "contact_heading": "Связаться с нами",
+      "contact_body": "Напишите нам на hourstag.app@gmail.com . Чтобы мы помогли уже в первом ответе, укажите модель устройства (Настройки → Основные → Об этом устройстве), версию iOS, версию приложения и что вы делали прямо перед сбоем. Снимок или запись экрана ускорят решение ещё сильнее.",
+      "contact_button": "Связаться с нами",
+      "footer_note": "Этот сайт не использует сторонние трекеры, рекламу и аналитику.",
+      "title": "Поддержка BattAI: Состояние батареи — частые вопросы и решение проблем",
+      "description": "Здесь собраны вопросы, которые нам чаще всего задают об BattAI: Состояние батареи, то, что вы можете проверить сами, и самый быстрый способ связаться с живым человеком.",
+      "eyebrow": "Центр поддержки",
+      "heading": "Связаться с нами",
+      "lead": "Здесь собраны вопросы, которые нам чаще всего задают об BattAI: Состояние батареи, то, что вы можете проверить сами, и самый быстрый способ связаться с живым человеком.",
+      "sections": [
+        {
+          "heading": "Если что-то не работает",
+          "body": "Полностью закройте приложение и откройте заново: проведите пальцем вверх от нижнего края, остановитесь на середине, смахните карточку BattAI: Состояние батареи вверх и запустите приложение снова. Перезагрузите iPhone или iPad. Так исчезают почти все временные проблемы с отображением и откликом. Откройте App Store → значок аккаунта справа вверху и проверьте, есть ли обновление BattAI: Состояние батареи: уже исправленные ошибки пропадают вместе с новой версией. Убедитесь, что iOS обновлена: Настройки → Основные → Обновление ПО. Если текст обрезается или часть элементов не видна, на время отключите увеличенный текст и увеличение экрана в разделе Настройки → Универсальный доступ и попробуйте снова."
+        }
+      ],
+      "faqs": [
+        [
+          "Нужен ли аккаунт?",
+          "Нет. Как указано на странице BattAI: Состояние батареи в App Store, аккаунтов и входа здесь нет — можно начать сразу после установки."
+        ],
+        [
+          "Есть ли реклама или сторонняя слежка?",
+          "Нет. В BattAI: Состояние батареи нет сторонней рекламы и нет SDK аналитики или межприложенного отслеживания."
+        ],
+        [
+          "Это подписка?",
+          "Нет. В BattAI: Состояние батареи нет подписок. Платная часть — разовая покупка, которая не продлевается."
+        ],
+        [
+          "Что доступно бесплатно?",
+          "Базовые функции бесплатны. Всё содержимое открывается разовой встроенной покупкой в BattAI: Состояние батареи, так что вы можете спокойно попробовать приложение до решения."
+        ],
+        [
+          "Сохранится ли покупка при смене iPhone?",
+          "Да. Войдите с тем же аккаунтом Apple и нажмите в приложении «Восстановить покупки» — покупка снова станет активной без повторной оплаты."
+        ],
+        [
+          "Как обновиться до последней версии?",
+          "Откройте App Store, нажмите значок аккаунта справа вверху, прокрутите до BattAI: Состояние батареи и нажмите «Обновить», если кнопка появилась. При включённых автообновлениях делать ничего не нужно."
+        ],
+        [
+          "Хочу сообщить об ошибке — что вам нужно?",
+          "Напишите на hourstag.app@gmail.com модель устройства, версию iOS, версию приложения, шаги для воспроизведения и приложите снимок или запись экрана. Чем конкретнее, тем быстрее мы всё исправим."
+        ]
+      ],
+      "faq_heading": "Частые вопросы",
+      "parent_note": "",
+      "path": "locales/ru/support.html"
+    },
+    {
+      "locale": "sk",
+      "surface": "support",
+      "app_name": "BattAI: Skóre kondície batérie",
+      "nav": [
+        "Úvod",
+        "Podpora",
+        "Súkromie"
+      ],
+      "nav_label": "Jazyk",
+      "language_label": "Jazyk",
+      "support_label": "Prejsť na podporu",
+      "contact_heading": "Kontakt",
+      "contact_body": "Napíšte nám na hourstag.app@gmail.com . Aby sme vám vedeli pomôcť hneď v prvej odpovedi, uveďte model zariadenia (Nastavenia → Všeobecné → Informácie), verziu iOS, verziu aplikácie a čo ste robili tesne pred problémom. Snímka alebo záznam obrazovky to ešte zrýchli.",
+      "contact_button": "Kontakt",
+      "footer_note": "Táto stránka nepoužíva sledovacie nástroje, reklamu ani analytiku tretích strán.",
+      "title": "Podpora BattAI: Skóre kondície batérie — časté otázky a riešenie problémov",
+      "description": "Tu sú otázky, ktoré k aplikácii BattAI: Skóre kondície batérie dostávame najčastejšie, veci, ktoré si viete overiť sami, a najrýchlejšia cesta k živému človeku.",
+      "eyebrow": "Centrum podpory",
+      "heading": "Kontakt",
+      "lead": "Tu sú otázky, ktoré k aplikácii BattAI: Skóre kondície batérie dostávame najčastejšie, veci, ktoré si viete overiť sami, a najrýchlejšia cesta k živému človeku.",
+      "sections": [
+        {
+          "heading": "Keď niečo nefunguje",
+          "body": "Aplikáciu úplne ukončite a spustite znova: potiahnite prstom nahor od spodného okraja, v polovici sa zastavte, kartu BattAI: Skóre kondície batérie odsuňte nahor a aplikáciu otvorte znova. Reštartujte iPhone alebo iPad. Takto zmiznú takmer všetky dočasné problémy so zobrazením alebo reakciou. Otvorte App Store → ikona účtu vpravo hore a skontrolujte, či je k aplikácii BattAI: Skóre kondície batérie aktualizácia: už opravené chyby s novou verziou zmiznú. Overte, či máte aktuálny iOS, v Nastavenia → Všeobecné → Aktualizácia softvéru. Ak sa text orezáva alebo niektoré prvky nevidno, na chvíľu vypnite väčší text a priblíženie obrazovky v Nastavenia → Prístupnosť a skúste to znova."
+        }
+      ],
+      "faqs": [
+        [
+          "Potrebujem účet?",
+          "Nie. Ako uvádza stránka aplikácie BattAI: Skóre kondície batérie v App Store, nie sú tu žiadne účty ani prihlasovanie — začať môžete hneď po inštalácii."
+        ],
+        [
+          "Sú v aplikácii reklamy alebo sledovanie tretích strán?",
+          "Nie. BattAI: Skóre kondície batérie neobsahuje reklamy tretích strán ani analytické či sledovacie SDK, ktoré by vás sledovali naprieč aplikáciami."
+        ],
+        [
+          "Je to predplatné?",
+          "Nie. BattAI: Skóre kondície batérie nemá žiadne predplatné. Platená časť je jednorazový nákup, ktorý sa neobnovuje."
+        ],
+        [
+          "Čo môžem používať zadarmo?",
+          "Základné funkcie sú zadarmo. Všetko odomkne jednorazový nákup v aplikácii BattAI: Skóre kondície batérie, takže si ju viete v pokoji vyskúšať, kým sa rozhodnete."
+        ],
+        [
+          "Zostane mi nákup, keď vymením iPhone?",
+          "Áno. Prihláste sa rovnakým účtom Apple a v aplikácii ťuknite na «Obnoviť nákupy» — nákup sa znova aktivuje bez ďalšej platby."
+        ],
+        [
+          "Ako aktualizujem na najnovšiu verziu?",
+          "Otvorte App Store, ťuknite na ikonu účtu vpravo hore, prejdite na položku BattAI: Skóre kondície batérie a ťuknite na «Aktualizovať», ak sa tlačidlo objaví. Pri zapnutých automatických aktualizáciách nemusíte robiť nič."
+        ],
+        [
+          "Chcem nahlásiť chybu — čo potrebujete?",
+          "Napíšte na hourstag.app@gmail.com model zariadenia, verziu iOS, verziu aplikácie, postup na vyvolanie chyby a snímku alebo záznam obrazovky. Čím konkrétnejšie, tým rýchlejšie to opravíme."
+        ]
+      ],
+      "faq_heading": "Časté otázky",
+      "parent_note": "",
+      "path": "locales/sk/support.html"
+    },
+    {
+      "locale": "sl-SI",
+      "surface": "support",
+      "app_name": "BattAI: Ocena stanja baterije",
+      "nav": [
+        "Domov",
+        "Podpora",
+        "Zasebnost"
+      ],
+      "nav_label": "Jezik",
+      "language_label": "Jezik",
+      "support_label": "Na podporo",
+      "contact_heading": "Stik",
+      "contact_body": "Pišite nam na hourstag.app@gmail.com . Da vam lahko pomagamo že v prvem odgovoru, navedite model naprave (Nastavitve → Splošno → Vizitka), različico iOS, različico aplikacije in kaj ste počeli tik pred težavo. Posnetek zaslona ali videoposnetek zaslona zadevo še pospeši.",
+      "contact_button": "Stik",
+      "footer_note": "Ta stran ne uporablja sledilnikov, oglasov ali analitike tretjih oseb.",
+      "title": "Podpora za BattAI: Ocena stanja baterije — pogosta vprašanja in odpravljanje težav",
+      "description": "Tu so vprašanja, ki jih o aplikaciji BattAI: Ocena stanja baterije dobivamo najpogosteje, kaj lahko preverite sami in najhitrejša pot do živega človeka.",
+      "eyebrow": "Center za podporo",
+      "heading": "Stik",
+      "lead": "Tu so vprašanja, ki jih o aplikaciji BattAI: Ocena stanja baterije dobivamo najpogosteje, kaj lahko preverite sami in najhitrejša pot do živega človeka.",
+      "sections": [
+        {
+          "heading": "Če kaj ne deluje",
+          "body": "Aplikacijo popolnoma zaprite in jo znova odprite: povlecite navzgor s spodnjega roba, se ustavite na pol poti, kartico BattAI: Ocena stanja baterije odrinite navzgor in aplikacijo zaženite znova. Znova zaženite iPhone ali iPad. Tako izginejo skoraj vse začasne težave s prikazom ali odzivnostjo. Odprite App Store → ikona računa zgoraj desno in preverite, ali je na voljo posodobitev za BattAI: Ocena stanja baterije: že odpravljene napake z novo različico izginejo. Preverite, ali je iOS posodobljen v Nastavitve → Splošno → Posodobitev programske opreme. Če je besedilo odrezano ali se posamezni elementi ne prikažejo, za trenutek izklopite večje besedilo in povečavo zaslona v Nastavitve → Dostopnost ter poskusite znova."
+        }
+      ],
+      "faqs": [
+        [
+          "Ali potrebujem račun?",
+          "Ne. Kot piše na strani aplikacije BattAI: Ocena stanja baterije v App Storu, računov in prijave ni — začnete lahko takoj po namestitvi."
+        ],
+        [
+          "So v aplikaciji oglasi ali sledenje tretjih oseb?",
+          "Ne. BattAI: Ocena stanja baterije ne vsebuje oglasov tretjih oseb niti analitičnih ali sledilnih kompletov SDK, ki bi vam sledili med aplikacijami."
+        ],
+        [
+          "Je to naročnina?",
+          "Ne. BattAI: Ocena stanja baterije nima naročnin. Plačljivi del je enkraten nakup, ki se ne obnavlja."
+        ],
+        [
+          "Kaj lahko uporabljam brezplačno?",
+          "Osnovne funkcije so brezplačne. Vse odklene enkraten nakup v aplikaciji BattAI: Ocena stanja baterije, tako da aplikacijo lahko v miru preizkusite, preden se odločite."
+        ],
+        [
+          "Ali mi nakup ostane, če zamenjam iPhone?",
+          "Da. Prijavite se z istim računom Apple in v aplikaciji tapnite «Obnovi nakupe» — nakup bo znova aktiven brez ponovnega plačila."
+        ],
+        [
+          "Kako posodobim na najnovejšo različico?",
+          "Odprite App Store, tapnite ikono računa zgoraj desno, poiščite BattAI: Ocena stanja baterije in tapnite «Posodobi», če se gumb pojavi. Ob vklopljenih samodejnih posodobitvah vam ni treba storiti nič."
+        ],
+        [
+          "Rad bi prijavil napako — kaj potrebujete?",
+          "Pišite na hourstag.app@gmail.com in navedite model naprave, različico iOS, različico aplikacije, korake, s katerimi se napaka pojavi, ter posnetek zaslona ali videoposnetek. Bolj ko je opis konkreten, hitreje napako odpravimo."
+        ]
+      ],
+      "faq_heading": "Pogosta vprašanja",
+      "parent_note": "",
+      "path": "locales/sl-SI/support.html"
+    },
+    {
+      "locale": "sv",
+      "surface": "support",
+      "app_name": "BattAI: Batteriets hälsopoäng",
+      "nav": [
+        "Start",
+        "Support",
+        "Integritet"
+      ],
+      "nav_label": "Språk",
+      "language_label": "Språk",
+      "support_label": "Till supporten",
+      "contact_heading": "Kontakt",
+      "contact_body": "Mejla oss på hourstag.app@gmail.com . För att vi ska kunna hjälpa dig redan i första svaret: skriv gärna vilken enhetsmodell du har (Inställningar → Allmänt → Om), vilken iOS-version, vilken appversion och vad du gjorde precis innan problemet uppstod. En skärmbild eller skärminspelning gör det ännu snabbare.",
+      "contact_button": "Kontakt",
+      "footer_note": "Den här webbplatsen använder inga spårare, annonser eller analysverktyg från tredje part.",
+      "title": "BattAI: Batteriets hälsopoäng support — vanliga frågor och felsökning",
+      "description": "Här är frågorna vi oftast får om BattAI: Batteriets hälsopoäng, det du kan kontrollera själv och snabbaste vägen till en människa.",
+      "eyebrow": "Supportcenter",
+      "heading": "Kontakt",
+      "lead": "Här är frågorna vi oftast får om BattAI: Batteriets hälsopoäng, det du kan kontrollera själv och snabbaste vägen till en människa.",
+      "sections": [
+        {
+          "heading": "Om något inte fungerar",
+          "body": "Stäng appen helt och öppna den igen: svep uppåt från skärmens nederkant, stanna halvvägs, dra BattAI: Batteriets hälsopoäng-kortet uppåt och öppna appen på nytt. Starta om din iPhone eller iPad. Nästan alla tillfälliga problem med visning eller respons löser sig så. Öppna App Store → kontosymbolen uppe till höger och se om det finns en uppdatering av BattAI: Batteriets hälsopoäng: fel som redan rättats försvinner med den nya versionen. Kontrollera att iOS är uppdaterat under Inställningar → Allmänt → Programuppdatering. Om text kapas eller element inte syns, stäng tillfälligt av större text och skärmzoom under Inställningar → Hjälpmedel och försök igen."
+        }
+      ],
+      "faqs": [
+        [
+          "Behöver jag ett konto?",
+          "Nej. Som det står på BattAI: Batteriets hälsopoängs sida i App Store finns varken konton eller inloggning: du kan börja direkt efter installationen."
+        ],
+        [
+          "Finns det annonser eller spårning från tredje part?",
+          "Nej. BattAI: Batteriets hälsopoäng innehåller varken tredjepartsannonser eller analys- och spårnings-SDK:er som följer dig mellan appar."
+        ],
+        [
+          "Är det en prenumeration?",
+          "Nej. BattAI: Batteriets hälsopoäng har inga prenumerationer. Det som kostar är ett engångsköp som inte förnyas."
+        ],
+        [
+          "Vad kan jag använda gratis?",
+          "Grundfunktionerna är gratis. Allt innehåll låses upp med ett engångsköp i BattAI: Batteriets hälsopoäng, så du hinner prova appen i lugn och ro innan du bestämmer dig."
+        ],
+        [
+          "Får jag behålla mitt köp om jag byter iPhone?",
+          "Ja. Logga in med samma Apple-konto och tryck på «Återställ köp» i appen: ditt köp blir aktivt igen utan att du betalar på nytt."
+        ],
+        [
+          "Hur uppdaterar jag till senaste versionen?",
+          "Öppna App Store, tryck på kontosymbolen uppe till höger, bläddra till BattAI: Batteriets hälsopoäng och tryck på «Uppdatera» om knappen finns. Med automatiska uppdateringar påslagna behöver du inte göra något."
+        ],
+        [
+          "Jag vill rapportera ett fel — vad behöver ni?",
+          "Mejla hourstag.app@gmail.com med enhetsmodell, iOS-version, appversion, stegen som framkallar felet samt en skärmbild eller skärminspelning. Ju mer konkret, desto snabbare kan vi rätta det."
+        ]
+      ],
+      "faq_heading": "Vanliga frågor",
+      "parent_note": "",
+      "path": "locales/sv/support.html"
+    },
+    {
+      "locale": "ta-IN",
+      "surface": "support",
+      "app_name": "BattAI: பேட்டரி நலம்",
+      "nav": [
+        "முகப்பு",
+        "ஆதரவு",
+        "தனியுரிமை"
+      ],
+      "nav_label": "மொழி",
+      "language_label": "மொழி",
+      "support_label": "ஆதரவுக்குச் செல்ல",
+      "contact_heading": "தொடர்பு",
+      "contact_body": "எங்களுக்கு hourstag.app@gmail.com முகவரிக்கு எழுதுங்கள். முதல் பதிலிலேயே உதவ முடியும் என்பதற்காக, சாதன மாடல் (அமைப்புகள் → பொது → இது பற்றி), iOS பதிப்பு, பயன்பாட்டுப் பதிப்பு, சிக்கல் ஏற்படும் சற்று முன் நீங்கள் என்ன செய்து கொண்டிருந்தீர்கள் என்பதைக் குறிப்பிடுங்கள். திரைப்பிடிப்பு அல்லது திரைப் பதிவு இருந்தால் இன்னும் வேகமாகத் தீர்வு கிடைக்கும்.",
+      "contact_button": "தொடர்பு",
+      "footer_note": "இந்தத் தளம் மூன்றாம் தரப்பு கண்காணிப்பு, விளம்பரம் அல்லது பகுப்பாய்வுக் கருவிகளைப் பயன்படுத்துவதில்லை.",
+      "title": "BattAI: பேட்டரி நலம் ஆதரவு — அடிக்கடி கேட்கப்படும் கேள்விகளும் சிக்கல் தீர்வும்",
+      "description": "BattAI: பேட்டரி நலம் குறித்து எங்களுக்கு அதிகம் வரும் கேள்விகள், நீங்களே சரிபார்க்கக்கூடியவை, மேலும் ஒரு நிஜ மனிதரைத் தொடர்புகொள்ள விரைவான வழி — எல்லாம் இங்கே.",
+      "eyebrow": "ஆதரவு மையம்",
+      "heading": "தொடர்பு",
+      "lead": "BattAI: பேட்டரி நலம் குறித்து எங்களுக்கு அதிகம் வரும் கேள்விகள், நீங்களே சரிபார்க்கக்கூடியவை, மேலும் ஒரு நிஜ மனிதரைத் தொடர்புகொள்ள விரைவான வழி — எல்லாம் இங்கே.",
+      "sections": [
+        {
+          "heading": "ஏதேனும் வேலை செய்யவில்லை என்றால்",
+          "body": "பயன்பாட்டை முழுமையாக மூடிவிட்டு மீண்டும் திறங்கள்: திரையின் கீழ் விளிம்பிலிருந்து மேல்நோக்கி இழுத்து நடுவில் நிறுத்தி, BattAI: பேட்டரி நலம் அட்டையை மேலே தள்ளிவிட்டு, பயன்பாட்டை மீண்டும் திறங்கள். உங்கள் iPhone அல்லது iPad ஐ மறுதொடக்கம் செய்யுங்கள். காட்சி அல்லது பதிலளிப்பில் ஏற்படும் தற்காலிகச் சிக்கல்கள் கிட்டத்தட்ட அனைத்தும் இதனால் சரியாகிவிடும். App Store → மேல் வலதுபுறத்தில் உள்ள கணக்குச் சின்னத்தைத் திறந்து BattAI: பேட்டரி நலம் இற்கு புதுப்பிப்பு உள்ளதா எனப் பாருங்கள்: ஏற்கெனவே சரிசெய்யப்பட்ட பிழைகள் புதிய பதிப்பில் இருக்காது. அமைப்புகள் → பொது → மென்பொருள் புதுப்பிப்பு இல் iOS சமீபத்திய பதிப்பில் உள்ளதா எனப் பாருங்கள். எழுத்து வெட்டப்பட்டோ சில பகுதிகள் தெரியாமலோ இருந்தால், அமைப்புகள் → அணுகல்தன்மை இல் பெரிய எழுத்து மற்றும் திரைப் பெரிதாக்கலைச் சிறிது நேரம் அணைத்துவிட்டு மீண்டும் முயற்சியுங்கள்."
+        }
+      ],
+      "faqs": [
+        [
+          "கணக்கு தேவையா?",
+          "இல்லை. BattAI: பேட்டரி நலம் இன் App Store பக்கத்தில் குறிப்பிட்டுள்ளபடி, இங்கே கணக்கும் இல்லை, உள்நுழைவும் இல்லை — நிறுவியவுடன் தொடங்கலாம்."
+        ],
+        [
+          "விளம்பரங்களோ மூன்றாம் தரப்புக் கண்காணிப்போ உள்ளதா?",
+          "இல்லை. BattAI: பேட்டரி நலம் இல் மூன்றாம் தரப்பு விளம்பரங்கள் இல்லை; பயன்பாடுகளுக்கு இடையே கண்காணிக்கும் பகுப்பாய்வு அல்லது கண்காணிப்பு SDK களும் இல்லை."
+        ],
+        [
+          "இது சந்தாவா?",
+          "இல்லை. BattAI: பேட்டரி நலம் இல் சந்தா எதுவும் இல்லை. கட்டணப் பகுதி ஒருமுறை மட்டும் செய்யும் வாங்குதல்; அது தானாகப் புதுப்பிக்கப்படாது."
+        ],
+        [
+          "இலவசமாக எதைப் பயன்படுத்தலாம்?",
+          "அடிப்படை அம்சங்கள் இலவசம். முழு உள்ளடக்கமும் BattAI: பேட்டரி நலம் இல் ஒருமுறை செய்யும் இன்-ஆப் வாங்குதலால் திறக்கப்படும்; எனவே முடிவெடுக்கும் முன் நிதானமாகப் பயன்படுத்திப் பார்க்கலாம்."
+        ],
+        [
+          "iPhone ஐ மாற்றினால் நான் வாங்கியது இருக்குமா?",
+          "ஆம். அதே Apple கணக்கில் உள்நுழைந்து, பயன்பாட்டில் «வாங்கியவற்றை மீட்டமை» என்பதைத் தட்டுங்கள் — மீண்டும் பணம் செலுத்தாமல் உங்கள் வாங்குதல் மீண்டும் செயல்படும்."
+        ],
+        [
+          "சமீபத்திய பதிப்பிற்கு எப்படிப் புதுப்பிப்பது?",
+          "App Store ஐத் திறந்து, மேல் வலதுபுறக் கணக்குச் சின்னத்தைத் தட்டி, BattAI: பேட்டரி நலம் வரை உருட்டி, பொத்தான் தெரிந்தால் «புதுப்பி» என்பதைத் தட்டுங்கள். தானியங்கிப் புதுப்பிப்புகள் இயக்கத்தில் இருந்தால் எதுவும் செய்யத் தேவையில்லை."
+        ],
+        [
+          "ஒரு பிழையைத் தெரிவிக்க விரும்புகிறேன் — உங்களுக்கு என்ன தேவை?",
+          "hourstag.app@gmail.com முகவரிக்கு சாதன மாடல், iOS பதிப்பு, பயன்பாட்டுப் பதிப்பு, பிழையை மீண்டும் உருவாக்கும் படிகள், திரைப்பிடிப்பு அல்லது திரைப் பதிவு ஆகியவற்றை அனுப்புங்கள். விவரம் தெளிவாக இருக்கும்போது திருத்தம் விரைவாக நடக்கும்."
+        ]
+      ],
+      "faq_heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+      "parent_note": "",
+      "path": "locales/ta/support.html"
+    },
+    {
+      "locale": "te-IN",
+      "surface": "support",
+      "app_name": "BattAI: బ్యాటరీ ఆరోగ్య స్కోర్",
+      "nav": [
+        "హోమ్",
+        "సహాయం",
+        "గోప్యత"
+      ],
+      "nav_label": "భాష",
+      "language_label": "భాష",
+      "support_label": "సహాయానికి వెళ్లండి",
+      "contact_heading": "సంప్రదింపు",
+      "contact_body": "మాకు hourstag.app@gmail.com కు రాయండి. మొదటి జవాబులోనే సాయం చేయగలిగేలా, మీ పరికరం మోడల్ (సెట్టింగ్‌లు → సాధారణం → గురించి), iOS వెర్షన్, యాప్ వెర్షన్, సమస్య రావడానికి ముందు మీరు ఏం చేస్తున్నారో తెలియజేయండి. స్క్రీన్‌షాట్ లేదా స్క్రీన్ రికార్డింగ్ ఉంటే మరింత వేగంగా పరిష్కారం దొరుకుతుంది.",
+      "contact_button": "సంప్రదింపు",
+      "footer_note": "ఈ సైట్ మూడో పక్షం ట్రాకర్లు, ప్రకటనలు లేదా అనలిటిక్స్ వాడదు.",
+      "title": "BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ సహాయం — తరచుగా అడిగే ప్రశ్నలు మరియు సమస్యల పరిష్కారం",
+      "description": "BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ గురించి మాకు ఎక్కువగా వచ్చే ప్రశ్నలు, మీరే స్వయంగా చూసుకోగలిగేవి, మరియు నిజమైన మనిషితో మాట్లాడే వేగవంతమైన మార్గం — అన్నీ ఇక్కడే.",
+      "eyebrow": "సహాయ కేంద్రం",
+      "heading": "సంప్రదింపు",
+      "lead": "BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ గురించి మాకు ఎక్కువగా వచ్చే ప్రశ్నలు, మీరే స్వయంగా చూసుకోగలిగేవి, మరియు నిజమైన మనిషితో మాట్లాడే వేగవంతమైన మార్గం — అన్నీ ఇక్కడే.",
+      "sections": [
+        {
+          "heading": "ఏదైనా పని చేయకపోతే",
+          "body": "యాప్‌ను పూర్తిగా మూసి మళ్లీ తెరవండి: తెర కింది అంచు నుండి పైకి స్వైప్ చేసి మధ్యలో ఆగండి, BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ కార్డును పైకి తోసేసి, యాప్‌ను మళ్లీ తెరవండి. మీ iPhone లేదా iPad ను పునఃప్రారంభించండి. ప్రదర్శన లేదా స్పందనలో వచ్చే తాత్కాలిక ఇబ్బందులు దాదాపు అన్నీ దీంతోనే సరైపోతాయి. App Store → పైన కుడివైపు ఖాతా చిహ్నం తెరిచి BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ కు నవీకరణ ఉందా చూడండి: ఇప్పటికే సరిచేసిన లోపాలు కొత్త వెర్షన్‌లో ఉండవు. సెట్టింగ్‌లు → సాధారణం → సాఫ్ట్‌వేర్ నవీకరణ లో iOS తాజాదేనా చూసుకోండి. అక్షరాలు కత్తిరించబడితే లేదా కొన్ని భాగాలు కనిపించకపోతే, సెట్టింగ్‌లు → అందుబాటు లో పెద్ద అక్షరాలు మరియు డిస్‌ప్లే జూమ్ కాసేపు ఆపి మళ్లీ ప్రయత్నించండి."
+        }
+      ],
+      "faqs": [
+        [
+          "ఖాతా అవసరమా?",
+          "అవసరం లేదు. BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ యొక్క App Store పేజీలో ఉన్నట్టుగా ఇక్కడ ఖాతా గానీ సైన్-ఇన్ గానీ లేదు — ఇన్‌స్టాల్ చేసిన వెంటనే మొదలుపెట్టవచ్చు."
+        ],
+        [
+          "ప్రకటనలు లేదా మూడో పక్షం ట్రాకింగ్ ఉందా?",
+          "లేదు. BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ లో మూడో పక్షం ప్రకటనలు లేవు; యాప్‌ల మధ్య ట్రాక్ చేసే అనలిటిక్స్ లేదా ట్రాకింగ్ SDK లు కూడా లేవు."
+        ],
+        [
+          "ఇది సబ్‌స్క్రిప్షనా?",
+          "కాదు. BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ లో సబ్‌స్క్రిప్షన్ లేదు. చెల్లింపు ఉన్న భాగం ఒకసారి చేసే కొనుగోలు; అది దానంతట అదే పునరుద్ధరించబడదు."
+        ],
+        [
+          "ఉచితంగా ఏం వాడవచ్చు?",
+          "ప్రాథమిక సౌకర్యాలు ఉచితం. మొత్తం కంటెంట్ BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ లో ఒకసారి చేసే ఇన్-యాప్ కొనుగోలుతో తెరుచుకుంటుంది; కాబట్టి నిర్ణయించుకునే ముందు తీరిగ్గా వాడి చూడవచ్చు."
+        ],
+        [
+          "iPhone మార్చితే నా కొనుగోలు ఉంటుందా?",
+          "ఉంటుంది. అదే Apple ఖాతాతో సైన్ ఇన్ చేసి, యాప్‌లో «కొనుగోళ్లు పునరుద్ధరించు» నొక్కండి — మళ్లీ చెల్లించకుండానే మీ కొనుగోలు తిరిగి పనిచేస్తుంది."
+        ],
+        [
+          "తాజా వెర్షన్‌కు ఎలా నవీకరించాలి?",
+          "App Store తెరిచి, పైన కుడివైపు ఖాతా చిహ్నం నొక్కి, BattAI: బ్యాటరీ ఆరోగ్య స్కోర్ వరకు స్క్రోల్ చేసి, బటన్ కనిపిస్తే «నవీకరించు» నొక్కండి. స్వయంచాలక నవీకరణలు ఆన్‌లో ఉంటే ఏమీ చేయనవసరం లేదు."
+        ],
+        [
+          "ఒక లోపాన్ని తెలియజేయాలనుకుంటున్నాను — మీకు ఏం కావాలి?",
+          "hourstag.app@gmail.com కు పరికరం మోడల్, iOS వెర్షన్, యాప్ వెర్షన్, లోపం మళ్లీ వచ్చే దశలు, స్క్రీన్‌షాట్ లేదా స్క్రీన్ రికార్డింగ్ పంపండి. వివరణ ఎంత స్పష్టంగా ఉంటే సరిదిద్దడం అంత వేగంగా జరుగుతుంది."
+        ]
+      ],
+      "faq_heading": "తరచుగా అడిగే ప్రశ్నలు",
+      "parent_note": "",
+      "path": "locales/te/support.html"
+    },
+    {
+      "locale": "th",
+      "surface": "support",
+      "app_name": "BattAI: คะแนนสุขภาพแบตเตอรี่",
+      "nav": [
+        "หน้าแรก",
+        "การสนับสนุน",
+        "ความเป็นส่วนตัว"
+      ],
+      "nav_label": "ภาษา",
+      "language_label": "ภาษา",
+      "support_label": "ไปที่หน้าสนับสนุน",
+      "contact_heading": "ติดต่อเรา",
+      "contact_body": "ส่งอีเมลมาที่ hourstag.app@gmail.com ได้เลย เพื่อให้เราช่วยได้ตั้งแต่การตอบกลับครั้งแรก โปรดระบุรุ่นเครื่อง (การตั้งค่า → ทั่วไป → เกี่ยวกับ) เวอร์ชัน iOS เวอร์ชันแอป และสิ่งที่คุณทำอยู่ก่อนเกิดปัญหา ถ้าแนบภาพหน้าจอหรือวิดีโอบันทึกหน้าจอมาด้วยจะยิ่งเร็วขึ้น",
+      "contact_button": "ติดต่อเรา",
+      "footer_note": "เว็บไซต์นี้ไม่ใช้ตัวติดตาม โฆษณา หรือเครื่องมือวิเคราะห์ของบุคคลที่สาม",
+      "title": "การสนับสนุน BattAI: คะแนนสุขภาพแบตเตอรี่ — คำถามที่พบบ่อยและการแก้ปัญหา",
+      "description": "นี่คือคำถามที่เราได้รับบ่อยที่สุดเกี่ยวกับ BattAI: คะแนนสุขภาพแบตเตอรี่ สิ่งที่คุณตรวจสอบเองได้ และวิธีที่เร็วที่สุดในการติดต่อกับคนจริง ๆ",
+      "eyebrow": "ศูนย์ช่วยเหลือ",
+      "heading": "ติดต่อเรา",
+      "lead": "นี่คือคำถามที่เราได้รับบ่อยที่สุดเกี่ยวกับ BattAI: คะแนนสุขภาพแบตเตอรี่ สิ่งที่คุณตรวจสอบเองได้ และวิธีที่เร็วที่สุดในการติดต่อกับคนจริง ๆ",
+      "sections": [
+        {
+          "heading": "ถ้าบางอย่างไม่ทำงาน",
+          "body": "ปิดแอปให้สนิทแล้วเปิดใหม่: ปัดขึ้นจากขอบล่างของหน้าจอ หยุดค้างไว้กลางทาง ปัดการ์ด BattAI: คะแนนสุขภาพแบตเตอรี่ ขึ้น แล้วเปิดแอปอีกครั้ง รีสตาร์ท iPhone หรือ iPad ปัญหาการแสดงผลหรือการตอบสนองแบบชั่วคราวเกือบทั้งหมดหายไปด้วยวิธีนี้ เปิด App Store → ไอคอนบัญชีมุมขวาบน แล้วดูว่ามีอัปเดตของ BattAI: คะแนนสุขภาพแบตเตอรี่ หรือไม่ ข้อผิดพลาดที่แก้ไปแล้วจะหายไปพร้อมเวอร์ชันใหม่ ตรวจสอบว่า iOS เป็นเวอร์ชันล่าสุดที่ การตั้งค่า → ทั่วไป → อัปเดตซอฟต์แวร์ ถ้าข้อความถูกตัดหรือมีบางส่วนไม่แสดง ให้ปิดข้อความขนาดใหญ่และการซูมหน้าจอชั่วคราวที่ การตั้งค่า → การช่วยการเข้าถึง แล้วลองใหม่"
+        }
+      ],
+      "faqs": [
+        [
+          "ต้องสมัครบัญชีไหม",
+          "ไม่ต้อง ตามที่ระบุไว้ในหน้า BattAI: คะแนนสุขภาพแบตเตอรี่ บน App Store ไม่มีบัญชีและไม่มีการลงชื่อเข้าใช้ ติดตั้งเสร็จก็เริ่มใช้ได้ทันที"
+        ],
+        [
+          "มีโฆษณาหรือการติดตามจากบุคคลที่สามไหม",
+          "ไม่มี BattAI: คะแนนสุขภาพแบตเตอรี่ ไม่มีโฆษณาของบุคคลที่สาม และไม่มี SDK วิเคราะห์หรือติดตามข้ามแอป"
+        ],
+        [
+          "นี่เป็นแบบสมัครสมาชิกหรือเปล่า",
+          "ไม่ใช่ BattAI: คะแนนสุขภาพแบตเตอรี่ ไม่มีการสมัครสมาชิก ส่วนที่ต้องจ่ายเป็นการซื้อครั้งเดียวที่ไม่ต่ออายุอัตโนมัติ"
+        ],
+        [
+          "ใช้ฟรีได้แค่ไหน",
+          "ฟีเจอร์พื้นฐานใช้ได้ฟรี ส่วนเนื้อหาทั้งหมดปลดล็อกด้วยการซื้อในแอปครั้งเดียวของ BattAI: คะแนนสุขภาพแบตเตอรี่ คุณจึงลองใช้ให้พอใจก่อนตัดสินใจได้"
+        ],
+        [
+          "ถ้าเปลี่ยน iPhone สิ่งที่ซื้อไว้ยังอยู่ไหม",
+          "ยังอยู่ ลงชื่อเข้าใช้ด้วยบัญชี Apple เดิม แล้วแตะ «กู้คืนการซื้อ» ในแอป สิทธิ์ที่ซื้อไว้จะกลับมาใช้งานได้โดยไม่ต้องจ่ายซ้ำ"
+        ],
+        [
+          "จะอัปเดตเป็นเวอร์ชันล่าสุดอย่างไร",
+          "เปิด App Store แตะไอคอนบัญชีมุมขวาบน เลื่อนไปที่ BattAI: คะแนนสุขภาพแบตเตอรี่ แล้วแตะ «อัปเดต» ถ้าปุ่มปรากฏ ถ้าเปิดอัปเดตอัตโนมัติไว้ก็ไม่ต้องทำอะไรเลย"
+        ],
+        [
+          "อยากแจ้งข้อผิดพลาด ต้องส่งอะไรบ้าง",
+          "ส่งมาที่ hourstag.app@gmail.com พร้อมรุ่นเครื่อง เวอร์ชัน iOS เวอร์ชันแอป ขั้นตอนที่ทำให้เกิดปัญหา และภาพหน้าจอหรือวิดีโอบันทึกหน้าจอ ยิ่งละเอียดเท่าไร เราก็ยิ่งแก้ได้เร็วขึ้น"
+        ]
+      ],
+      "faq_heading": "คำถามที่พบบ่อย",
+      "parent_note": "",
+      "path": "locales/th/support.html"
+    },
+    {
+      "locale": "tr",
+      "surface": "support",
+      "app_name": "BattAI: Pil sağlığı puanı",
+      "nav": [
+        "Ana sayfa",
+        "Destek",
+        "Gizlilik"
+      ],
+      "nav_label": "Dil",
+      "language_label": "Dil",
+      "support_label": "Desteğe git",
+      "contact_heading": "İletişim",
+      "contact_body": "Bize hourstag.app@gmail.com adresinden yazın. İlk yanıtta yardımcı olabilmemiz için cihaz modelinizi (Ayarlar → Genel → Hakkında), iOS sürümünü, uygulama sürümünü ve sorun çıkmadan hemen önce ne yaptığınızı belirtin. Ekran görüntüsü veya ekran kaydı işi daha da hızlandırır.",
+      "contact_button": "İletişim",
+      "footer_note": "Bu site üçüncü taraf izleyici, reklam veya analiz aracı kullanmaz.",
+      "title": "BattAI: Pil sağlığı puanı destek — sık sorulan sorular ve sorun giderme",
+      "description": "BattAI: Pil sağlığı puanı hakkında en çok aldığımız sorular, kendi başınıza kontrol edebilecekleriniz ve bir insana en hızlı ulaşma yolu burada.",
+      "eyebrow": "Destek merkezi",
+      "heading": "İletişim",
+      "lead": "BattAI: Pil sağlığı puanı hakkında en çok aldığımız sorular, kendi başınıza kontrol edebilecekleriniz ve bir insana en hızlı ulaşma yolu burada.",
+      "sections": [
+        {
+          "heading": "Bir şey çalışmıyorsa",
+          "body": "Uygulamayı tamamen kapatıp yeniden açın: ekranın alt kenarından yukarı kaydırıp yarıda durun, BattAI: Pil sağlığı puanı kartını yukarı atın ve uygulamayı yeniden açın. iPhone veya iPad'i yeniden başlatın. Geçici görüntü ve yanıt verme sorunlarının neredeyse tamamı böyle çözülür. App Store → sağ üstteki hesap simgesine dokunup BattAI: Pil sağlığı puanı için güncelleme olup olmadığına bakın: zaten düzeltilmiş hatalar yeni sürümle birlikte kaybolur. Ayarlar → Genel → Yazılım Güncelleme bölümünden iOS'un güncel olduğunu doğrulayın. Metin kırpılıyorsa veya bazı ögeler görünmüyorsa Ayarlar → Erişilebilirlik bölümünden daha büyük metni ve ekran yakınlaştırmasını bir süreliğine kapatıp tekrar deneyin."
+        }
+      ],
+      "faqs": [
+        [
+          "Hesap açmam gerekiyor mu?",
+          "Hayır. BattAI: Pil sağlığı puanı uygulamasının App Store sayfasında da belirtildiği gibi hesap ve oturum açma yok — kurulumdan hemen sonra başlayabilirsiniz."
+        ],
+        [
+          "Üçüncü taraf reklam veya izleme var mı?",
+          "Yok. BattAI: Pil sağlığı puanı içinde üçüncü taraf reklamı ve uygulamalar arası izleme yapan analiz ya da izleme SDK'sı bulunmuyor."
+        ],
+        [
+          "Bu bir abonelik mi?",
+          "Hayır. BattAI: Pil sağlığı puanı uygulamasında abonelik yok. Ücretli kısım yenilenmeyen tek seferlik bir satın alımdır."
+        ],
+        [
+          "Ücretsiz olarak neleri kullanabilirim?",
+          "Temel özellikler ücretsizdir. Tüm içeriği BattAI: Pil sağlığı puanı içindeki tek seferlik uygulama içi satın alımla açabilirsiniz; karar vermeden önce uygulamayı rahatça deneyebilirsiniz."
+        ],
+        [
+          "iPhone değiştirirsem satın alımım kalır mı?",
+          "Evet. Aynı Apple hesabıyla oturum açıp uygulama içindeki «Satın alımları geri yükle» seçeneğine dokunun — satın alımınız yeniden ödeme yapmadan tekrar etkinleşir."
+        ],
+        [
+          "En son sürüme nasıl güncellerim?",
+          "App Store'u açın, sağ üstteki hesap simgesine dokunun, BattAI: Pil sağlığı puanı satırına inin ve düğme görünüyorsa «Güncelle»ye dokunun. Otomatik güncellemeler açıkken bir şey yapmanıza gerek yoktur."
+        ],
+        [
+          "Hata bildirmek istiyorum — nelere ihtiyacınız var?",
+          "hourstag.app@gmail.com adresine cihaz modeli, iOS sürümü, uygulama sürümü, hatayı ortaya çıkaran adımlar ve bir ekran görüntüsü veya ekran kaydı gönderin. Ne kadar somut olursa o kadar hızlı düzeltiriz."
+        ]
+      ],
+      "faq_heading": "Sık sorulan sorular",
+      "parent_note": "",
+      "path": "locales/tr/support.html"
+    },
+    {
+      "locale": "uk",
+      "surface": "support",
+      "app_name": "BattAI: Стан батареї",
+      "nav": [
+        "Головна",
+        "Підтримка",
+        "Конфіденційність"
+      ],
+      "nav_label": "Мова",
+      "language_label": "Мова",
+      "support_label": "Перейти до підтримки",
+      "contact_heading": "Зв'язатися з нами",
+      "contact_body": "Напишіть нам на hourstag.app@gmail.com . Щоб ми допомогли вже в першій відповіді, вкажіть модель пристрою (Параметри → Загальні → Про цей пристрій), версію iOS, версію застосунку та що ви робили безпосередньо перед проблемою. Знімок або запис екрана прискорить розв'язання ще більше.",
+      "contact_button": "Зв'язатися з нами",
+      "footer_note": "Цей сайт не використовує сторонні трекери, рекламу чи аналітику.",
+      "title": "Підтримка BattAI: Стан батареї — поширені запитання та усунення проблем",
+      "description": "Тут зібрані запитання, які нам найчастіше ставлять про BattAI: Стан батареї, те, що ви можете перевірити самостійно, і найшвидший спосіб поговорити з живою людиною.",
+      "eyebrow": "Центр підтримки",
+      "heading": "Зв'язатися з нами",
+      "lead": "Тут зібрані запитання, які нам найчастіше ставлять про BattAI: Стан батареї, те, що ви можете перевірити самостійно, і найшвидший спосіб поговорити з живою людиною.",
+      "sections": [
+        {
+          "heading": "Якщо щось не працює",
+          "body": "Повністю закрийте застосунок і відкрийте знову: проведіть пальцем угору від нижнього краю, зупиніться посередині, змахніть картку BattAI: Стан батареї вгору та запустіть застосунок ще раз. Перезавантажте iPhone або iPad. Так зникають майже всі тимчасові проблеми з відображенням чи реакцією. Відкрийте App Store → значок облікового запису вгорі праворуч і перевірте, чи є оновлення для BattAI: Стан батареї: уже виправлені помилки зникають разом із новою версією. Переконайтеся, що iOS оновлена: Параметри → Загальні → Оновлення ПЗ. Якщо текст обрізається або частина елементів не видно, тимчасово вимкніть більший текст і збільшення екрана в розділі Параметри → Доступність і спробуйте ще раз."
+        }
+      ],
+      "faqs": [
+        [
+          "Чи потрібен обліковий запис?",
+          "Ні. Як зазначено на сторінці BattAI: Стан батареї в App Store, облікових записів і входу немає — почати можна одразу після встановлення."
+        ],
+        [
+          "Чи є реклама або стороннє відстеження?",
+          "Ні. У BattAI: Стан батареї немає сторонньої реклами та немає SDK аналітики чи міжзастосункового відстеження."
+        ],
+        [
+          "Чи це підписка?",
+          "Ні. У BattAI: Стан батареї немає підписок. Платна частина — разова покупка, яка не поновлюється."
+        ],
+        [
+          "Що доступно безкоштовно?",
+          "Базові функції безкоштовні. Увесь вміст відкривається разовою вбудованою покупкою в BattAI: Стан батареї, тож ви можете спокійно спробувати застосунок перед рішенням."
+        ],
+        [
+          "Чи збережеться покупка після заміни iPhone?",
+          "Так. Увійдіть із тим самим обліковим записом Apple і торкніться в застосунку «Відновити покупки» — покупка знову стане активною без повторної оплати."
+        ],
+        [
+          "Як оновитися до найновішої версії?",
+          "Відкрийте App Store, торкніться значка облікового запису вгорі праворуч, прокрутіть до BattAI: Стан батареї і торкніться «Оновити», якщо кнопка з'явилася. З увімкненими автооновленнями робити нічого не потрібно."
+        ],
+        [
+          "Хочу повідомити про помилку — що вам потрібно?",
+          "Напишіть на hourstag.app@gmail.com модель пристрою, версію iOS, версію застосунку, кроки для відтворення та додайте знімок або запис екрана. Що конкретніше, то швидше ми це виправимо."
+        ]
+      ],
+      "faq_heading": "Поширені запитання",
+      "parent_note": "",
+      "path": "locales/uk/support.html"
+    },
+    {
+      "locale": "ur-PK",
+      "surface": "support",
+      "app_name": "BattAI: بیٹری کی صحت کا اسکور",
+      "nav": [
+        "ہوم",
+        "سپورٹ",
+        "پرائیویسی"
+      ],
+      "nav_label": "زبان",
+      "language_label": "زبان",
+      "support_label": "سپورٹ پر جائیں",
+      "contact_heading": "رابطہ",
+      "contact_body": "ہمیں hourstag.app@gmail.com پر لکھیں۔ تاکہ ہم پہلے ہی جواب میں مدد کر سکیں، اپنے ڈیوائس کا ماڈل (سیٹنگز ← جنرل ← اباؤٹ)، iOS ورژن، ایپ ورژن اور مسئلہ پیش آنے سے ذرا پہلے آپ کیا کر رہے تھے، ضرور بتائیں۔ اسکرین شاٹ یا اسکرین ریکارڈنگ سے کام اور تیز ہو جاتا ہے۔",
+      "contact_button": "رابطہ",
+      "footer_note": "یہ سائٹ کسی تیسرے فریق کے ٹریکر، اشتہارات یا اینالیٹکس استعمال نہیں کرتی۔",
+      "title": "BattAI: بیٹری کی صحت کا اسکور سپورٹ — عام سوالات اور مسائل کا حل",
+      "description": "یہاں وہ سوالات ہیں جو BattAI: بیٹری کی صحت کا اسکور کے بارے میں ہمیں سب سے زیادہ ملتے ہیں، وہ چیزیں جو آپ خود جانچ سکتے ہیں، اور کسی حقیقی فرد تک پہنچنے کا تیز ترین راستہ۔",
+      "eyebrow": "سپورٹ سینٹر",
+      "heading": "رابطہ",
+      "lead": "یہاں وہ سوالات ہیں جو BattAI: بیٹری کی صحت کا اسکور کے بارے میں ہمیں سب سے زیادہ ملتے ہیں، وہ چیزیں جو آپ خود جانچ سکتے ہیں، اور کسی حقیقی فرد تک پہنچنے کا تیز ترین راستہ۔",
+      "sections": [
+        {
+          "heading": "اگر کوئی چیز کام نہ کرے",
+          "body": "ایپ کو مکمل بند کر کے دوبارہ کھولیں: اسکرین کے نچلے کنارے سے اوپر کی طرف سوائپ کریں، درمیان میں رکیں، BattAI: بیٹری کی صحت کا اسکور کا کارڈ اوپر کی طرف ہٹائیں اور ایپ دوبارہ کھولیں۔ اپنا iPhone یا iPad ری اسٹارٹ کریں۔ ڈسپلے یا ردعمل کے تقریباً تمام عارضی مسائل اسی سے حل ہو جاتے ہیں۔ App Store ← اوپر اکاؤنٹ آئیکن کھول کر دیکھیں کہ BattAI: بیٹری کی صحت کا اسکور کی کوئی اپڈیٹ موجود ہے یا نہیں: پہلے سے درست کی گئی خرابیاں نئی ورژن کے ساتھ ختم ہو جاتی ہیں۔ سیٹنگز ← جنرل ← سافٹ ویئر اپڈیٹ میں دیکھ لیں کہ iOS تازہ ترین ہے۔ اگر متن کٹ رہا ہو یا کچھ عناصر نظر نہ آ رہے ہوں تو سیٹنگز ← ایکسیسبیلٹی میں بڑا متن اور اسکرین زوم تھوڑی دیر کے لیے بند کر کے دوبارہ کوشش کریں۔"
+        }
+      ],
+      "faqs": [
+        [
+          "کیا اکاؤنٹ بنانا ضروری ہے؟",
+          "نہیں۔ جیسا کہ BattAI: بیٹری کی صحت کا اسکور کے App Store صفحے پر درج ہے، یہاں اکاؤنٹ یا لاگ اِن نہیں ہے — انسٹال کرتے ہی آپ شروع کر سکتے ہیں۔"
+        ],
+        [
+          "کیا اس میں اشتہارات یا تیسرے فریق کی ٹریکنگ ہے؟",
+          "نہیں۔ BattAI: بیٹری کی صحت کا اسکور میں کسی تیسرے فریق کے اشتہارات نہیں اور نہ ہی ایپس کے درمیان ٹریک کرنے والے اینالیٹکس یا ٹریکنگ SDK موجود ہیں۔"
+        ],
+        [
+          "کیا یہ سبسکرپشن ہے؟",
+          "نہیں۔ BattAI: بیٹری کی صحت کا اسکور میں کوئی سبسکرپشن نہیں۔ ادائیگی والا حصہ ایک بار کی خریداری ہے جو خود بخود تجدید نہیں ہوتی۔"
+        ],
+        [
+          "مفت میں کیا کچھ استعمال کر سکتا ہوں؟",
+          "بنیادی خصوصیات مفت ہیں۔ پورا مواد BattAI: بیٹری کی صحت کا اسکور میں ایک بار کی اِن ایپ خریداری سے کھل جاتا ہے، اس لیے فیصلہ کرنے سے پہلے آپ ایپ اطمینان سے آزما سکتے ہیں۔"
+        ],
+        [
+          "iPhone بدلنے پر کیا میری خریداری برقرار رہے گی؟",
+          "جی ہاں۔ اُسی Apple اکاؤنٹ سے سائن اِن کریں اور ایپ میں «خریداریاں بحال کریں» پر ٹیپ کریں — آپ کی خریداری دوبارہ فعال ہو جائے گی، دوبارہ ادائیگی کی ضرورت نہیں۔"
+        ],
+        [
+          "تازہ ترین ورژن پر کیسے اپڈیٹ کروں؟",
+          "App Store کھولیں، اوپر اکاؤنٹ آئیکن پر ٹیپ کریں، BattAI: بیٹری کی صحت کا اسکور تک اسکرول کریں اور اگر بٹن نظر آئے تو «اپڈیٹ» پر ٹیپ کریں۔ خودکار اپڈیٹس آن ہوں تو کچھ کرنے کی ضرورت نہیں۔"
+        ],
+        [
+          "میں کوئی خرابی رپورٹ کرنا چاہتا ہوں — آپ کو کیا درکار ہے؟",
+          "hourstag.app@gmail.com پر ڈیوائس ماڈل، iOS ورژن، ایپ ورژن، خرابی دہرانے کے مراحل اور اسکرین شاٹ یا اسکرین ریکارڈنگ بھیجیں۔ تفصیل جتنی واضح ہوگی، درستی اتنی ہی جلد ہوگی۔"
+        ]
+      ],
+      "faq_heading": "عام سوالات",
+      "parent_note": "",
+      "path": "locales/ur/support.html"
+    },
+    {
+      "locale": "vi",
+      "surface": "support",
+      "app_name": "BattAI: Điểm tình trạng pin",
+      "nav": [
+        "Trang chủ",
+        "Hỗ trợ",
+        "Quyền riêng tư"
+      ],
+      "nav_label": "Ngôn ngữ",
+      "language_label": "Ngôn ngữ",
+      "support_label": "Tới trang hỗ trợ",
+      "contact_heading": "Liên hệ",
+      "contact_body": "Hãy gửi email tới hourstag.app@gmail.com . Để chúng tôi giúp được ngay từ thư trả lời đầu tiên, bạn cho biết kiểu máy (Cài đặt → Cài đặt chung → Giới thiệu), phiên bản iOS, phiên bản ứng dụng và bạn đang làm gì ngay trước khi gặp lỗi. Kèm ảnh chụp màn hình hoặc video quay màn hình thì còn nhanh hơn nữa.",
+      "contact_button": "Liên hệ",
+      "footer_note": "Trang này không dùng công cụ theo dõi, quảng cáo hay phân tích của bên thứ ba.",
+      "title": "Hỗ trợ BattAI: Điểm tình trạng pin — câu hỏi thường gặp và cách khắc phục",
+      "description": "Đây là những câu hỏi chúng tôi nhận được nhiều nhất về BattAI: Điểm tình trạng pin, những thứ bạn có thể tự kiểm tra và cách nhanh nhất để nói chuyện với người thật.",
+      "eyebrow": "Trung tâm hỗ trợ",
+      "heading": "Liên hệ",
+      "lead": "Đây là những câu hỏi chúng tôi nhận được nhiều nhất về BattAI: Điểm tình trạng pin, những thứ bạn có thể tự kiểm tra và cách nhanh nhất để nói chuyện với người thật.",
+      "sections": [
+        {
+          "heading": "Nếu có gì đó không chạy",
+          "body": "Đóng hẳn ứng dụng rồi mở lại: vuốt lên từ mép dưới màn hình, dừng ở giữa, đẩy thẻ BattAI: Điểm tình trạng pin lên trên rồi mở ứng dụng lần nữa. Khởi động lại iPhone hoặc iPad. Gần như mọi trục trặc tạm thời về hiển thị hay phản hồi đều hết theo cách này. Mở App Store → biểu tượng tài khoản ở góc trên bên phải và xem BattAI: Điểm tình trạng pin có bản cập nhật không: các lỗi đã sửa sẽ hết khi lên phiên bản mới. Kiểm tra iOS đã mới nhất chưa trong Cài đặt → Cài đặt chung → Cập nhật phần mềm. Nếu chữ bị cắt hoặc một số thành phần không hiện, hãy tạm tắt cỡ chữ lớn và thu phóng màn hình trong Cài đặt → Trợ năng rồi thử lại."
+        }
+      ],
+      "faqs": [
+        [
+          "Tôi có cần tài khoản không?",
+          "Không. Như trang BattAI: Điểm tình trạng pin trên App Store đã ghi, ứng dụng không có tài khoản và không cần đăng nhập — cài xong là dùng được ngay."
+        ],
+        [
+          "Có quảng cáo hay theo dõi của bên thứ ba không?",
+          "Không. BattAI: Điểm tình trạng pin không có quảng cáo của bên thứ ba, cũng không có SDK phân tích hay theo dõi giữa các ứng dụng."
+        ],
+        [
+          "Đây có phải gói thuê bao không?",
+          "Không. BattAI: Điểm tình trạng pin không có thuê bao. Phần trả phí là một lần mua duy nhất, không tự gia hạn."
+        ],
+        [
+          "Tôi được dùng miễn phí những gì?",
+          "Các tính năng cơ bản là miễn phí. Toàn bộ nội dung được mở bằng một lần mua trong ứng dụng BattAI: Điểm tình trạng pin, nên bạn có thể dùng thử thong thả trước khi quyết định."
+        ],
+        [
+          "Đổi iPhone thì tôi có giữ được khoản đã mua không?",
+          "Có. Đăng nhập bằng đúng tài khoản Apple đó rồi chạm «Khôi phục giao dịch mua» trong ứng dụng — khoản đã mua sẽ hoạt động lại mà không phải trả tiền lần nữa."
+        ],
+        [
+          "Làm sao cập nhật lên phiên bản mới nhất?",
+          "Mở App Store, chạm biểu tượng tài khoản ở góc trên bên phải, cuộn đến BattAI: Điểm tình trạng pin rồi chạm «Cập nhật» nếu thấy nút đó. Nếu đã bật cập nhật tự động thì bạn không cần làm gì."
+        ],
+        [
+          "Tôi muốn báo lỗi — các bạn cần gì?",
+          "Gửi tới hourstag.app@gmail.com kiểu máy, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi và ảnh chụp hoặc video màn hình. Càng cụ thể, chúng tôi càng sửa nhanh."
+        ]
+      ],
+      "faq_heading": "Câu hỏi thường gặp",
+      "parent_note": "",
+      "path": "locales/vi/support.html"
+    },
+    {
+      "locale": "zh-Hans",
+      "surface": "support",
+      "app_name": "BattAI: 电池健康评分",
+      "nav": [
+        "首页",
+        "支持",
+        "隐私政策"
+      ],
+      "nav_label": "语言",
+      "language_label": "语言",
+      "support_label": "查看支持说明",
+      "contact_heading": "联系我们",
+      "contact_body": "请发邮件到 hourstag.app@gmail.com 。为了第一封回信就能帮上忙,请附上:设备型号(设置 → 通用 → 关于本机)、iOS 版本、App 版本,以及问题出现前你点了什么。附上截图或屏幕录制会更快。",
+      "contact_button": "联系我们",
+      "footer_note": "本站不使用第三方跟踪、广告或分析工具。",
+      "title": "BattAI: 电池健康评分 支持中心 — 常见问题与故障排除",
+      "description": "BattAI: 电池健康评分 最常被问到的问题、自助排查步骤,以及联系真人的方式。",
+      "eyebrow": "支持中心",
+      "heading": "联系我们",
+      "lead": "BattAI: 电池健康评分 最常被问到的问题、自助排查步骤,以及联系真人的方式。",
+      "sections": [
+        {
+          "heading": "故障排除",
+          "body": "把 App 彻底关掉再打开:从屏幕底部向上滑并停住,把 BattAI: 电池健康评分 的卡片向上划掉,然后重新打开。 重启 iPhone 或 iPad,这能解决大多数临时性的显示或性能异常。 打开 App Store → 你的头像 → 查看 BattAI: 电池健康评分 是否有可用更新,已修复的问题通常在新版本里就好了。 在「设置 → 通用 → 软件更新」确认 iOS 已是最新版本。 如果界面元素消失或排版异常,先关掉「设置 → 辅助功能」里的更大字体或显示缩放,再看一次。"
+        }
+      ],
+      "faqs": [
+        [
+          "需要注册账号吗?",
+          "不需要。BattAI: 电池健康评分 的 App Store 产品页说明它不需要账号或登录,安装后即可直接使用。"
+        ],
+        [
+          "有广告或第三方跟踪吗?",
+          "没有。BattAI: 电池健康评分 不含第三方广告,也不含第三方分析或跨 App 跟踪 SDK。"
+        ],
+        [
+          "这是订阅制吗?",
+          "不是。BattAI: 电池健康评分 没有订阅;付费项目是一次性购买,不会定期扣费。"
+        ],
+        [
+          "免费可以用到什么程度?",
+          "基础功能免费使用。若要解锁完整内容,BattAI: 电池健康评分 提供一次性的 App 内购买,购买前你可以先把免费部分用清楚。"
+        ],
+        [
+          "换手机后购买记录还在吗?",
+          "在。只要用同一个 Apple 账户登录,在 App 内点「恢复购买」即可重新启用先前的购买,不需要再付一次。"
+        ],
+        [
+          "怎么更新到最新版本?",
+          "打开 App Store,点右上角你的头像,向下滚动找到 BattAI: 电池健康评分,出现「更新」就点一下。开启自动更新可以省去这一步。"
+        ],
+        [
+          "我遇到 bug 想反馈,需要提供什么?",
+          "请发邮件到 hourstag.app@gmail.com,附上设备型号、iOS 版本、App 版本、复现步骤,以及截图或屏幕录制。信息越完整,修复越快。"
+        ]
+      ],
+      "faq_heading": "常见问题",
+      "parent_note": "",
+      "path": "locales/zh-Hans/support.html"
+    },
+    {
+      "locale": "zh-Hant",
+      "surface": "support",
+      "app_name": "BattAI: 電池健康分數",
+      "nav": [
+        "首頁",
+        "支援",
+        "隱私權"
+      ],
+      "nav_label": "語言",
+      "language_label": "語言",
+      "support_label": "查看支援說明",
+      "contact_heading": "聯絡我們",
+      "contact_body": "請寄信到 hourstag.app@gmail.com 。為了第一封回信就能幫上忙,請附上:裝置型號(設定 → 一般 → 關於本機)、iOS 版本、App 版本,以及問題出現前你點了什麼。附上截圖或螢幕錄影會更快。",
+      "contact_button": "聯絡我們",
+      "footer_note": "本站不使用第三方追蹤、廣告或分析工具。",
+      "title": "BattAI: 電池健康分數 支援中心 — 常見問題與疑難排解",
+      "description": "BattAI: 電池健康分數 最常被問到的問題、自助排解步驟,以及聯絡真人的方式。",
+      "eyebrow": "支援中心",
+      "heading": "聯絡我們",
+      "lead": "BattAI: 電池健康分數 最常被問到的問題、自助排解步驟,以及聯絡真人的方式。",
+      "sections": [
+        {
+          "heading": "疑難排解",
+          "body": "把 App 完全關掉再重開:從螢幕底部向上滑並停住,將 BattAI: 電池健康分數 的卡片往上滑掉,再重新開啟。 重新啟動 iPhone 或 iPad,這能清掉大多數暫時性的顯示或效能異常。 到 App Store → 你的頭像 → 檢查 BattAI: 電池健康分數 是否有可用更新,已修正的問題通常在新版就好了。 到「設定 → 一般 → 軟體更新」確認 iOS 是最新版本。 若畫面元素消失或排版怪怪的,先關掉「設定 → 輔助使用」裡的放大文字或縮放,再看一次。"
+        }
+      ],
+      "faqs": [
+        [
+          "需要註冊帳號嗎?",
+          "不用。BattAI: 電池健康分數 的 App Store 產品頁說明它不需要帳號或登入,安裝後就能直接開始使用。"
+        ],
+        [
+          "有廣告或第三方追蹤嗎?",
+          "沒有。BattAI: 電池健康分數 不含第三方廣告,也不含第三方分析或跨 App 追蹤 SDK。"
+        ],
+        [
+          "這是訂閱制嗎?",
+          "不是。BattAI: 電池健康分數 沒有訂閱;付費項目是一次性購買,不會定期扣款。"
+        ],
+        [
+          "免費可以用到什麼程度?",
+          "基本功能免費使用。若要解鎖完整內容,BattAI: 電池健康分數 提供一次性的 App 內購買,購買前你可以先把免費的部分用清楚。"
+        ],
+        [
+          "換手機後購買紀錄還在嗎?",
+          "在。只要用同一個 Apple 帳號登入,在 App 內點「恢復購買」就能把先前的購買重新啟用,不需要再付一次。"
+        ],
+        [
+          "怎麼更新到最新版?",
+          "打開 App Store,點右上角你的頭像,往下捲動找到 BattAI: 電池健康分數,有「更新」就點一下。開啟自動更新可以省下這個步驟。"
+        ],
+        [
+          "我遇到 bug 想回報,要提供什麼?",
+          "請寫信到 hourstag.app@gmail.com,附上裝置型號、iOS 版本、App 版本、重現步驟,以及截圖或螢幕錄影。資訊愈完整,修正愈快。"
+        ]
+      ],
+      "faq_heading": "常見問題",
+      "parent_note": "",
+      "path": "locales/zh-Hant/support.html"
+    },
+    {
+      "locale": "en-US",
+      "surface": "support",
+      "app_name": "BattAI",
+      "nav": [
+        "Overview",
+        "Support",
+        "Privacy"
+      ],
+      "nav_label": "Language",
+      "language_label": "Language",
+      "support_label": "View support",
+      "contact_heading": "Contact us",
+      "contact_body": "Tell us what you tried, what happened, your device model, iOS version and app version. Do not send private content.",
+      "contact_button": "Contact us",
+      "footer_note": "This static site uses no analytics, advertising or tracking.",
+      "title": "BattAI support — Help and troubleshooting",
+      "description": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "eyebrow": "Support centre",
+      "heading": "Contact us",
+      "lead": "Clear answers, practical troubleshooting and a direct way to contact the developer about BattAI.",
+      "sections": [
+        {
+          "heading": "Troubleshooting",
+          "body": "Close BattAI completely, then open it again. Restart the iPhone or iPad to clear a temporary system problem. Open the App Store and install any available update for BattAI. If the issue continues, include exact reproduction steps in your email."
+        }
+      ],
+      "faqs": [
+        [
+          "Do I need an account?",
+          "No. BattAI does not require a developer account or sign-in."
+        ],
+        [
+          "Does the app contain ads or third-party tracking?",
+          "No. BattAI contains no third-party ads, analytics or cross-app tracking SDK."
+        ],
+        [
+          "Is this a subscription?",
+          "No. The verified paid option for BattAI is a one-time purchase, not a recurring subscription."
+        ],
+        [
+          "What does the optional unlock do?",
+          "The free experience remains usable. A one-time in-app purchase unlocks the additional features described in the app before purchase."
+        ],
+        [
+          "How do I restore a purchase?",
+          "Use Restore Purchases in BattAI while signed in to the Apple Account used for the original purchase. Apple keeps the purchase record."
+        ],
+        [
+          "How do I update the app?",
+          "Open the App Store, tap your account picture and install any available update for BattAI."
+        ],
+        [
+          "What should I include in a bug report?",
+          "Email hourstag.app@gmail.com with the device model, iOS version, app version, steps to reproduce and a screenshot that contains no private information."
+        ]
+      ],
+      "faq_heading": "Frequently asked questions",
+      "parent_note": "",
+      "path": "support.html"
+    }
+  ]
+}

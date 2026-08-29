@@ -26,3 +26,16 @@ public-facing material is `hourstag.app@gmail.com`.
 The privacy policy describes the app's real behaviour and must be kept in sync with the code:
 zero network requests, no third-party SDKs, local-only storage, diagnostic files parsed in memory
 with only battery fields retained, purchases through Apple StoreKit, no iCloud sync.
+
+## Exact-50 support surfaces
+
+The required `index`, `support`, and `privacy` routes are generated or
+normalised from `source/support_surfaces.json`:
+
+```bash
+python3 tools/support_surfaces.py build
+python3 tools/support_surfaces.py check
+```
+
+The source records the verified public catalogue and app/privacy authority
+digests used for the copy. Do not hand-edit generated locale pages.
