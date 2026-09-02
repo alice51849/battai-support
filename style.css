@@ -423,3 +423,21 @@ footer {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Owner App Store call to action */
+.store-cta { margin: 1.1rem 0 0; }
+
+.store-cta-link {
+  display: inline-block;
+  padding: 0.72rem 1.5rem;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 640;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.store-cta-link:hover,
+.store-cta-link:focus-visible { filter: brightness(1.06); }

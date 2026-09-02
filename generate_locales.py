@@ -12,7 +12,14 @@ from pathlib import Path
 
 
 SITE = Path(__file__).resolve().parent
-APP = SITE.parent / "45_BattAI"
+# The site repo lives either beside the app repo (~/battai-support) or inside it
+# (~/45_BattAI/SupportSiteRepo). Resolve both, otherwise the generator silently
+# looks for the app strings in a directory that does not exist.
+APP = next(
+    (candidate for candidate in (SITE.parent, SITE.parent / "45_BattAI")
+     if (candidate / "BattAI" / "Resources").is_dir()),
+    SITE.parent / "45_BattAI",
+)
 RESOURCES = APP / "BattAI" / "Resources"
 CONFIG = APP / "scripts" / "layout_audit" / "config" / "locales.json"
 OUTPUT = SITE / "locales"
@@ -23,6 +30,66 @@ FAMILY_RE = re.compile(
     r"<!-- ls-family:start -->.*?<!-- ls-family:end -->",
     re.S,
 )
+
+# Native “View on the App Store” wording per shipped locale. Every page has to
+# link to BattAI's own App Store listing, otherwise the site is a dead end for the
+# visitor who arrived looking for the app.
+APP_STORE_ID = "6802423998"
+APP_STORE_URL = (
+    "https://apps.apple.com/app/id6802423998?pt=118326163&ct=sup_battai_own&mt=8"
+)
+STORE_CTA = {
+    "ar": "عرض في App Store",
+    "bn": "App Store-এ দেখুন",
+    "ca": "Veure a l'App Store",
+    "cs": "Zobrazit v App Storu",
+    "da": "Se i App Store",
+    "de": "Im App Store ansehen",
+    "el": "Προβολή στο App Store",
+    "en": "View on the App Store",
+    "en-AU": "View on the App Store",
+    "en-CA": "View on the App Store",
+    "en-GB": "View on the App Store",
+    "es": "Ver en el App Store",
+    "es-MX": "Ver en el App Store",
+    "fi": "Katso App Storessa",
+    "fr": "Voir sur l'App Store",
+    "fr-CA": "Voir sur l'App Store",
+    "gu": "App Store પર જુઓ",
+    "he": "הצג ב-App Store",
+    "hi": "App Store में देखें",
+    "hr": "Prikaži u App Storeu",
+    "hu": "Megtekintés az App Store-ban",
+    "id": "Lihat di App Store",
+    "it": "Vedi su App Store",
+    "ja": "App Storeで見る",
+    "kn": "App Store ನಲ್ಲಿ ನೋಡಿ",
+    "ko": "App Store에서 보기",
+    "ml": "App Store-ൽ കാണുക",
+    "mr": "App Store वर पाहा",
+    "ms": "Lihat di App Store",
+    "nl": "Bekijk in de App Store",
+    "no": "Vis i App Store",
+    "or": "App Storeରେ ଦେଖନ୍ତୁ",
+    "pa": "App Store ਵਿੱਚ ਦੇਖੋ",
+    "pl": "Zobacz w App Store",
+    "pt-BR": "Ver na App Store",
+    "pt-PT": "Ver na App Store",
+    "ro": "Vezi în App Store",
+    "ru": "Открыть в App Store",
+    "sk": "Zobraziť v App Store",
+    "sl-SI": "Ogled v App Storu",
+    "sv": "Visa i App Store",
+    "ta": "App Store-இல் பார்க்கவும்",
+    "te": "App Storeలో చూడండి",
+    "th": "ดูใน App Store",
+    "tr": "App Store'da görüntüle",
+    "uk": "Переглянути в App Store",
+    "ur": "App Store پر دیکھیں",
+    "vi": "Xem trên App Store",
+    "zh-Hans": "在 App Store 查看",
+    "zh-Hant": "在 App Store 檢視"
+}
 
 KEYS = {
     "support_title": "settings.support.title",
@@ -185,6 +252,9 @@ def shell(
   <link rel="stylesheet" href="../../style.css">
   <meta name="theme-color" content="#F4FAFC" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#071B25" media="(prefers-color-scheme: dark)">
+<!-- ls-appbanner:start -->
+<meta name="apple-itunes-app" content="app-id={APP_STORE_ID}">
+<!-- ls-appbanner:end -->
 </head>
 <body>
 <div class="bg"></div>
@@ -227,6 +297,7 @@ def support_page(locale: dict, strings: dict[str, str], locales: list[dict]) -> 
       <span class="pill"><span class="mark"></span>{e(strings["privacy_title"])}</span>
       <span class="pill"><span class="mark"></span>{e(strings["paywall_guarantee"])}</span>
     </div>
+    <p class="store-cta"><a class="btn store-cta-link" href="{APP_STORE_URL}" rel="noopener">{e(STORE_CTA[locale["code"]])}</a></p>
   </section>
   <section class="wrap">
     <div class="section-head">
@@ -268,6 +339,7 @@ def privacy_page(locale: dict, strings: dict[str, str], locales: list[dict]) -> 
     <span class="eyebrow">{e(strings["privacy_policy"])}</span>
     <h1>{e(strings["privacy_title"])}</h1>
     <p class="updated"><time datetime="2026-08-11">2026-08-11</time> · {e(strings["app_name"])}</p>
+    <p class="store-cta"><a class="btn store-cta-link" href="{APP_STORE_URL}" rel="noopener">{e(STORE_CTA[locale["code"]])}</a></p>
     <p class="tagline">{e(strings["privacy_body"])}</p>
   </section>
   <section class="wrap doc">
