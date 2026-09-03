@@ -23,7 +23,7 @@ APP = next(
 RESOURCES = APP / "BattAI" / "Resources"
 CONFIG = APP / "scripts" / "layout_audit" / "config" / "locales.json"
 OUTPUT = SITE / "locales"
-BASE_URL = "https://alice51849.github.io/battai-support"
+BASE_URL = "https://open.cait518.cc/battai-support"
 EMAIL = "hourstag.app@gmail.com"
 STRINGS_RE = re.compile(r'"((?:[^"\\]|\\.)*)"\s*=\s*"((?:[^"\\]|\\.)*)"\s*;', re.S)
 FAMILY_RE = re.compile(
