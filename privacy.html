@@ -129,10 +129,20 @@
       <h2>14. Accuracy and intended use</h2>
       <p>Not a privacy matter, but stated here because it is part of the same commitment to honesty: BattAI labels every figure by its source — measured, estimated, or provided by you — and its forecasts are expressed as ranges with confidence intervals. It is an analysis tool for your own understanding, not a certified diagnostic instrument, and it is not a substitute for a service assessment by Apple or an authorised provider.</p>
 
-      <h2>15. Changes to this policy</h2>
+      <h2>15. Android version</h2>
+      <p>BattAI is also being brought to Android on Google Play, built with the same on-device, zero-network design described above. A few implementation details differ from iOS:</p>
+      <ul>
+        <li><strong>Battery data</strong> — the Android app reads battery level, charging state, current, voltage, battery health status and (on Android 14+) true cycle count directly from the system's public <code>BatteryManager</code> API, all on-device. It does not read or parse any diagnostic file (section 5 has no Android equivalent); instead, calibration values can be moved between your own devices using BattAI's own JSON export/import, which you control.</li>
+        <li><strong>Automations</strong> — the Android app does not use Siri or App Intents (section 8 has no Android equivalent). It offers standard Android App Shortcuts (long-press the app icon) as a lightweight, local equivalent.</li>
+        <li><strong>Sync and backups</strong> — the Android app has no cloud sync of any kind, the same as iOS (section 9). If you use Android's own device backup, your phone's operating system may include BattAI's local storage in that backup, under Google's terms; the developer has no access to it.</li>
+        <li><strong>Purchases</strong> — on Android, one-time purchases are processed by Google Play Billing instead of Apple's StoreKit; the developer never sees your payment details, exactly as in section 7.</li>
+      </ul>
+      <p>Everything else on this page — no accounts, no ads, no analytics, no tracking, no server — applies equally to the Android app.</p>
+
+      <h2>16. Changes to this policy</h2>
       <p>If this policy changes, the revised version will be published on this page with a new effective date, and any change that materially affects how BattAI handles information will also be noted in the app's release notes. Because the app's design goal is that no data ever leaves your device, no future change will silently begin collecting data.</p>
 
-      <h2>16. Contact</h2>
+      <h2>17. Contact</h2>
       <p>Questions about this policy, or about anything else in BattAI, are welcome at <!--email_off--><a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a><!--/email_off-->. We aim to reply within two business days.</p>
       <p>Please do not email diagnostic files or exports to us. BattAI reads them on your device and we neither need nor want copies.</p>
 
