@@ -1,0 +1,16 @@
+# BattAI: Battery Health & Life support
+
+> Official support, help and privacy pages for BattAI: Battery Health & Life, an iOS app by Lumi Studio.
+
+- App Store: https://apps.apple.com/app/id6802423998
+- Platform: iOS
+- App Store category: Utilities
+- Developer: Lumi Studio
+
+## Pages
+
+- [Home](https://open.cait518.cc/battai-support/)
+- [Help, FAQ and troubleshooting](https://open.cait518.cc/battai-support/help.html)
+- [Privacy policy](https://open.cait518.cc/battai-support/privacy.html)
+
+<!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
