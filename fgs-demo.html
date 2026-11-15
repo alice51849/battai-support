@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BattAI – Foreground service demo</title>
+<meta name="description" content="Screen recording showing how BattAI for Android uses its special-use foreground service for user-enabled on-time charge alerts (FOREGROUND_SERVICE_SPECIAL_USE).">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="style.css">
+<style>
+main.fgs{max-width:760px;margin:0 auto;padding:24px 16px 48px;line-height:1.6}
+main.fgs video{display:block;width:100%;max-width:360px;margin:16px auto;border-radius:16px;background:#000}
+main.fgs ol li{margin:.25em 0}
+</style>
+</head>
+<body>
+<main class="fgs">
+<h1>BattAI – Foreground service demo</h1>
+<p>This video is a real screen recording of BattAI for Android (version 1.2.0, Android 15 emulator; battery level changes are simulated with the emulator's battery controls). It shows why the app uses a foreground service of type <code>specialUse</code> (<code>FOREGROUND_SERVICE_SPECIAL_USE</code>).</p>
+<video controls playsinline preload="metadata" src="fgs-demo.mp4"></video>
+<p><a href="fgs-demo.mp4">Download / open the video file (MP4, H.264)</a></p>
+<h2>What the foreground service does</h2>
+<p>BattAI's "On-time mode" is an alert the user turns on themselves. While On-time mode is on, <code>ChargingWatchService</code> listens to battery broadcasts (battery changed, power connected, power disconnected) so the user's own charge-limit alert (for example 80%) arrives the moment the battery reaches it, and low-battery or overheating alerts are not missed. Android does not deliver these broadcasts to background apps through manifest receivers, and periodic background work runs at most every 15 minutes, so without the service the alert would arrive late. The service is event-driven: no polling, no wake locks, no network. It shows a low-importance, silent ongoing notification ("On-time mode is on · We'll tell you when it reaches 80%") with a Turn off action, and the user can also switch it off on the app's Today screen at any time. When On-time mode is off, no foreground service runs.</p>
+<h2>What the video shows</h2>
+<ol>
+<li>Open BattAI and choose the 80% charge alert under "Thresholds and other reminders".</li>
+<li>Turn on "On-time mode"; the app explains alerts and asks for the notification permission, then On-time mode starts.</li>
+<li>The notification shade shows the ongoing "On-time mode is on" notification.</li>
+<li>Back on the home screen, the battery reaches 80% and the "Charged to 80%" alert appears immediately.</li>
+<li>Tapping the alert opens BattAI.</li>
+</ol>
+<p>If the system delays or stops the service, the user's charge-limit alert arrives late or not at all (they may charge past the limit they chose), and low-battery or overheat alerts may be missed. Nothing else in the app is affected.</p>
+<p>Contact: <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a></p>
+</main>
+</body>
+</html>
