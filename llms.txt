@@ -12,5 +12,11 @@
 - [Home](https://open.cait518.cc/battai-support/)
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/battai-support/help.html)
 - [Privacy policy](https://open.cait518.cc/battai-support/privacy.html)
+- [Kiểm tra pin iPhone (tiếng Việt)](https://open.cait518.cc/battai-support/kiem-tra-pin-iphone-suc-khoe-pin.vi.html)
+- [สุขภาพแบตเตอรี่ iPhone (ไทย)](https://open.cait518.cc/battai-support/check-sukhaphap-battery-iphone.th.html)
+- [Akku-Gesundheit am iPhone prüfen (Deutsch)](https://open.cait518.cc/battai-support/akku-gesundheit-iphone-pruefen.de-DE.html)
+- [iPhone 电池健康怎么查（简体中文）](https://open.cait518.cc/battai-support/iphone-dianchi-jiankang-chaxun.zh-Hans.html)
+- [What is BattAI? (English)](https://open.cait518.cc/battai-support/what-is-battai.html)
+- [BattAI란? (한국어)](https://open.cait518.cc/battai-support/what-is-battai.ko.html)
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
