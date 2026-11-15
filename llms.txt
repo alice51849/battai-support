@@ -18,5 +18,7 @@
 - [iPhone 电池健康怎么查（简体中文）](https://open.cait518.cc/battai-support/iphone-dianchi-jiankang-chaxun.zh-Hans.html)
 - [What is BattAI? (English)](https://open.cait518.cc/battai-support/what-is-battai.html)
 - [BattAI란? (한국어)](https://open.cait518.cc/battai-support/what-is-battai.ko.html)
+- [BattAIとは？（日本語）](https://open.cait518.cc/battai-support/what-is-battai.ja.html)
+- [BattAI 是什麼？（繁體中文）](https://open.cait518.cc/battai-support/what-is-battai.zh-Hant.html)
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
