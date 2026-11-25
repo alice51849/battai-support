@@ -41,6 +41,9 @@ a{color:var(--accent)}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "iPhoneのバッテリー測定：何を、どこから、どう測るか（最大容量・消費・充電・熱）", "description": "iPhoneのバッテリーを測定するとき、アプリが測れる値と測れない値ははっきり分かれます。最大容量・1時間あたりの消費・充電速度・デバイスの熱の4項目について、情報源と測り方、劣化の点数への反映をまとめました。", "inLanguage": "ja", "dateModified": "2026-11-13", "mainEntityOfPage": "https://open.cait518.cc/battai-support/iphone-battery-sokutei-4koumoku.ja.html"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja", "mainEntity": [{"@type": "Question", "name": "アプリでiPhoneのバッテリーの最大容量を測定できますか？", "acceptedAnswer": {"@type": "Answer", "text": "アプリ自身では読み取れません。BattAIでは「設定」に表示される最大容量を入力するか、システムの解析データ（log-aggregatedファイル）から最大容量と充放電回数を取り込みます。"}}, {"@type": "Question", "name": "BattAIが自動で記録するのは何ですか？", "acceptedAnswer": {"@type": "Answer", "text": "システムの公開APIで得られる電池残量、充電状態、低電力モード、デバイス全体の熱状態、時刻です。これをもとに1時間あたりの消費、充電ごとの範囲・時間・速度、7日間のデバイスの熱をまとめます。"}}, {"@type": "Question", "name": "バッテリーの温度や電圧は測定できますか？", "acceptedAnswer": {"@type": "Answer", "text": "できません。バッテリーの温度・電圧・電流はアプリから読み取れず、熱はデバイス全体の状態として扱います。"}}, {"@type": "Question", "name": "測定した値は劣化の点数にどう反映されますか？", "acceptedAnswer": {"@type": "Answer", "text": "容量40%、充放電回数25%、充電習慣15%、デバイスの使用期間10%、熱への曝露10%の重みで0〜100点を計算し、5段階で表示します。いちばん点数を左右している要因もひと目でわかります。"}}, {"@type": "Question", "name": "測定を始めてすぐに結果は出ますか？", "acceptedAnswer": {"@type": "Answer", "text": "最大容量を入力または取り込むとスコアはすぐ出ます。消費と発熱は最初の記録のあと、充電の分析は最初の充電を終えたあとに表示され、推移は最初の数日で充実していきます。"}}]}</script>
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
 <!-- ls-pwa:start -->
 <link rel="manifest" href="/battai-support/manifest.webmanifest">
 <!-- ls-pwa:end -->
@@ -55,9 +58,6 @@ a{color:var(--accent)}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="max-image-preview:large">
 <!-- ls-sharecard:end -->
-<!-- ls-clickbeacon:start -->
-<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
-<!-- ls-clickbeacon:end -->
 </head>
 <body>
 <p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">当サイトは掲載アプリの開発者であるLumi Studioが運営し、自社アプリを紹介しています。</p>
